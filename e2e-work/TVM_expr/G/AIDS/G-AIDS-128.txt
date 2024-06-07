@@ -1,0 +1,113 @@
+The max dimension of this span is: 8
+min time is 1.430511474609375e-06
+max time is 5.4836273193359375e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 8
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 9
+min time is 1.430511474609375e-06
+max time is 2.6702880859375e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 9
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 10
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 10
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 10
+min time is 1.430511474609375e-06
+max time is 1.52587890625e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 11
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 11
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 11
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 12
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 12
+min time is 1.430511474609375e-06
+max time is 1.71661376953125e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 12
+min time is 1.430511474609375e-06
+max time is 1.4781951904296875e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 16
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 20
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 24
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 32
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 33
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 40
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 48
+min time is 1.430511474609375e-06
+max time is 1.71661376953125e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 55
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 56
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 63
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 69
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 80
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 85
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 95
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+num:  2786.0
+Test accuracy of TVM results: 47.60%
+Min model inference total time:  3.8623809814453125e-05
+Median model inference total time:  4.57763671875e-05
+Max model inference total time:  0.0002627372741699219

@@ -1,0 +1,745 @@
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.1205673217773438e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.7642974853515625e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.6464462280273438e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.7642974853515625e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.5272369384765625e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.6702880859375e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.7404556274414062e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.7404556274414062e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.867813110351562e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.5510787963867188e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.5497207641601562e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.3603439331054688e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.5510787963867188e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.5272369384765625e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.6689300537109375e-05
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.3909759521484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.811981201171875e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.6226043701171875e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.5020370483398438e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.4080276489257812e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.6689300537109375e-06
+max time is 7.62939453125e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.5033950805664062e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.574920654296875e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.5272369384765625e-05
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.6702880859375e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.71661376953125e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.7881393432617188e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.71661376953125e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 1.7404556274414062e-05
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.3909759521484375e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 2.574920654296875e-05
+median time is 1.6689300537109375e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+num:  2000.0
+Test accuracy of TVM results: 24.15%
+Min model inference total time:  0.00010609626770019531
+Median model inference total time:  0.0001270771026611328
+Max model inference total time:  0.0009508132934570312

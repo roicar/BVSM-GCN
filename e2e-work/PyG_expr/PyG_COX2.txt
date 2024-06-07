@@ -1,0 +1,413 @@
+
+Dataset: COX2(467):
+====================
+Number of graphs: 467
+Number of features: 35
+Number of classes: 2
+
+Data(edge_index=[2, 82], x=[39, 35], y=[1])
+=============================================================
+Number of nodes: 39
+Number of edges: 82
+Average node degree: 2.10
+Has isolated nodes: False
+Has self-loops: False
+Is undirected: True
+Number of training graphs: 370
+Number of test graphs: 97
+Step 1:
+=======
+Number of graphs in the current batch: 64
+DataBatch(edge_index=[2, 5556], x=[2632, 35], y=[64], batch=[2632], ptr=[65])
+
+Step 2:
+=======
+Number of graphs in the current batch: 64
+DataBatch(edge_index=[2, 5690], x=[2700, 35], y=[64], batch=[2700], ptr=[65])
+
+Step 3:
+=======
+Number of graphs in the current batch: 64
+DataBatch(edge_index=[2, 5568], x=[2641, 35], y=[64], batch=[2641], ptr=[65])
+
+Step 4:
+=======
+Number of graphs in the current batch: 64
+DataBatch(edge_index=[2, 5504], x=[2608, 35], y=[64], batch=[2608], ptr=[65])
+
+Step 5:
+=======
+Number of graphs in the current batch: 64
+DataBatch(edge_index=[2, 5546], x=[2633, 35], y=[64], batch=[2633], ptr=[65])
+
+Step 6:
+=======
+Number of graphs in the current batch: 50
+DataBatch(edge_index=[2, 4322], x=[2049, 35], y=[50], batch=[2049], ptr=[51])
+
+GCN(
+  (conv1): GCNConv(35, 64)
+  (conv2): GCNConv(64, 64)
+  (conv3): GCNConv(64, 64)
+  (lin): Linear(in_features=64, out_features=2, bias=True)
+)
+This time Inference time is: 0.027864456176757812
+This time Inference time is: 0.0047719478607177734
+Epoch: 001, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025493860244750977
+This time Inference time is: 0.0048830509185791016
+Epoch: 002, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02613210678100586
+This time Inference time is: 0.004872798919677734
+Epoch: 003, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.026589632034301758
+This time Inference time is: 0.005219459533691406
+Epoch: 004, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02240133285522461
+This time Inference time is: 0.012937068939208984
+Epoch: 005, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025703907012939453
+This time Inference time is: 0.0050830841064453125
+Epoch: 006, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.024019956588745117
+This time Inference time is: 0.004686594009399414
+Epoch: 007, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.026677370071411133
+This time Inference time is: 0.0049855709075927734
+Epoch: 008, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025760173797607422
+This time Inference time is: 0.004915714263916016
+Epoch: 009, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025882959365844727
+This time Inference time is: 0.004951953887939453
+Epoch: 010, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02550363540649414
+This time Inference time is: 0.0051746368408203125
+Epoch: 011, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.024737834930419922
+This time Inference time is: 0.0048825740814208984
+Epoch: 012, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.023540735244750977
+This time Inference time is: 0.013489484786987305
+Epoch: 013, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025827646255493164
+This time Inference time is: 0.005102396011352539
+Epoch: 014, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02689647674560547
+This time Inference time is: 0.004584312438964844
+Epoch: 015, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.0244905948638916
+This time Inference time is: 0.004754304885864258
+Epoch: 016, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.024122953414916992
+This time Inference time is: 0.00539851188659668
+Epoch: 017, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02286672592163086
+This time Inference time is: 0.013608217239379883
+Epoch: 018, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025778770446777344
+This time Inference time is: 0.0046672821044921875
+Epoch: 019, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02631831169128418
+This time Inference time is: 0.004758358001708984
+Epoch: 020, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.026267528533935547
+This time Inference time is: 0.004828929901123047
+Epoch: 021, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.02391839027404785
+This time Inference time is: 0.004939079284667969
+Epoch: 022, Train Acc: 0.7919, Test Acc: 0.7732
+This time Inference time is: 0.02426600456237793
+This time Inference time is: 0.004929304122924805
+Epoch: 023, Train Acc: 0.7919, Test Acc: 0.7526
+This time Inference time is: 0.017113208770751953
+This time Inference time is: 0.011328697204589844
+Epoch: 024, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.026244401931762695
+This time Inference time is: 0.012964725494384766
+Epoch: 025, Train Acc: 0.7919, Test Acc: 0.7423
+This time Inference time is: 0.025021791458129883
+This time Inference time is: 0.004610538482666016
+Epoch: 026, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.025638818740844727
+This time Inference time is: 0.004572391510009766
+Epoch: 027, Train Acc: 0.7946, Test Acc: 0.7526
+This time Inference time is: 0.02332615852355957
+This time Inference time is: 0.004635810852050781
+Epoch: 028, Train Acc: 0.7973, Test Acc: 0.7526
+This time Inference time is: 0.024455547332763672
+This time Inference time is: 0.004836559295654297
+Epoch: 029, Train Acc: 0.8027, Test Acc: 0.7526
+This time Inference time is: 0.0389704704284668
+This time Inference time is: 0.004792690277099609
+Epoch: 030, Train Acc: 0.7973, Test Acc: 0.7526
+This time Inference time is: 0.0256350040435791
+This time Inference time is: 0.012131214141845703
+Epoch: 031, Train Acc: 0.8027, Test Acc: 0.7526
+This time Inference time is: 0.024534225463867188
+This time Inference time is: 0.005074501037597656
+Epoch: 032, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.026574373245239258
+This time Inference time is: 0.0048830509185791016
+Epoch: 033, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.026113510131835938
+This time Inference time is: 0.004742622375488281
+Epoch: 034, Train Acc: 0.8027, Test Acc: 0.7526
+This time Inference time is: 0.023655414581298828
+This time Inference time is: 0.013444662094116211
+Epoch: 035, Train Acc: 0.7973, Test Acc: 0.7526
+This time Inference time is: 0.023907184600830078
+This time Inference time is: 0.004651546478271484
+Epoch: 036, Train Acc: 0.8027, Test Acc: 0.7526
+This time Inference time is: 0.026053428649902344
+This time Inference time is: 0.00485539436340332
+Epoch: 037, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.024492740631103516
+This time Inference time is: 0.0046977996826171875
+Epoch: 038, Train Acc: 0.8027, Test Acc: 0.7629
+This time Inference time is: 0.024187088012695312
+This time Inference time is: 0.004484891891479492
+Epoch: 039, Train Acc: 0.7973, Test Acc: 0.7526
+This time Inference time is: 0.03725886344909668
+This time Inference time is: 0.004892587661743164
+Epoch: 040, Train Acc: 0.8054, Test Acc: 0.7526
+This time Inference time is: 0.04129481315612793
+This time Inference time is: 0.00553131103515625
+Epoch: 041, Train Acc: 0.7973, Test Acc: 0.7526
+This time Inference time is: 0.02254652976989746
+This time Inference time is: 0.013532400131225586
+Epoch: 042, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.026736974716186523
+This time Inference time is: 0.01298213005065918
+Epoch: 043, Train Acc: 0.7973, Test Acc: 0.7526
+This time Inference time is: 0.02605915069580078
+This time Inference time is: 0.004952907562255859
+Epoch: 044, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.02658557891845703
+This time Inference time is: 0.0051479339599609375
+Epoch: 045, Train Acc: 0.8054, Test Acc: 0.7526
+This time Inference time is: 0.029497146606445312
+This time Inference time is: 0.004835844039916992
+Epoch: 046, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.025841712951660156
+This time Inference time is: 0.004817008972167969
+Epoch: 047, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.029593467712402344
+This time Inference time is: 0.004741668701171875
+Epoch: 048, Train Acc: 0.8000, Test Acc: 0.7526
+This time Inference time is: 0.02563333511352539
+This time Inference time is: 0.004893302917480469
+Epoch: 049, Train Acc: 0.8135, Test Acc: 0.7320
+This time Inference time is: 0.025171756744384766
+This time Inference time is: 0.005088090896606445
+Epoch: 050, Train Acc: 0.8027, Test Acc: 0.7526
+This time Inference time is: 0.02482318878173828
+This time Inference time is: 0.005185604095458984
+Epoch: 051, Train Acc: 0.8135, Test Acc: 0.7320
+This time Inference time is: 0.026144742965698242
+This time Inference time is: 0.005509614944458008
+Epoch: 052, Train Acc: 0.8081, Test Acc: 0.7629
+This time Inference time is: 0.022665023803710938
+This time Inference time is: 0.013511896133422852
+Epoch: 053, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.026828527450561523
+This time Inference time is: 0.0048961639404296875
+Epoch: 054, Train Acc: 0.8189, Test Acc: 0.7113
+This time Inference time is: 0.025737285614013672
+This time Inference time is: 0.004667520523071289
+Epoch: 055, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.026625871658325195
+This time Inference time is: 0.0050508975982666016
+Epoch: 056, Train Acc: 0.8081, Test Acc: 0.7320
+This time Inference time is: 0.02567291259765625
+This time Inference time is: 0.004873752593994141
+Epoch: 057, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.023761272430419922
+This time Inference time is: 0.013091802597045898
+Epoch: 058, Train Acc: 0.8135, Test Acc: 0.7526
+This time Inference time is: 0.02679920196533203
+This time Inference time is: 0.004697561264038086
+Epoch: 059, Train Acc: 0.8108, Test Acc: 0.7526
+This time Inference time is: 0.024778366088867188
+This time Inference time is: 0.004817008972167969
+Epoch: 060, Train Acc: 0.8162, Test Acc: 0.7423
+This time Inference time is: 0.02528214454650879
+This time Inference time is: 0.0055272579193115234
+Epoch: 061, Train Acc: 0.8135, Test Acc: 0.7423
+This time Inference time is: 0.024069786071777344
+This time Inference time is: 0.004767656326293945
+Epoch: 062, Train Acc: 0.8135, Test Acc: 0.7526
+This time Inference time is: 0.024705171585083008
+This time Inference time is: 0.01319122314453125
+Epoch: 063, Train Acc: 0.8108, Test Acc: 0.7216
+This time Inference time is: 0.026344776153564453
+This time Inference time is: 0.004524946212768555
+Epoch: 064, Train Acc: 0.8135, Test Acc: 0.7629
+This time Inference time is: 0.023470640182495117
+This time Inference time is: 0.004533529281616211
+Epoch: 065, Train Acc: 0.8216, Test Acc: 0.7629
+This time Inference time is: 0.026059627532958984
+This time Inference time is: 0.005442380905151367
+Epoch: 066, Train Acc: 0.8135, Test Acc: 0.7526
+This time Inference time is: 0.025107145309448242
+This time Inference time is: 0.00502324104309082
+Epoch: 067, Train Acc: 0.8216, Test Acc: 0.7423
+This time Inference time is: 0.017679452896118164
+This time Inference time is: 0.005017995834350586
+Epoch: 068, Train Acc: 0.8108, Test Acc: 0.7526
+This time Inference time is: 0.021236896514892578
+This time Inference time is: 0.004904270172119141
+Epoch: 069, Train Acc: 0.8081, Test Acc: 0.7526
+This time Inference time is: 0.01730656623840332
+This time Inference time is: 0.009694814682006836
+Epoch: 070, Train Acc: 0.8135, Test Acc: 0.7526
+This time Inference time is: 0.02591562271118164
+This time Inference time is: 0.005041360855102539
+Epoch: 071, Train Acc: 0.8027, Test Acc: 0.7526
+This time Inference time is: 0.027872323989868164
+This time Inference time is: 0.005035400390625
+Epoch: 072, Train Acc: 0.8216, Test Acc: 0.7320
+This time Inference time is: 0.017307281494140625
+This time Inference time is: 0.004739046096801758
+Epoch: 073, Train Acc: 0.8189, Test Acc: 0.7526
+This time Inference time is: 0.025964021682739258
+This time Inference time is: 0.0046923160552978516
+Epoch: 074, Train Acc: 0.8189, Test Acc: 0.7423
+This time Inference time is: 0.027688264846801758
+This time Inference time is: 0.0047206878662109375
+Epoch: 075, Train Acc: 0.8162, Test Acc: 0.7526
+This time Inference time is: 0.018121719360351562
+This time Inference time is: 0.004834890365600586
+Epoch: 076, Train Acc: 0.8189, Test Acc: 0.7526
+This time Inference time is: 0.017978668212890625
+This time Inference time is: 0.012745380401611328
+Epoch: 077, Train Acc: 0.8324, Test Acc: 0.7732
+This time Inference time is: 0.02596592903137207
+This time Inference time is: 0.004769325256347656
+Epoch: 078, Train Acc: 0.8243, Test Acc: 0.7526
+This time Inference time is: 0.027263879776000977
+This time Inference time is: 0.005265474319458008
+Epoch: 079, Train Acc: 0.8189, Test Acc: 0.7629
+This time Inference time is: 0.025281190872192383
+This time Inference time is: 0.004774570465087891
+Epoch: 080, Train Acc: 0.8243, Test Acc: 0.7526
+This time Inference time is: 0.030459880828857422
+This time Inference time is: 0.004448652267456055
+Epoch: 081, Train Acc: 0.8324, Test Acc: 0.7526
+This time Inference time is: 0.023830413818359375
+This time Inference time is: 0.005037784576416016
+Epoch: 082, Train Acc: 0.8243, Test Acc: 0.7629
+This time Inference time is: 0.02678990364074707
+This time Inference time is: 0.004738807678222656
+Epoch: 083, Train Acc: 0.8297, Test Acc: 0.7629
+This time Inference time is: 0.02566838264465332
+This time Inference time is: 0.013550043106079102
+Epoch: 084, Train Acc: 0.8432, Test Acc: 0.7320
+This time Inference time is: 0.025493144989013672
+This time Inference time is: 0.004807233810424805
+Epoch: 085, Train Acc: 0.8351, Test Acc: 0.7526
+This time Inference time is: 0.02470254898071289
+This time Inference time is: 0.004909992218017578
+Epoch: 086, Train Acc: 0.8243, Test Acc: 0.7629
+This time Inference time is: 0.026410579681396484
+This time Inference time is: 0.00535893440246582
+Epoch: 087, Train Acc: 0.8297, Test Acc: 0.7526
+This time Inference time is: 0.016968250274658203
+This time Inference time is: 0.013426780700683594
+Epoch: 088, Train Acc: 0.8297, Test Acc: 0.7526
+This time Inference time is: 0.021512269973754883
+This time Inference time is: 0.004742145538330078
+Epoch: 089, Train Acc: 0.8378, Test Acc: 0.7629
+This time Inference time is: 0.025248050689697266
+This time Inference time is: 0.004754066467285156
+Epoch: 090, Train Acc: 0.8378, Test Acc: 0.7629
+This time Inference time is: 0.024649858474731445
+This time Inference time is: 0.0052509307861328125
+Epoch: 091, Train Acc: 0.8297, Test Acc: 0.7629
+This time Inference time is: 0.017489910125732422
+This time Inference time is: 0.012243032455444336
+Epoch: 092, Train Acc: 0.8297, Test Acc: 0.7629
+This time Inference time is: 0.024536848068237305
+This time Inference time is: 0.00475311279296875
+Epoch: 093, Train Acc: 0.8324, Test Acc: 0.7629
+This time Inference time is: 0.025075435638427734
+This time Inference time is: 0.004841327667236328
+Epoch: 094, Train Acc: 0.8351, Test Acc: 0.7629
+This time Inference time is: 0.024307966232299805
+This time Inference time is: 0.0050487518310546875
+Epoch: 095, Train Acc: 0.8568, Test Acc: 0.7629
+This time Inference time is: 0.022763729095458984
+This time Inference time is: 0.013272762298583984
+Epoch: 096, Train Acc: 0.8432, Test Acc: 0.7938
+This time Inference time is: 0.0257418155670166
+This time Inference time is: 0.004639148712158203
+Epoch: 097, Train Acc: 0.8351, Test Acc: 0.7732
+This time Inference time is: 0.025758981704711914
+This time Inference time is: 0.005013704299926758
+Epoch: 098, Train Acc: 0.8378, Test Acc: 0.7732
+This time Inference time is: 0.026106595993041992
+This time Inference time is: 0.0052950382232666016
+Epoch: 099, Train Acc: 0.8514, Test Acc: 0.7938
+This time Inference time is: 0.024235963821411133
+This time Inference time is: 0.004685163497924805
+Epoch: 100, Train Acc: 0.8405, Test Acc: 0.7732
+This time Inference time is: 0.023643016815185547
+This time Inference time is: 0.025280237197875977
+Epoch: 101, Train Acc: 0.8297, Test Acc: 0.7835
+This time Inference time is: 0.025692462921142578
+This time Inference time is: 0.004815101623535156
+Epoch: 102, Train Acc: 0.8676, Test Acc: 0.7732
+This time Inference time is: 0.026214599609375
+This time Inference time is: 0.013997077941894531
+Epoch: 103, Train Acc: 0.8351, Test Acc: 0.7732
+This time Inference time is: 0.016566991806030273
+This time Inference time is: 0.004985809326171875
+Epoch: 104, Train Acc: 0.8324, Test Acc: 0.7629
+This time Inference time is: 0.02003169059753418
+This time Inference time is: 0.004993438720703125
+Epoch: 105, Train Acc: 0.8432, Test Acc: 0.7835
+This time Inference time is: 0.026424407958984375
+This time Inference time is: 0.014332056045532227
+Epoch: 106, Train Acc: 0.8378, Test Acc: 0.7835
+This time Inference time is: 0.026140689849853516
+This time Inference time is: 0.005520820617675781
+Epoch: 107, Train Acc: 0.8622, Test Acc: 0.7732
+This time Inference time is: 0.024823427200317383
+This time Inference time is: 0.005091428756713867
+Epoch: 108, Train Acc: 0.8378, Test Acc: 0.7629
+This time Inference time is: 0.025456905364990234
+This time Inference time is: 0.0047588348388671875
+Epoch: 109, Train Acc: 0.8622, Test Acc: 0.7938
+This time Inference time is: 0.02535700798034668
+This time Inference time is: 0.00503849983215332
+Epoch: 110, Train Acc: 0.8405, Test Acc: 0.7938
+This time Inference time is: 0.02300405502319336
+This time Inference time is: 0.011798381805419922
+Epoch: 111, Train Acc: 0.8432, Test Acc: 0.7320
+This time Inference time is: 0.026140451431274414
+This time Inference time is: 0.004503726959228516
+Epoch: 112, Train Acc: 0.8324, Test Acc: 0.7938
+This time Inference time is: 0.025941848754882812
+This time Inference time is: 0.004739522933959961
+Epoch: 113, Train Acc: 0.8216, Test Acc: 0.7423
+This time Inference time is: 0.02693009376525879
+This time Inference time is: 0.013666629791259766
+Epoch: 114, Train Acc: 0.8243, Test Acc: 0.7629
+This time Inference time is: 0.026563644409179688
+This time Inference time is: 0.00487208366394043
+Epoch: 115, Train Acc: 0.8622, Test Acc: 0.7629
+This time Inference time is: 0.024486303329467773
+This time Inference time is: 0.004958152770996094
+Epoch: 116, Train Acc: 0.8405, Test Acc: 0.7629
+This time Inference time is: 0.024382591247558594
+This time Inference time is: 0.02007913589477539
+Epoch: 117, Train Acc: 0.8595, Test Acc: 0.7629
+This time Inference time is: 0.027515888214111328
+This time Inference time is: 0.004972219467163086
+Epoch: 118, Train Acc: 0.8378, Test Acc: 0.7938
+This time Inference time is: 0.0182187557220459
+This time Inference time is: 0.011098384857177734
+Epoch: 119, Train Acc: 0.8541, Test Acc: 0.7938
+This time Inference time is: 0.025115251541137695
+This time Inference time is: 0.018990278244018555
+Epoch: 120, Train Acc: 0.8459, Test Acc: 0.7216

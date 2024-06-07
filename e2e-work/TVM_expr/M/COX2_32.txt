@@ -1,0 +1,7 @@
+
+num:  467.0
+Test accuracy of TVM results: 78.59%
+Min model inference total time:  2.1457672119140625e-05
+Median model inference total time:  2.574920654296875e-05
+Max model inference total time:  0.0001366138458251953
+

@@ -1,0 +1,17 @@
+CreateW_time is : 0.0379488468170166
+TransformW_time is : 0.007783412933349609
+bias_var is : 0.028190135955810547
+biasAdd_time is : 0.00766754150390625
+AH_1_time is : 0.0063097476959228516
+AH_2_time is : 0.00397801399230957
+HW_1_time is : 0.003713846206665039
+HW_2_time is : 0.003802776336669922
+activation_time is : 0.0023610591888427734
+squeeze_time is : 0.01407313346862793
+Graphconv1_time is : 0.05661749839782715
+Graphconv2_time is : 0.06102347373962402
+the meanlogits time is : 0.03389930725097656
+num:  405.0
+Test accuracy of TVM results: 79.26%
+model inference total time:  0.0029823780059814453
+
