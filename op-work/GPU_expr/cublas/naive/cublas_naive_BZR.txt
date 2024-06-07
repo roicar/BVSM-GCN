@@ -1,0 +1,3242 @@
+length of list_A:405
+The 0th SpMM starts running
+M: 13
+K: 13
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030656
+The 0th SpMM ends running
+The 1th SpMM starts running
+M: 13
+K: 13
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030272
+The 1th SpMM ends running
+The 2th SpMM starts running
+M: 16
+K: 16
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.002944
+The 2th SpMM ends running
+The 3th SpMM starts running
+M: 17
+K: 17
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034624
+The 3th SpMM ends running
+The 4th SpMM starts running
+M: 19
+K: 19
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 4th SpMM ends running
+The 5th SpMM starts running
+M: 20
+K: 20
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031008
+The 5th SpMM ends running
+The 6th SpMM starts running
+M: 20
+K: 20
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 6th SpMM ends running
+The 7th SpMM starts running
+M: 21
+K: 21
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 7th SpMM ends running
+The 8th SpMM starts running
+M: 21
+K: 21
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034752
+The 8th SpMM ends running
+The 9th SpMM starts running
+M: 21
+K: 21
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 9th SpMM ends running
+The 10th SpMM starts running
+M: 22
+K: 22
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 10th SpMM ends running
+The 11th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003264
+The 11th SpMM ends running
+The 12th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003648
+The 12th SpMM ends running
+The 13th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033056
+The 13th SpMM ends running
+The 14th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 14th SpMM ends running
+The 15th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032128
+The 15th SpMM ends running
+The 16th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035392
+The 16th SpMM ends running
+The 17th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032512
+The 17th SpMM ends running
+The 18th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036576
+The 18th SpMM ends running
+The 19th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036768
+The 19th SpMM ends running
+The 20th SpMM starts running
+M: 23
+K: 23
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003296
+The 20th SpMM ends running
+The 21th SpMM starts running
+M: 24
+K: 24
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033536
+The 21th SpMM ends running
+The 22th SpMM starts running
+M: 24
+K: 24
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 22th SpMM ends running
+The 23th SpMM starts running
+M: 24
+K: 24
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035712
+The 23th SpMM ends running
+The 24th SpMM starts running
+M: 25
+K: 25
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00368
+The 24th SpMM ends running
+The 25th SpMM starts running
+M: 25
+K: 25
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033248
+The 25th SpMM ends running
+The 26th SpMM starts running
+M: 25
+K: 25
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034176
+The 26th SpMM ends running
+The 27th SpMM starts running
+M: 25
+K: 25
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033024
+The 27th SpMM ends running
+The 28th SpMM starts running
+M: 25
+K: 25
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 28th SpMM ends running
+The 29th SpMM starts running
+M: 26
+K: 26
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003552
+The 29th SpMM ends running
+The 30th SpMM starts running
+M: 26
+K: 26
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00384
+The 30th SpMM ends running
+The 31th SpMM starts running
+M: 26
+K: 26
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003792
+The 31th SpMM ends running
+The 32th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003456
+The 32th SpMM ends running
+The 33th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036768
+The 33th SpMM ends running
+The 34th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035232
+The 34th SpMM ends running
+The 35th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034464
+The 35th SpMM ends running
+The 36th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036672
+The 36th SpMM ends running
+The 37th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033376
+The 37th SpMM ends running
+The 38th SpMM starts running
+M: 27
+K: 27
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003312
+The 38th SpMM ends running
+The 39th SpMM starts running
+M: 28
+K: 28
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035392
+The 39th SpMM ends running
+The 40th SpMM starts running
+M: 28
+K: 28
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 40th SpMM ends running
+The 41th SpMM starts running
+M: 28
+K: 28
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036384
+The 41th SpMM ends running
+The 42th SpMM starts running
+M: 28
+K: 28
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036288
+The 42th SpMM ends running
+The 43th SpMM starts running
+M: 28
+K: 28
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035104
+The 43th SpMM ends running
+The 44th SpMM starts running
+M: 29
+K: 29
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032704
+The 44th SpMM ends running
+The 45th SpMM starts running
+M: 29
+K: 29
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030528
+The 45th SpMM ends running
+The 46th SpMM starts running
+M: 29
+K: 29
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 46th SpMM ends running
+The 47th SpMM starts running
+M: 29
+K: 29
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034208
+The 47th SpMM ends running
+The 48th SpMM starts running
+M: 29
+K: 29
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034784
+The 48th SpMM ends running
+The 49th SpMM starts running
+M: 29
+K: 29
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031904
+The 49th SpMM ends running
+The 50th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034752
+The 50th SpMM ends running
+The 51th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 51th SpMM ends running
+The 52th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033824
+The 52th SpMM ends running
+The 53th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033504
+The 53th SpMM ends running
+The 54th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003456
+The 54th SpMM ends running
+The 55th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 55th SpMM ends running
+The 56th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003248
+The 56th SpMM ends running
+The 57th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00336
+The 57th SpMM ends running
+The 58th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031264
+The 58th SpMM ends running
+The 59th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003632
+The 59th SpMM ends running
+The 60th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003424
+The 60th SpMM ends running
+The 61th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 61th SpMM ends running
+The 62th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031168
+The 62th SpMM ends running
+The 63th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034112
+The 63th SpMM ends running
+The 64th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033952
+The 64th SpMM ends running
+The 65th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0065536
+The 65th SpMM ends running
+The 66th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033888
+The 66th SpMM ends running
+The 67th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034112
+The 67th SpMM ends running
+The 68th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 68th SpMM ends running
+The 69th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031072
+The 69th SpMM ends running
+The 70th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033824
+The 70th SpMM ends running
+The 71th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035808
+The 71th SpMM ends running
+The 72th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 72th SpMM ends running
+The 73th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032352
+The 73th SpMM ends running
+The 74th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00344
+The 74th SpMM ends running
+The 75th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 75th SpMM ends running
+The 76th SpMM starts running
+M: 30
+K: 30
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 76th SpMM ends running
+The 77th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 77th SpMM ends running
+The 78th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033728
+The 78th SpMM ends running
+The 79th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036096
+The 79th SpMM ends running
+The 80th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035168
+The 80th SpMM ends running
+The 81th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036256
+The 81th SpMM ends running
+The 82th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035872
+The 82th SpMM ends running
+The 83th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035104
+The 83th SpMM ends running
+The 84th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032576
+The 84th SpMM ends running
+The 85th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032224
+The 85th SpMM ends running
+The 86th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003472
+The 86th SpMM ends running
+The 87th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0048928
+The 87th SpMM ends running
+The 88th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032672
+The 88th SpMM ends running
+The 89th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032608
+The 89th SpMM ends running
+The 90th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003296
+The 90th SpMM ends running
+The 91th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035136
+The 91th SpMM ends running
+The 92th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035776
+The 92th SpMM ends running
+The 93th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 93th SpMM ends running
+The 94th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003712
+The 94th SpMM ends running
+The 95th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 95th SpMM ends running
+The 96th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035072
+The 96th SpMM ends running
+The 97th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038816
+The 97th SpMM ends running
+The 98th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 98th SpMM ends running
+The 99th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034656
+The 99th SpMM ends running
+The 100th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034176
+The 100th SpMM ends running
+The 101th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00328
+The 101th SpMM ends running
+The 102th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034592
+The 102th SpMM ends running
+The 103th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033024
+The 103th SpMM ends running
+The 104th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038464
+The 104th SpMM ends running
+The 105th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003584
+The 105th SpMM ends running
+The 106th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003584
+The 106th SpMM ends running
+The 107th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034624
+The 107th SpMM ends running
+The 108th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 108th SpMM ends running
+The 109th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033568
+The 109th SpMM ends running
+The 110th SpMM starts running
+M: 31
+K: 31
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 110th SpMM ends running
+The 111th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 111th SpMM ends running
+The 112th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036128
+The 112th SpMM ends running
+The 113th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0028896
+The 113th SpMM ends running
+The 114th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 114th SpMM ends running
+The 115th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 115th SpMM ends running
+The 116th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033344
+The 116th SpMM ends running
+The 117th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 117th SpMM ends running
+The 118th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032032
+The 118th SpMM ends running
+The 119th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 119th SpMM ends running
+The 120th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032352
+The 120th SpMM ends running
+The 121th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030144
+The 121th SpMM ends running
+The 122th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003056
+The 122th SpMM ends running
+The 123th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032864
+The 123th SpMM ends running
+The 124th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0029152
+The 124th SpMM ends running
+The 125th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0029984
+The 125th SpMM ends running
+The 126th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031808
+The 126th SpMM ends running
+The 127th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0028992
+The 127th SpMM ends running
+The 128th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0028128
+The 128th SpMM ends running
+The 129th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030208
+The 129th SpMM ends running
+The 130th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003024
+The 130th SpMM ends running
+The 131th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0028512
+The 131th SpMM ends running
+The 132th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003024
+The 132th SpMM ends running
+The 133th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034976
+The 133th SpMM ends running
+The 134th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0051264
+The 134th SpMM ends running
+The 135th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034752
+The 135th SpMM ends running
+The 136th SpMM starts running
+M: 32
+K: 32
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0028256
+The 136th SpMM ends running
+The 137th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 137th SpMM ends running
+The 138th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 138th SpMM ends running
+The 139th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033792
+The 139th SpMM ends running
+The 140th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 140th SpMM ends running
+The 141th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032864
+The 141th SpMM ends running
+The 142th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033312
+The 142th SpMM ends running
+The 143th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032896
+The 143th SpMM ends running
+The 144th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034016
+The 144th SpMM ends running
+The 145th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036384
+The 145th SpMM ends running
+The 146th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003472
+The 146th SpMM ends running
+The 147th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003184
+The 147th SpMM ends running
+The 148th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033472
+The 148th SpMM ends running
+The 149th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 149th SpMM ends running
+The 150th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033792
+The 150th SpMM ends running
+The 151th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034272
+The 151th SpMM ends running
+The 152th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030752
+The 152th SpMM ends running
+The 153th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 153th SpMM ends running
+The 154th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032928
+The 154th SpMM ends running
+The 155th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 155th SpMM ends running
+The 156th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003472
+The 156th SpMM ends running
+The 157th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034784
+The 157th SpMM ends running
+The 158th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031488
+The 158th SpMM ends running
+The 159th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033728
+The 159th SpMM ends running
+The 160th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003184
+The 160th SpMM ends running
+The 161th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035904
+The 161th SpMM ends running
+The 162th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032608
+The 162th SpMM ends running
+The 163th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 163th SpMM ends running
+The 164th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 164th SpMM ends running
+The 165th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003536
+The 165th SpMM ends running
+The 166th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 166th SpMM ends running
+The 167th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033728
+The 167th SpMM ends running
+The 168th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032736
+The 168th SpMM ends running
+The 169th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033216
+The 169th SpMM ends running
+The 170th SpMM starts running
+M: 33
+K: 33
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 170th SpMM ends running
+The 171th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 171th SpMM ends running
+The 172th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0047392
+The 172th SpMM ends running
+The 173th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003536
+The 173th SpMM ends running
+The 174th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035072
+The 174th SpMM ends running
+The 175th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034624
+The 175th SpMM ends running
+The 176th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035936
+The 176th SpMM ends running
+The 177th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031744
+The 177th SpMM ends running
+The 178th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034432
+The 178th SpMM ends running
+The 179th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035776
+The 179th SpMM ends running
+The 180th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036544
+The 180th SpMM ends running
+The 181th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003648
+The 181th SpMM ends running
+The 182th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 182th SpMM ends running
+The 183th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035328
+The 183th SpMM ends running
+The 184th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003536
+The 184th SpMM ends running
+The 185th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034336
+The 185th SpMM ends running
+The 186th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 186th SpMM ends running
+The 187th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 187th SpMM ends running
+The 188th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003648
+The 188th SpMM ends running
+The 189th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032544
+The 189th SpMM ends running
+The 190th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0284672
+The 190th SpMM ends running
+The 191th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035584
+The 191th SpMM ends running
+The 192th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034944
+The 192th SpMM ends running
+The 193th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 193th SpMM ends running
+The 194th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 194th SpMM ends running
+The 195th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035936
+The 195th SpMM ends running
+The 196th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 196th SpMM ends running
+The 197th SpMM starts running
+M: 34
+K: 34
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034976
+The 197th SpMM ends running
+The 198th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036928
+The 198th SpMM ends running
+The 199th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 199th SpMM ends running
+The 200th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033088
+The 200th SpMM ends running
+The 201th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036512
+The 201th SpMM ends running
+The 202th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003792
+The 202th SpMM ends running
+The 203th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034944
+The 203th SpMM ends running
+The 204th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033472
+The 204th SpMM ends running
+The 205th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032576
+The 205th SpMM ends running
+The 206th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030848
+The 206th SpMM ends running
+The 207th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031712
+The 207th SpMM ends running
+The 208th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003248
+The 208th SpMM ends running
+The 209th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033152
+The 209th SpMM ends running
+The 210th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032448
+The 210th SpMM ends running
+The 211th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035232
+The 211th SpMM ends running
+The 212th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031648
+The 212th SpMM ends running
+The 213th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 213th SpMM ends running
+The 214th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034912
+The 214th SpMM ends running
+The 215th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003056
+The 215th SpMM ends running
+The 216th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033088
+The 216th SpMM ends running
+The 217th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032832
+The 217th SpMM ends running
+The 218th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 218th SpMM ends running
+The 219th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033152
+The 219th SpMM ends running
+The 220th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033376
+The 220th SpMM ends running
+The 221th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031552
+The 221th SpMM ends running
+The 222th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 222th SpMM ends running
+The 223th SpMM starts running
+M: 35
+K: 35
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034656
+The 223th SpMM ends running
+The 224th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003152
+The 224th SpMM ends running
+The 225th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 225th SpMM ends running
+The 226th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003072
+The 226th SpMM ends running
+The 227th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032704
+The 227th SpMM ends running
+The 228th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031168
+The 228th SpMM ends running
+The 229th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034208
+The 229th SpMM ends running
+The 230th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 230th SpMM ends running
+The 231th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032032
+The 231th SpMM ends running
+The 232th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032928
+The 232th SpMM ends running
+The 233th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034112
+The 233th SpMM ends running
+The 234th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 234th SpMM ends running
+The 235th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003232
+The 235th SpMM ends running
+The 236th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 236th SpMM ends running
+The 237th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032992
+The 237th SpMM ends running
+The 238th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031424
+The 238th SpMM ends running
+The 239th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032416
+The 239th SpMM ends running
+The 240th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037536
+The 240th SpMM ends running
+The 241th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 241th SpMM ends running
+The 242th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035264
+The 242th SpMM ends running
+The 243th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 243th SpMM ends running
+The 244th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031776
+The 244th SpMM ends running
+The 245th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035104
+The 245th SpMM ends running
+The 246th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034176
+The 246th SpMM ends running
+The 247th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003504
+The 247th SpMM ends running
+The 248th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034528
+The 248th SpMM ends running
+The 249th SpMM starts running
+M: 36
+K: 36
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0030464
+The 249th SpMM ends running
+The 250th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033888
+The 250th SpMM ends running
+The 251th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033824
+The 251th SpMM ends running
+The 252th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038912
+The 252th SpMM ends running
+The 253th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003392
+The 253th SpMM ends running
+The 254th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 254th SpMM ends running
+The 255th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034464
+The 255th SpMM ends running
+The 256th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034624
+The 256th SpMM ends running
+The 257th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003536
+The 257th SpMM ends running
+The 258th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 258th SpMM ends running
+The 259th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 259th SpMM ends running
+The 260th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033824
+The 260th SpMM ends running
+The 261th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033856
+The 261th SpMM ends running
+The 262th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035296
+The 262th SpMM ends running
+The 263th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037216
+The 263th SpMM ends running
+The 264th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003568
+The 264th SpMM ends running
+The 265th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003456
+The 265th SpMM ends running
+The 266th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035136
+The 266th SpMM ends running
+The 267th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 267th SpMM ends running
+The 268th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037408
+The 268th SpMM ends running
+The 269th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033088
+The 269th SpMM ends running
+The 270th SpMM starts running
+M: 37
+K: 37
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035392
+The 270th SpMM ends running
+The 271th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035872
+The 271th SpMM ends running
+The 272th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 272th SpMM ends running
+The 273th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037888
+The 273th SpMM ends running
+The 274th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037984
+The 274th SpMM ends running
+The 275th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032704
+The 275th SpMM ends running
+The 276th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036768
+The 276th SpMM ends running
+The 277th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 277th SpMM ends running
+The 278th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 278th SpMM ends running
+The 279th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035264
+The 279th SpMM ends running
+The 280th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038912
+The 280th SpMM ends running
+The 281th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034752
+The 281th SpMM ends running
+The 282th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003584
+The 282th SpMM ends running
+The 283th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032448
+The 283th SpMM ends running
+The 284th SpMM starts running
+M: 38
+K: 38
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035392
+The 284th SpMM ends running
+The 285th SpMM starts running
+M: 39
+K: 39
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035008
+The 285th SpMM ends running
+The 286th SpMM starts running
+M: 39
+K: 39
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036992
+The 286th SpMM ends running
+The 287th SpMM starts running
+M: 39
+K: 39
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035104
+The 287th SpMM ends running
+The 288th SpMM starts running
+M: 39
+K: 39
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036352
+The 288th SpMM ends running
+The 289th SpMM starts running
+M: 39
+K: 39
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037888
+The 289th SpMM ends running
+The 290th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036896
+The 290th SpMM ends running
+The 291th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034304
+The 291th SpMM ends running
+The 292th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036256
+The 292th SpMM ends running
+The 293th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037184
+The 293th SpMM ends running
+The 294th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034304
+The 294th SpMM ends running
+The 295th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038816
+The 295th SpMM ends running
+The 296th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003456
+The 296th SpMM ends running
+The 297th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035872
+The 297th SpMM ends running
+The 298th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 298th SpMM ends running
+The 299th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038528
+The 299th SpMM ends running
+The 300th SpMM starts running
+M: 40
+K: 40
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035264
+The 300th SpMM ends running
+The 301th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038496
+The 301th SpMM ends running
+The 302th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 302th SpMM ends running
+The 303th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0053248
+The 303th SpMM ends running
+The 304th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037088
+The 304th SpMM ends running
+The 305th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038656
+The 305th SpMM ends running
+The 306th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037984
+The 306th SpMM ends running
+The 307th SpMM starts running
+M: 41
+K: 41
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037184
+The 307th SpMM ends running
+The 308th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 308th SpMM ends running
+The 309th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 309th SpMM ends running
+The 310th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034976
+The 310th SpMM ends running
+The 311th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003792
+The 311th SpMM ends running
+The 312th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036768
+The 312th SpMM ends running
+The 313th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036448
+The 313th SpMM ends running
+The 314th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035872
+The 314th SpMM ends running
+The 315th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 315th SpMM ends running
+The 316th SpMM starts running
+M: 42
+K: 42
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034944
+The 316th SpMM ends running
+The 317th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038272
+The 317th SpMM ends running
+The 318th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00384
+The 318th SpMM ends running
+The 319th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 319th SpMM ends running
+The 320th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038912
+The 320th SpMM ends running
+The 321th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038432
+The 321th SpMM ends running
+The 322th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038496
+The 322th SpMM ends running
+The 323th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035936
+The 323th SpMM ends running
+The 324th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036064
+The 324th SpMM ends running
+The 325th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 325th SpMM ends running
+The 326th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 326th SpMM ends running
+The 327th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035616
+The 327th SpMM ends running
+The 328th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 328th SpMM ends running
+The 329th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036
+The 329th SpMM ends running
+The 330th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034848
+The 330th SpMM ends running
+The 331th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037568
+The 331th SpMM ends running
+The 332th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003712
+The 332th SpMM ends running
+The 333th SpMM starts running
+M: 43
+K: 43
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034656
+The 333th SpMM ends running
+The 334th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034688
+The 334th SpMM ends running
+The 335th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033984
+The 335th SpMM ends running
+The 336th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 336th SpMM ends running
+The 337th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035808
+The 337th SpMM ends running
+The 338th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038304
+The 338th SpMM ends running
+The 339th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00368
+The 339th SpMM ends running
+The 340th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0038208
+The 340th SpMM ends running
+The 341th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035264
+The 341th SpMM ends running
+The 342th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035776
+The 342th SpMM ends running
+The 343th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 343th SpMM ends running
+The 344th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035488
+The 344th SpMM ends running
+The 345th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037088
+The 345th SpMM ends running
+The 346th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003568
+The 346th SpMM ends running
+The 347th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003824
+The 347th SpMM ends running
+The 348th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003856
+The 348th SpMM ends running
+The 349th SpMM starts running
+M: 44
+K: 44
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037664
+The 349th SpMM ends running
+The 350th SpMM starts running
+M: 45
+K: 45
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033792
+The 350th SpMM ends running
+The 351th SpMM starts running
+M: 45
+K: 45
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034976
+The 351th SpMM ends running
+The 352th SpMM starts running
+M: 45
+K: 45
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035072
+The 352th SpMM ends running
+The 353th SpMM starts running
+M: 45
+K: 45
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003488
+The 353th SpMM ends running
+The 354th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033408
+The 354th SpMM ends running
+The 355th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036896
+The 355th SpMM ends running
+The 356th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034688
+The 356th SpMM ends running
+The 357th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033504
+The 357th SpMM ends running
+The 358th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036864
+The 358th SpMM ends running
+The 359th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 359th SpMM ends running
+The 360th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033408
+The 360th SpMM ends running
+The 361th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033504
+The 361th SpMM ends running
+The 362th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034944
+The 362th SpMM ends running
+The 363th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 363th SpMM ends running
+The 364th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003504
+The 364th SpMM ends running
+The 365th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032768
+The 365th SpMM ends running
+The 366th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034496
+The 366th SpMM ends running
+The 367th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035808
+The 367th SpMM ends running
+The 368th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003216
+The 368th SpMM ends running
+The 369th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00336
+The 369th SpMM ends running
+The 370th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034592
+The 370th SpMM ends running
+The 371th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033728
+The 371th SpMM ends running
+The 372th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033472
+The 372th SpMM ends running
+The 373th SpMM starts running
+M: 46
+K: 46
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00328
+The 373th SpMM ends running
+The 374th SpMM starts running
+M: 47
+K: 47
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035936
+The 374th SpMM ends running
+The 375th SpMM starts running
+M: 47
+K: 47
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034848
+The 375th SpMM ends running
+The 376th SpMM starts running
+M: 47
+K: 47
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0037248
+The 376th SpMM ends running
+The 377th SpMM starts running
+M: 47
+K: 47
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035328
+The 377th SpMM ends running
+The 378th SpMM starts running
+M: 47
+K: 47
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036288
+The 378th SpMM ends running
+The 379th SpMM starts running
+M: 48
+K: 48
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032224
+The 379th SpMM ends running
+The 380th SpMM starts running
+M: 48
+K: 48
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0031488
+The 380th SpMM ends running
+The 381th SpMM starts running
+M: 48
+K: 48
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0032288
+The 381th SpMM ends running
+The 382th SpMM starts running
+M: 48
+K: 48
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034528
+The 382th SpMM ends running
+The 383th SpMM starts running
+M: 48
+K: 48
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00336
+The 383th SpMM ends running
+The 384th SpMM starts running
+M: 48
+K: 48
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033984
+The 384th SpMM ends running
+The 385th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033312
+The 385th SpMM ends running
+The 386th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034784
+The 386th SpMM ends running
+The 387th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035968
+The 387th SpMM ends running
+The 388th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003584
+The 388th SpMM ends running
+The 389th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036448
+The 389th SpMM ends running
+The 390th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034816
+The 390th SpMM ends running
+The 391th SpMM starts running
+M: 49
+K: 49
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033664
+The 391th SpMM ends running
+The 392th SpMM starts running
+M: 50
+K: 50
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035584
+The 392th SpMM ends running
+The 393th SpMM starts running
+M: 50
+K: 50
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035072
+The 393th SpMM ends running
+The 394th SpMM starts running
+M: 50
+K: 50
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003344
+The 394th SpMM ends running
+The 395th SpMM starts running
+M: 50
+K: 50
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0033536
+The 395th SpMM ends running
+The 396th SpMM starts running
+M: 50
+K: 50
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034976
+The 396th SpMM ends running
+The 397th SpMM starts running
+M: 50
+K: 50
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036608
+The 397th SpMM ends running
+The 398th SpMM starts running
+M: 51
+K: 51
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034528
+The 398th SpMM ends running
+The 399th SpMM starts running
+M: 52
+K: 52
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0035424
+The 399th SpMM ends running
+The 400th SpMM starts running
+M: 52
+K: 52
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0034976
+The 400th SpMM ends running
+The 401th SpMM starts running
+M: 53
+K: 53
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036768
+The 401th SpMM ends running
+The 402th SpMM starts running
+M: 54
+K: 54
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036992
+The 402th SpMM ends running
+The 403th SpMM starts running
+M: 56
+K: 56
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0036896
+The 403th SpMM ends running
+The 404th SpMM starts running
+M: 57
+K: 57
+N: 3
+开始存储矩阵到一维数组
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.003776
+The 404th SpMM ends running
+total cost time is:1.42654

@@ -1,0 +1,4 @@
+This is the execution time of PROTEINS_full:
+max: 0.01514887809753418
+min: 0.007288217544555664
+median: 0.0074541568756103516

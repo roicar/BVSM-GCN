@@ -1,0 +1,316 @@
+Count A matrix:405
+The Number of dimension variety is :41
+The 0th Group info:
+m[0]:13
+k[0]:13
+n[0]:3
+size_per_grp[0]:2
+The 1th Group info:
+m[1]:16
+k[1]:16
+n[1]:3
+size_per_grp[1]:1
+The 2th Group info:
+m[2]:17
+k[2]:17
+n[2]:3
+size_per_grp[2]:1
+The 3th Group info:
+m[3]:19
+k[3]:19
+n[3]:3
+size_per_grp[3]:1
+The 4th Group info:
+m[4]:20
+k[4]:20
+n[4]:3
+size_per_grp[4]:2
+The 5th Group info:
+m[5]:21
+k[5]:21
+n[5]:3
+size_per_grp[5]:3
+The 6th Group info:
+m[6]:22
+k[6]:22
+n[6]:3
+size_per_grp[6]:1
+The 7th Group info:
+m[7]:23
+k[7]:23
+n[7]:3
+size_per_grp[7]:10
+The 8th Group info:
+m[8]:24
+k[8]:24
+n[8]:3
+size_per_grp[8]:3
+The 9th Group info:
+m[9]:25
+k[9]:25
+n[9]:3
+size_per_grp[9]:5
+The 10th Group info:
+m[10]:26
+k[10]:26
+n[10]:3
+size_per_grp[10]:3
+The 11th Group info:
+m[11]:27
+k[11]:27
+n[11]:3
+size_per_grp[11]:7
+The 12th Group info:
+m[12]:28
+k[12]:28
+n[12]:3
+size_per_grp[12]:5
+The 13th Group info:
+m[13]:29
+k[13]:29
+n[13]:3
+size_per_grp[13]:6
+The 14th Group info:
+m[14]:30
+k[14]:30
+n[14]:3
+size_per_grp[14]:27
+The 15th Group info:
+m[15]:31
+k[15]:31
+n[15]:3
+size_per_grp[15]:34
+The 16th Group info:
+m[16]:32
+k[16]:32
+n[16]:3
+size_per_grp[16]:26
+The 17th Group info:
+m[17]:33
+k[17]:33
+n[17]:3
+size_per_grp[17]:34
+The 18th Group info:
+m[18]:34
+k[18]:34
+n[18]:3
+size_per_grp[18]:27
+The 19th Group info:
+m[19]:35
+k[19]:35
+n[19]:3
+size_per_grp[19]:26
+The 20th Group info:
+m[20]:36
+k[20]:36
+n[20]:3
+size_per_grp[20]:26
+The 21th Group info:
+m[21]:37
+k[21]:37
+n[21]:3
+size_per_grp[21]:21
+The 22th Group info:
+m[22]:38
+k[22]:38
+n[22]:3
+size_per_grp[22]:14
+The 23th Group info:
+m[23]:39
+k[23]:39
+n[23]:3
+size_per_grp[23]:5
+The 24th Group info:
+m[24]:40
+k[24]:40
+n[24]:3
+size_per_grp[24]:11
+The 25th Group info:
+m[25]:41
+k[25]:41
+n[25]:3
+size_per_grp[25]:7
+The 26th Group info:
+m[26]:42
+k[26]:42
+n[26]:3
+size_per_grp[26]:9
+The 27th Group info:
+m[27]:43
+k[27]:43
+n[27]:3
+size_per_grp[27]:17
+The 28th Group info:
+m[28]:44
+k[28]:44
+n[28]:3
+size_per_grp[28]:16
+The 29th Group info:
+m[29]:45
+k[29]:45
+n[29]:3
+size_per_grp[29]:4
+The 30th Group info:
+m[30]:46
+k[30]:46
+n[30]:3
+size_per_grp[30]:20
+The 31th Group info:
+m[31]:47
+k[31]:47
+n[31]:3
+size_per_grp[31]:5
+The 32th Group info:
+m[32]:48
+k[32]:48
+n[32]:3
+size_per_grp[32]:6
+The 33th Group info:
+m[33]:49
+k[33]:49
+n[33]:3
+size_per_grp[33]:7
+The 34th Group info:
+m[34]:50
+k[34]:50
+n[34]:3
+size_per_grp[34]:6
+The 35th Group info:
+m[35]:51
+k[35]:51
+n[35]:3
+size_per_grp[35]:1
+The 36th Group info:
+m[36]:52
+k[36]:52
+n[36]:3
+size_per_grp[36]:2
+The 37th Group info:
+m[37]:53
+k[37]:53
+n[37]:3
+size_per_grp[37]:1
+The 38th Group info:
+m[38]:54
+k[38]:54
+n[38]:3
+size_per_grp[38]:1
+The 39th Group info:
+m[39]:56
+k[39]:56
+n[39]:3
+size_per_grp[39]:1
+The 40th Group info:
+m[40]:57
+k[40]:57
+n[40]:3
+size_per_grp[40]:1
+-------------------------------
+0 : 29.791
+1 : 29.855
+2 : 29.858
+3 : 29.872
+4 : 29.894
+5 : 29.92
+6 : 29.92
+7 : 29.938
+8 : 29.941
+9 : 29.947
+10 : 29.959
+11 : 29.97
+12 : 30.008
+13 : 30.016
+14 : 30.019
+15 : 30.026
+16 : 30.026
+17 : 30.057
+18 : 30.063
+19 : 30.081
+20 : 30.088
+21 : 30.093
+22 : 30.108
+23 : 30.149
+24 : 30.152
+25 : 30.193
+26 : 30.289
+27 : 30.347
+28 : 30.356
+29 : 31.225
+30 : 31.254
+31 : 31.257
+32 : 31.289
+33 : 31.292
+34 : 31.296
+35 : 31.347
+36 : 31.352
+37 : 31.352
+38 : 31.354
+39 : 31.359
+40 : 31.365
+41 : 31.365
+42 : 31.372
+43 : 31.372
+44 : 31.379
+45 : 31.381
+46 : 31.381
+47 : 31.4
+48 : 31.406
+49 : 31.414
+50 : 31.426
+51 : 31.427
+52 : 31.434
+53 : 31.44
+54 : 31.443
+55 : 31.444
+56 : 31.462
+57 : 31.474
+58 : 31.487
+59 : 31.49
+60 : 31.492
+61 : 31.513
+62 : 31.523
+63 : 31.533
+64 : 31.552
+65 : 31.564
+66 : 31.569
+67 : 31.573
+68 : 31.578
+69 : 31.631
+70 : 31.689
+71 : 31.701
+72 : 31.898
+73 : 32.448
+74 : 32.472
+75 : 32.489
+76 : 32.519
+77 : 32.635
+78 : 32.965
+79 : 33.284
+80 : 34.022
+81 : 34.118
+82 : 34.143
+83 : 34.27
+84 : 34.331
+85 : 34.37
+86 : 34.395
+87 : 34.447
+88 : 34.542
+89 : 34.66
+90 : 34.813
+91 : 34.837
+92 : 35.23
+93 : 35.581
+94 : 35.817
+95 : 36.278
+96 : 36.59
+97 : 37.743
+98 : 47.584
+99 : 71.072
+--------------------------------
+cost(us):
+max:71.072
+index75:32.489
+median:31.42
+index25:30.193
+min:29.791
+The result of matrix multiplication is true!

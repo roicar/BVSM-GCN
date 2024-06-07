@@ -1,0 +1,2004 @@
+length of list_A:143
+The 0th SpMM starts running
+M: 32
+K: 32
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007712ms
+The 0th SpMM ends running
+The 1th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 1th SpMM ends running
+The 2th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0078208ms
+The 2th SpMM ends running
+The 3th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 3th SpMM ends running
+The 4th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00768ms
+The 4th SpMM ends running
+The 5th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 5th SpMM ends running
+The 6th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 6th SpMM ends running
+The 7th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 7th SpMM ends running
+The 8th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077344ms
+The 8th SpMM ends running
+The 9th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077376ms
+The 9th SpMM ends running
+The 10th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 10th SpMM ends running
+The 11th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007776ms
+The 11th SpMM ends running
+The 12th SpMM starts running
+M: 33
+K: 33
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 12th SpMM ends running
+The 13th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077024ms
+The 13th SpMM ends running
+The 14th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077216ms
+The 14th SpMM ends running
+The 15th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076928ms
+The 15th SpMM ends running
+The 16th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077152ms
+The 16th SpMM ends running
+The 17th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075968ms
+The 17th SpMM ends running
+The 18th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 18th SpMM ends running
+The 19th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0088064ms
+The 19th SpMM ends running
+The 20th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 20th SpMM ends running
+The 21th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007648ms
+The 21th SpMM ends running
+The 22th SpMM starts running
+M: 34
+K: 34
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077536ms
+The 22th SpMM ends running
+The 23th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 23th SpMM ends running
+The 24th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076832ms
+The 24th SpMM ends running
+The 25th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076ms
+The 25th SpMM ends running
+The 26th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075968ms
+The 26th SpMM ends running
+The 27th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077312ms
+The 27th SpMM ends running
+The 28th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007712ms
+The 28th SpMM ends running
+The 29th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077248ms
+The 29th SpMM ends running
+The 30th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 30th SpMM ends running
+The 31th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076ms
+The 31th SpMM ends running
+The 32th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077088ms
+The 32th SpMM ends running
+The 33th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 33th SpMM ends running
+The 34th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076768ms
+The 34th SpMM ends running
+The 35th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077696ms
+The 35th SpMM ends running
+The 36th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007728ms
+The 36th SpMM ends running
+The 37th SpMM starts running
+M: 35
+K: 35
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075808ms
+The 37th SpMM ends running
+The 38th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074912ms
+The 38th SpMM ends running
+The 39th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075616ms
+The 39th SpMM ends running
+The 40th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007376ms
+The 40th SpMM ends running
+The 41th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075264ms
+The 41th SpMM ends running
+The 42th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0073728ms
+The 42th SpMM ends running
+The 43th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074816ms
+The 43th SpMM ends running
+The 44th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007552ms
+The 44th SpMM ends running
+The 45th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074112ms
+The 45th SpMM ends running
+The 46th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075008ms
+The 46th SpMM ends running
+The 47th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007424ms
+The 47th SpMM ends running
+The 48th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075488ms
+The 48th SpMM ends running
+The 49th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074336ms
+The 49th SpMM ends running
+The 50th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075232ms
+The 50th SpMM ends running
+The 51th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074496ms
+The 51th SpMM ends running
+The 52th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074496ms
+The 52th SpMM ends running
+The 53th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075008ms
+The 53th SpMM ends running
+The 54th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074816ms
+The 54th SpMM ends running
+The 55th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007456ms
+The 55th SpMM ends running
+The 56th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074656ms
+The 56th SpMM ends running
+The 57th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074176ms
+The 57th SpMM ends running
+The 58th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0073888ms
+The 58th SpMM ends running
+The 59th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0073888ms
+The 59th SpMM ends running
+The 60th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074016ms
+The 60th SpMM ends running
+The 61th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074496ms
+The 61th SpMM ends running
+The 62th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0073984ms
+The 62th SpMM ends running
+The 63th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075328ms
+The 63th SpMM ends running
+The 64th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075328ms
+The 64th SpMM ends running
+The 65th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007424ms
+The 65th SpMM ends running
+The 66th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075008ms
+The 66th SpMM ends running
+The 67th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074272ms
+The 67th SpMM ends running
+The 68th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074016ms
+The 68th SpMM ends running
+The 69th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00744ms
+The 69th SpMM ends running
+The 70th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074336ms
+The 70th SpMM ends running
+The 71th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007392ms
+The 71th SpMM ends running
+The 72th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0128768ms
+The 72th SpMM ends running
+The 73th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007408ms
+The 73th SpMM ends running
+The 74th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00752ms
+The 74th SpMM ends running
+The 75th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074464ms
+The 75th SpMM ends running
+The 76th SpMM starts running
+M: 36
+K: 36
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074816ms
+The 76th SpMM ends running
+The 77th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076256ms
+The 77th SpMM ends running
+The 78th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077824ms
+The 78th SpMM ends running
+The 79th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 79th SpMM ends running
+The 80th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076288ms
+The 80th SpMM ends running
+The 81th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 81th SpMM ends running
+The 82th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075936ms
+The 82th SpMM ends running
+The 83th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076832ms
+The 83th SpMM ends running
+The 84th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077088ms
+The 84th SpMM ends running
+The 85th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076ms
+The 85th SpMM ends running
+The 86th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077376ms
+The 86th SpMM ends running
+The 87th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0074592ms
+The 87th SpMM ends running
+The 88th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 88th SpMM ends running
+The 89th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076096ms
+The 89th SpMM ends running
+The 90th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075968ms
+The 90th SpMM ends running
+The 91th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076576ms
+The 91th SpMM ends running
+The 92th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075616ms
+The 92th SpMM ends running
+The 93th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076544ms
+The 93th SpMM ends running
+The 94th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075904ms
+The 94th SpMM ends running
+The 95th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077696ms
+The 95th SpMM ends running
+The 96th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076192ms
+The 96th SpMM ends running
+The 97th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 97th SpMM ends running
+The 98th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076224ms
+The 98th SpMM ends running
+The 99th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077216ms
+The 99th SpMM ends running
+The 100th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 100th SpMM ends running
+The 101th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076928ms
+The 101th SpMM ends running
+The 102th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.00768ms
+The 102th SpMM ends running
+The 103th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077248ms
+The 103th SpMM ends running
+The 104th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076096ms
+The 104th SpMM ends running
+The 105th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075968ms
+The 105th SpMM ends running
+The 106th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 106th SpMM ends running
+The 107th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007584ms
+The 107th SpMM ends running
+The 108th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077184ms
+The 108th SpMM ends running
+The 109th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 109th SpMM ends running
+The 110th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076992ms
+The 110th SpMM ends running
+The 111th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075872ms
+The 111th SpMM ends running
+The 112th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075808ms
+The 112th SpMM ends running
+The 113th SpMM starts running
+M: 38
+K: 38
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075872ms
+The 113th SpMM ends running
+The 114th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077696ms
+The 114th SpMM ends running
+The 115th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077536ms
+The 115th SpMM ends running
+The 116th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076352ms
+The 116th SpMM ends running
+The 117th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007616ms
+The 117th SpMM ends running
+The 118th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077216ms
+The 118th SpMM ends running
+The 119th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.009216ms
+The 119th SpMM ends running
+The 120th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076288ms
+The 120th SpMM ends running
+The 121th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076256ms
+The 121th SpMM ends running
+The 122th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 122th SpMM ends running
+The 123th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076448ms
+The 123th SpMM ends running
+The 124th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007648ms
+The 124th SpMM ends running
+The 125th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007584ms
+The 125th SpMM ends running
+The 126th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077152ms
+The 126th SpMM ends running
+The 127th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076224ms
+The 127th SpMM ends running
+The 128th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077376ms
+The 128th SpMM ends running
+The 129th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 129th SpMM ends running
+The 130th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 130th SpMM ends running
+The 131th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076832ms
+The 131th SpMM ends running
+The 132th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076608ms
+The 132th SpMM ends running
+The 133th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076864ms
+The 133th SpMM ends running
+The 134th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076032ms
+The 134th SpMM ends running
+The 135th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0076032ms
+The 135th SpMM ends running
+The 136th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075776ms
+The 136th SpMM ends running
+The 137th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.007744ms
+The 137th SpMM ends running
+The 138th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077696ms
+The 138th SpMM ends running
+The 139th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075616ms
+The 139th SpMM ends running
+The 140th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0077152ms
+The 140th SpMM ends running
+The 141th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0075968ms
+The 141th SpMM ends running
+The 142th SpMM starts running
+M: 39
+K: 39
+N: 2
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is true!
+The compute cost is :0.0079392ms
+The 142th SpMM ends running
+total cost time is:1.09617ms

@@ -1,0 +1,82 @@
+length of list_A:10
+The 0th SpMM starts running
+M: 32
+K: 32
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0051072
+The 0th SpMM ends running
+The 1th SpMM starts running
+M: 32
+K: 32
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0049504
+The 1th SpMM ends running
+The 2th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.006096
+The 2th SpMM ends running
+The 3th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.006144
+The 3th SpMM ends running
+The 4th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0060256
+The 4th SpMM ends running
+The 5th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0060064
+The 5th SpMM ends running
+The 6th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.006016
+The 6th SpMM ends running
+The 7th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0061344
+The 7th SpMM ends running
+The 8th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.006144
+The 8th SpMM ends running
+The 9th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0061408
+The 9th SpMM ends running
+total cost time is:0.0587648

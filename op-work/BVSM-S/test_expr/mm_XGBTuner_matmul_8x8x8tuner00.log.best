@@ -1,0 +1,1 @@
+{"input": ["llvm -keys=cpu -mcpu=core-avx2", "mm", [8, 8, 8, "float32"], {}], "config": {"index": 209, "code_hash": null, "entity": [["tile_x", "sp", [-1, 1, 8]], ["tile_y", "sp", [-1, 1, 1]], ["tile_z", "sp", [-1, 4]]]}, "result": [[2.67e-08], 0, 0.2484729290008545, 1715156674.7088435], "version": 0.2, "tvm_version": "0.12.0"}

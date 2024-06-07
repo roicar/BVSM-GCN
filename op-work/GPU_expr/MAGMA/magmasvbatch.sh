@@ -1,0 +1,9 @@
+./magmasvbatch D1 | tee D1_magma.txt
+./magmasvbatch D2 | tee D2_magma.txt
+./magmasvbatch D3 | tee D3_magma.txt
+./magmasvbatch D4 | tee D4_magma.txt
+./magmasvbatch D5 | tee D5_magma.txt
+./magmasvbatch AIDS | tee AIDS_magma.txt
+./magmasvbatch BZR | tee BZR_magma.txt
+./magmasvbatch COX2 | tee COX2_magma.txt
+./magmasvbatch DHFR | tee DHFR_magma.txt

@@ -1,0 +1,2403 @@
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 0 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第0个GEMM 的计算时间为：0.001308.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 1 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第1个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 2 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第2个GEMM 的计算时间为：0.001309.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 3 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第3个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 4 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第4个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 5 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第5个GEMM 的计算时间为：0.001317.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 6 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第6个GEMM 的计算时间为：0.001321.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 7 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第7个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [10, 10]
+B = PLACEHOLDER [10, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 8 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第8个GEMM 的计算时间为：0.001309.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 9 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第9个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 10 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第10个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 11 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第11个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 12 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第12个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 13 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第13个GEMM 的计算时间为：0.001363.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 14 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第14个GEMM 的计算时间为：0.001365.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 15 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第15个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 16 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第16个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 17 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第17个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 18 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第18个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 19 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第19个GEMM 的计算时间为：0.001363.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 20 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第20个GEMM 的计算时间为：0.001365.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 21 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第21个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 22 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第22个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 23 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第23个GEMM 的计算时间为：0.001363.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 24 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第24个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 25 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第25个GEMM 的计算时间为：0.001366.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 26 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第26个GEMM 的计算时间为：0.001366.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 27 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第27个GEMM 的计算时间为：0.001366.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 28 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第28个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 29 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第29个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 30 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第30个GEMM 的计算时间为：0.001358.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 31 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第31个GEMM 的计算时间为：0.001364.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 32 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第32个GEMM 的计算时间为：0.001359.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 33 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第33个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 34 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第34个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 35 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第35个GEMM 的计算时间为：0.001375.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 36 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第36个GEMM 的计算时间为：0.001400.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 37 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第37个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 38 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第38个GEMM 的计算时间为：0.001356.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 39 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第39个GEMM 的计算时间为：0.001359.3 ms
+Computational DAG:
+A = PLACEHOLDER [11, 11]
+B = PLACEHOLDER [11, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 40 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第40个GEMM 的计算时间为：0.001410.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 41 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第41个GEMM 的计算时间为：0.001364.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 42 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第42个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 43 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第43个GEMM 的计算时间为：0.001338.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 44 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第44个GEMM 的计算时间为：0.001342.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 45 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第45个GEMM 的计算时间为：0.001340.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 46 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第46个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 47 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第47个GEMM 的计算时间为：0.001342.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 48 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第48个GEMM 的计算时间为：0.001340.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 49 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第49个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 50 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第50个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 51 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第51个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 52 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第52个GEMM 的计算时间为：0.001338.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 53 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第53个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 54 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第54个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 55 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第55个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 56 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第56个GEMM 的计算时间为：0.001340.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 57 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第57个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 58 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第58个GEMM 的计算时间为：0.001338.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 59 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第59个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 60 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第60个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 61 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第61个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 62 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第62个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 63 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第63个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 64 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第64个GEMM 的计算时间为：0.001340.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 65 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第65个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 66 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第66个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 67 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第67个GEMM 的计算时间为：0.001344.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 68 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第68个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 69 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第69个GEMM 的计算时间为：0.001349.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 70 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第70个GEMM 的计算时间为：0.001349.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 71 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第71个GEMM 的计算时间为：0.001350.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 72 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第72个GEMM 的计算时间为：0.001352.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 73 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第73个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 74 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第74个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 75 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第75个GEMM 的计算时间为：0.001317.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 76 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第76个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 77 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第77个GEMM 的计算时间为：0.001319.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 78 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第78个GEMM 的计算时间为：0.001320.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 79 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第79个GEMM 的计算时间为：0.001319.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 80 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第80个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 81 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第81个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 82 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第82个GEMM 的计算时间为：0.001333.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 83 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第83个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 84 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第84个GEMM 的计算时间为：0.001336.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 85 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第85个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 86 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第86个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 87 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第87个GEMM 的计算时间为：0.001338.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 88 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第88个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [12, 12]
+B = PLACEHOLDER [12, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 89 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第89个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 90 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第90个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 91 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第91个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 92 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第92个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 93 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第93个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 94 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第94个GEMM 的计算时间为：0.001359.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 95 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第95个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 96 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第96个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 97 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第97个GEMM 的计算时间为：0.001362.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 98 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第98个GEMM 的计算时间为：0.001363.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 99 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第99个GEMM 的计算时间为：0.001370.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 100 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第100个GEMM 的计算时间为：0.001454.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 101 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第101个GEMM 的计算时间为：0.001460.3 ms
+Computational DAG:
+A = PLACEHOLDER [13, 13]
+B = PLACEHOLDER [13, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 102 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第102个GEMM 的计算时间为：0.001396.3 ms
+Computational DAG:
+A = PLACEHOLDER [14, 14]
+B = PLACEHOLDER [14, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 103 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第103个GEMM 的计算时间为：0.001385.3 ms
+Computational DAG:
+A = PLACEHOLDER [14, 14]
+B = PLACEHOLDER [14, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 104 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第104个GEMM 的计算时间为：0.001364.3 ms
+Computational DAG:
+A = PLACEHOLDER [14, 14]
+B = PLACEHOLDER [14, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 105 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第105个GEMM 的计算时间为：0.001375.3 ms
+Computational DAG:
+A = PLACEHOLDER [14, 14]
+B = PLACEHOLDER [14, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 106 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第106个GEMM 的计算时间为：0.001360.3 ms
+Computational DAG:
+A = PLACEHOLDER [14, 14]
+B = PLACEHOLDER [14, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 107 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第107个GEMM 的计算时间为：0.001396.3 ms
+Computational DAG:
+A = PLACEHOLDER [14, 14]
+B = PLACEHOLDER [14, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 108 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第108个GEMM 的计算时间为：0.001439.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 109 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第109个GEMM 的计算时间为：0.001356.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 110 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第110个GEMM 的计算时间为：0.001351.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 111 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第111个GEMM 的计算时间为：0.001349.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 112 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第112个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 113 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第113个GEMM 的计算时间为：0.001355.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 114 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第114个GEMM 的计算时间为：0.001350.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 115 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第115个GEMM 的计算时间为：0.001353.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 116 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第116个GEMM 的计算时间为：0.001370.3 ms
+Computational DAG:
+A = PLACEHOLDER [1, 1]
+B = PLACEHOLDER [1, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 117 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第117个GEMM 的计算时间为：0.001347.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 118 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第118个GEMM 的计算时间为：0.001342.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 119 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第119个GEMM 的计算时间为：0.001347.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 120 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第120个GEMM 的计算时间为：0.001358.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 121 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第121个GEMM 的计算时间为：0.001353.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 122 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第122个GEMM 的计算时间为：0.001356.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 123 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第123个GEMM 的计算时间为：0.001354.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 124 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第124个GEMM 的计算时间为：0.001350.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 125 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第125个GEMM 的计算时间为：0.001351.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 126 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第126个GEMM 的计算时间为：0.001352.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 127 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第127个GEMM 的计算时间为：0.001352.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 128 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第128个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 129 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第129个GEMM 的计算时间为：0.001298.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 130 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第130个GEMM 的计算时间为：0.001354.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 131 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第131个GEMM 的计算时间为：0.001299.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 132 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第132个GEMM 的计算时间为：0.001300.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 133 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第133个GEMM 的计算时间为：0.001299.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 134 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第134个GEMM 的计算时间为：0.001297.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 135 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第135个GEMM 的计算时间为：0.001299.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 136 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第136个GEMM 的计算时间为：0.001297.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 137 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第137个GEMM 的计算时间为：0.001297.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 138 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第138个GEMM 的计算时间为：0.001298.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 139 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第139个GEMM 的计算时间为：0.001297.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 140 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第140个GEMM 的计算时间为：0.001299.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 141 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第141个GEMM 的计算时间为：0.001298.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 142 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第142个GEMM 的计算时间为：0.001299.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 143 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第143个GEMM 的计算时间为：0.001298.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 144 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第144个GEMM 的计算时间为：0.001296.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 145 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第145个GEMM 的计算时间为：0.001299.3 ms
+Computational DAG:
+A = PLACEHOLDER [2, 2]
+B = PLACEHOLDER [2, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 146 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第146个GEMM 的计算时间为：0.001372.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 147 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第147个GEMM 的计算时间为：0.001320.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 148 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第148个GEMM 的计算时间为：0.001308.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 149 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第149个GEMM 的计算时间为：0.001304.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 150 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第150个GEMM 的计算时间为：0.001305.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 151 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第151个GEMM 的计算时间为：0.001305.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 152 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第152个GEMM 的计算时间为：0.001305.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 153 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第153个GEMM 的计算时间为：0.001305.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 154 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第154个GEMM 的计算时间为：0.001305.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 155 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第155个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 156 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第156个GEMM 的计算时间为：0.001305.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 157 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第157个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [3, 3]
+B = PLACEHOLDER [3, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 158 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第158个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 159 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第159个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 160 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第160个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 161 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第161个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 162 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第162个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 163 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第163个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 164 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第164个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 165 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第165个GEMM 的计算时间为：0.001309.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 166 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第166个GEMM 的计算时间为：0.001308.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 167 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第167个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 168 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第168个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 169 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第169个GEMM 的计算时间为：0.001308.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 170 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第170个GEMM 的计算时间为：0.001308.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 171 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第171个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 172 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第172个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 173 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第173个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 174 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第174个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 175 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第175个GEMM 的计算时间为：0.001307.3 ms
+Computational DAG:
+A = PLACEHOLDER [4, 4]
+B = PLACEHOLDER [4, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 176 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第176个GEMM 的计算时间为：0.001306.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 177 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第177个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 178 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第178个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 179 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第179个GEMM 的计算时间为：0.001309.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 180 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第180个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 181 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第181个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 182 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第182个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 183 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第183个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 184 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第184个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 185 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第185个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 186 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第186个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 187 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第187个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 188 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第188个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 189 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第189个GEMM 的计算时间为：0.001309.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 190 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第190个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 191 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第191个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 192 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第192个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 193 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第193个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 194 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第194个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 195 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第195个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 196 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第196个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 197 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第197个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 198 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第198个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 199 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第199个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 200 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第200个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 201 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第201个GEMM 的计算时间为：0.001331.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 202 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第202个GEMM 的计算时间为：0.001326.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 203 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第203个GEMM 的计算时间为：0.001361.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 204 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第204个GEMM 的计算时间为：0.001355.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 205 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第205个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 206 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第206个GEMM 的计算时间为：0.001351.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 207 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第207个GEMM 的计算时间为：0.001349.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 208 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第208个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 209 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第209个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 210 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第210个GEMM 的计算时间为：0.001317.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 211 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第211个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 212 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第212个GEMM 的计算时间为：0.001318.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 213 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第213个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 214 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第214个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 215 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第215个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 216 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第216个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 217 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第217个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 218 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第218个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 219 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第219个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 220 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第220个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [5, 5]
+B = PLACEHOLDER [5, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 221 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第221个GEMM 的计算时间为：0.001316.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 222 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第222个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 223 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第223个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 224 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第224个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 225 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第225个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 226 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第226个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 227 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第227个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 228 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第228个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 229 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第229个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 230 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第230个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 231 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第231个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 232 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第232个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 233 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第233个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 234 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第234个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 235 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第235个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 236 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第236个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 237 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第237个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 238 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第238个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 239 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第239个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 240 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第240个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 241 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第241个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 242 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第242个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 243 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第243个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 244 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第244个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 245 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第245个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 246 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第246个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 247 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第247个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 248 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第248个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 249 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第249个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 250 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第250个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 251 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第251个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 252 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第252个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 253 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第253个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 254 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第254个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 255 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第255个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 256 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第256个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 257 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第257个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 258 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第258个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 259 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第259个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 260 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第260个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [6, 6]
+B = PLACEHOLDER [6, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 261 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第261个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [7, 7]
+B = PLACEHOLDER [7, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 262 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第262个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [7, 7]
+B = PLACEHOLDER [7, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 263 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第263个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 264 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第264个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 265 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第265个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 266 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第266个GEMM 的计算时间为：0.001343.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 267 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第267个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 268 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第268个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 269 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第269个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 270 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第270个GEMM 的计算时间为：0.001341.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 271 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第271个GEMM 的计算时间为：0.001343.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 272 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第272个GEMM 的计算时间为：0.001340.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 273 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第273个GEMM 的计算时间为：0.001342.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 274 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第274个GEMM 的计算时间为：0.001340.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 275 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第275个GEMM 的计算时间为：0.001338.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 276 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第276个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 277 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第277个GEMM 的计算时间为：0.001339.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 278 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第278个GEMM 的计算时间为：0.001337.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 279 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第279个GEMM 的计算时间为：0.001387.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 280 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第280个GEMM 的计算时间为：0.001359.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 281 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第281个GEMM 的计算时间为：0.001355.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 282 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第282个GEMM 的计算时间为：0.001357.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 283 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第283个GEMM 的计算时间为：0.001357.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 284 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第284个GEMM 的计算时间为：0.001357.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 285 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第285个GEMM 的计算时间为：0.001356.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 286 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第286个GEMM 的计算时间为：0.001357.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 287 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第287个GEMM 的计算时间为：0.001359.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 288 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第288个GEMM 的计算时间为：0.001358.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 289 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第289个GEMM 的计算时间为：0.001356.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 290 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第290个GEMM 的计算时间为：0.001366.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 291 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第291个GEMM 的计算时间为：0.001359.3 ms
+Computational DAG:
+A = PLACEHOLDER [8, 8]
+B = PLACEHOLDER [8, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 292 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第292个GEMM 的计算时间为：0.001358.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 293 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第293个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 294 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第294个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 295 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第295个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 296 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第296个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 297 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第297个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 298 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第298个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 299 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第299个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 300 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第300个GEMM 的计算时间为：0.001319.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 301 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第301个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 302 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第302个GEMM 的计算时间为：0.001317.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 303 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第303个GEMM 的计算时间为：0.001318.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 304 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第304个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 305 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第305个GEMM 的计算时间为：0.001319.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 306 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第306个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 307 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第307个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 308 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第308个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 309 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第309个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 310 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第310个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 311 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第311个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 312 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第312个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 313 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第313个GEMM 的计算时间为：0.001310.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 314 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第314个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 315 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第315个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 316 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第316个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 317 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第317个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 318 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第318个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 319 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第319个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 320 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第320个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 321 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第321个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 322 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第322个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 323 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第323个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 324 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第324个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 325 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第325个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 326 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第326个GEMM 的计算时间为：0.001315.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 327 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第327个GEMM 的计算时间为：0.001314.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 328 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第328个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 329 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第329个GEMM 的计算时间为：0.001311.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 330 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第330个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 331 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第331个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 332 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第332个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 333 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第333个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 334 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第334个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 335 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第335个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 336 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第336个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 337 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第337个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 338 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第338个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 339 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第339个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 340 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第340个GEMM 的计算时间为：0.001312.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 341 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第341个GEMM 的计算时间为：0.001313.3 ms
+Computational DAG:
+A = PLACEHOLDER [9, 9]
+B = PLACEHOLDER [9, 6]
+C(i, j) += (A[i, k]*B[k, j])
+
+D3 的第 342 个维度GEMM 的调优时间（已重复）为：0.000000.3 s
+D3 的第342个GEMM 的计算时间为：0.001312.3 ms
+D3的Ansor顺序计算的时间是: 0.456249.3 (ms)
+D3的Ansor顺序调优的时间是: 0.000000.3 (s)

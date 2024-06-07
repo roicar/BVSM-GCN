@@ -1,0 +1,473 @@
+8x8x8
+Numpy running time: 0.000001
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        out_1[0] = T.float32(0)
+        out_1[1] = T.float32(0)
+        out_1[2] = T.float32(0)
+        out_1[3] = T.float32(0)
+        out_1[4] = T.float32(0)
+        out_1[5] = T.float32(0)
+        out_1[6] = T.float32(0)
+        out_1[7] = T.float32(0)
+        out_1[8] = T.float32(0)
+        out_1[9] = T.float32(0)
+        out_1[10] = T.float32(0)
+        out_1[11] = T.float32(0)
+        out_1[12] = T.float32(0)
+        out_1[13] = T.float32(0)
+        out_1[14] = T.float32(0)
+        out_1[15] = T.float32(0)
+        out_1[16] = T.float32(0)
+        out_1[17] = T.float32(0)
+        out_1[18] = T.float32(0)
+        out_1[19] = T.float32(0)
+        out_1[20] = T.float32(0)
+        out_1[21] = T.float32(0)
+        out_1[22] = T.float32(0)
+        out_1[23] = T.float32(0)
+        out_1[24] = T.float32(0)
+        out_1[25] = T.float32(0)
+        out_1[26] = T.float32(0)
+        out_1[27] = T.float32(0)
+        out_1[28] = T.float32(0)
+        out_1[29] = T.float32(0)
+        out_1[30] = T.float32(0)
+        out_1[31] = T.float32(0)
+        out_1[32] = T.float32(0)
+        out_1[33] = T.float32(0)
+        out_1[34] = T.float32(0)
+        out_1[35] = T.float32(0)
+        out_1[36] = T.float32(0)
+        out_1[37] = T.float32(0)
+        out_1[38] = T.float32(0)
+        out_1[39] = T.float32(0)
+        out_1[40] = T.float32(0)
+        out_1[41] = T.float32(0)
+        out_1[42] = T.float32(0)
+        out_1[43] = T.float32(0)
+        out_1[44] = T.float32(0)
+        out_1[45] = T.float32(0)
+        out_1[46] = T.float32(0)
+        out_1[47] = T.float32(0)
+        out_1[48] = T.float32(0)
+        out_1[49] = T.float32(0)
+        out_1[50] = T.float32(0)
+        out_1[51] = T.float32(0)
+        out_1[52] = T.float32(0)
+        out_1[53] = T.float32(0)
+        out_1[54] = T.float32(0)
+        out_1[55] = T.float32(0)
+        out_1[56] = T.float32(0)
+        out_1[57] = T.float32(0)
+        out_1[58] = T.float32(0)
+        out_1[59] = T.float32(0)
+        out_1[60] = T.float32(0)
+        out_1[61] = T.float32(0)
+        out_1[62] = T.float32(0)
+        out_1[63] = T.float32(0)
+        for k_outer in range(8):
+            cse_var_15: T.int32 = k_outer * 8
+            cse_var_14: T.int32 = k_outer + 8
+            cse_var_13: T.int32 = k_outer + 56
+            cse_var_12: T.int32 = k_outer + 48
+            cse_var_11: T.int32 = k_outer + 40
+            cse_var_10: T.int32 = k_outer + 32
+            cse_var_9: T.int32 = k_outer + 24
+            cse_var_8: T.int32 = k_outer + 16
+            cse_var_7: T.int32 = cse_var_15 + 7
+            cse_var_6: T.int32 = cse_var_15 + 6
+            cse_var_5: T.int32 = cse_var_15 + 5
+            cse_var_4: T.int32 = cse_var_15 + 4
+            cse_var_3: T.int32 = cse_var_15 + 3
+            cse_var_2: T.int32 = cse_var_15 + 2
+            cse_var_1: T.int32 = cse_var_15 + 1
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[0] = out_1[0] + data_1[k_outer] * weight_1[cse_var_15]
+            out_1[1] = out_1[1] + data_1[k_outer] * weight_1[cse_var_1]
+            out_1[2] = out_1[2] + data_1[k_outer] * weight_1[cse_var_2]
+            out_1[3] = out_1[3] + data_1[k_outer] * weight_1[cse_var_3]
+            out_1[4] = out_1[4] + data_1[k_outer] * weight_1[cse_var_4]
+            out_1[5] = out_1[5] + data_1[k_outer] * weight_1[cse_var_5]
+            out_1[6] = out_1[6] + data_1[k_outer] * weight_1[cse_var_6]
+            out_1[7] = out_1[7] + data_1[k_outer] * weight_1[cse_var_7]
+            out_1[8] = out_1[8] + data_1[cse_var_14] * weight_1[cse_var_15]
+            out_1[9] = out_1[9] + data_1[cse_var_14] * weight_1[cse_var_1]
+            out_1[10] = out_1[10] + data_1[cse_var_14] * weight_1[cse_var_2]
+            out_1[11] = out_1[11] + data_1[cse_var_14] * weight_1[cse_var_3]
+            out_1[12] = out_1[12] + data_1[cse_var_14] * weight_1[cse_var_4]
+            out_1[13] = out_1[13] + data_1[cse_var_14] * weight_1[cse_var_5]
+            out_1[14] = out_1[14] + data_1[cse_var_14] * weight_1[cse_var_6]
+            out_1[15] = out_1[15] + data_1[cse_var_14] * weight_1[cse_var_7]
+            out_1[16] = out_1[16] + data_1[cse_var_8] * weight_1[cse_var_15]
+            out_1[17] = out_1[17] + data_1[cse_var_8] * weight_1[cse_var_1]
+            out_1[18] = out_1[18] + data_1[cse_var_8] * weight_1[cse_var_2]
+            out_1[19] = out_1[19] + data_1[cse_var_8] * weight_1[cse_var_3]
+            out_1[20] = out_1[20] + data_1[cse_var_8] * weight_1[cse_var_4]
+            out_1[21] = out_1[21] + data_1[cse_var_8] * weight_1[cse_var_5]
+            out_1[22] = out_1[22] + data_1[cse_var_8] * weight_1[cse_var_6]
+            out_1[23] = out_1[23] + data_1[cse_var_8] * weight_1[cse_var_7]
+            out_1[24] = out_1[24] + data_1[cse_var_9] * weight_1[cse_var_15]
+            out_1[25] = out_1[25] + data_1[cse_var_9] * weight_1[cse_var_1]
+            out_1[26] = out_1[26] + data_1[cse_var_9] * weight_1[cse_var_2]
+            out_1[27] = out_1[27] + data_1[cse_var_9] * weight_1[cse_var_3]
+            out_1[28] = out_1[28] + data_1[cse_var_9] * weight_1[cse_var_4]
+            out_1[29] = out_1[29] + data_1[cse_var_9] * weight_1[cse_var_5]
+            out_1[30] = out_1[30] + data_1[cse_var_9] * weight_1[cse_var_6]
+            out_1[31] = out_1[31] + data_1[cse_var_9] * weight_1[cse_var_7]
+            out_1[32] = out_1[32] + data_1[cse_var_10] * weight_1[cse_var_15]
+            out_1[33] = out_1[33] + data_1[cse_var_10] * weight_1[cse_var_1]
+            out_1[34] = out_1[34] + data_1[cse_var_10] * weight_1[cse_var_2]
+            out_1[35] = out_1[35] + data_1[cse_var_10] * weight_1[cse_var_3]
+            out_1[36] = out_1[36] + data_1[cse_var_10] * weight_1[cse_var_4]
+            out_1[37] = out_1[37] + data_1[cse_var_10] * weight_1[cse_var_5]
+            out_1[38] = out_1[38] + data_1[cse_var_10] * weight_1[cse_var_6]
+            out_1[39] = out_1[39] + data_1[cse_var_10] * weight_1[cse_var_7]
+            out_1[40] = out_1[40] + data_1[cse_var_11] * weight_1[cse_var_15]
+            out_1[41] = out_1[41] + data_1[cse_var_11] * weight_1[cse_var_1]
+            out_1[42] = out_1[42] + data_1[cse_var_11] * weight_1[cse_var_2]
+            out_1[43] = out_1[43] + data_1[cse_var_11] * weight_1[cse_var_3]
+            out_1[44] = out_1[44] + data_1[cse_var_11] * weight_1[cse_var_4]
+            out_1[45] = out_1[45] + data_1[cse_var_11] * weight_1[cse_var_5]
+            out_1[46] = out_1[46] + data_1[cse_var_11] * weight_1[cse_var_6]
+            out_1[47] = out_1[47] + data_1[cse_var_11] * weight_1[cse_var_7]
+            out_1[48] = out_1[48] + data_1[cse_var_12] * weight_1[cse_var_15]
+            out_1[49] = out_1[49] + data_1[cse_var_12] * weight_1[cse_var_1]
+            out_1[50] = out_1[50] + data_1[cse_var_12] * weight_1[cse_var_2]
+            out_1[51] = out_1[51] + data_1[cse_var_12] * weight_1[cse_var_3]
+            out_1[52] = out_1[52] + data_1[cse_var_12] * weight_1[cse_var_4]
+            out_1[53] = out_1[53] + data_1[cse_var_12] * weight_1[cse_var_5]
+            out_1[54] = out_1[54] + data_1[cse_var_12] * weight_1[cse_var_6]
+            out_1[55] = out_1[55] + data_1[cse_var_12] * weight_1[cse_var_7]
+            out_1[56] = out_1[56] + data_1[cse_var_13] * weight_1[cse_var_15]
+            out_1[57] = out_1[57] + data_1[cse_var_13] * weight_1[cse_var_1]
+            out_1[58] = out_1[58] + data_1[cse_var_13] * weight_1[cse_var_2]
+            out_1[59] = out_1[59] + data_1[cse_var_13] * weight_1[cse_var_3]
+            out_1[60] = out_1[60] + data_1[cse_var_13] * weight_1[cse_var_4]
+            out_1[61] = out_1[61] + data_1[cse_var_13] * weight_1[cse_var_5]
+            out_1[62] = out_1[62] + data_1[cse_var_13] * weight_1[cse_var_6]
+            out_1[63] = out_1[63] + data_1[cse_var_13] * weight_1[cse_var_7]
+ Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1) | 0.00 sLowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        out_1[0] = T.float32(0)
+        out_1[1] = T.float32(0)
+        out_1[2] = T.float32(0)
+        out_1[3] = T.float32(0)
+        out_1[4] = T.float32(0)
+        out_1[5] = T.float32(0)
+        out_1[6] = T.float32(0)
+        out_1[7] = T.float32(0)
+        out_1[8] = T.float32(0)
+        out_1[9] = T.float32(0)
+        out_1[10] = T.float32(0)
+        out_1[11] = T.float32(0)
+        out_1[12] = T.float32(0)
+        out_1[13] = T.float32(0)
+        out_1[14] = T.float32(0)
+        out_1[15] = T.float32(0)
+        out_1[16] = T.float32(0)
+        out_1[17] = T.float32(0)
+        out_1[18] = T.float32(0)
+        out_1[19] = T.float32(0)
+        out_1[20] = T.float32(0)
+        out_1[21] = T.float32(0)
+        out_1[22] = T.float32(0)
+        out_1[23] = T.float32(0)
+        out_1[24] = T.float32(0)
+        out_1[25] = T.float32(0)
+        out_1[26] = T.float32(0)
+        out_1[27] = T.float32(0)
+        out_1[28] = T.float32(0)
+        out_1[29] = T.float32(0)
+        out_1[30] = T.float32(0)
+        out_1[31] = T.float32(0)
+        out_1[32] = T.float32(0)
+        out_1[33] = T.float32(0)
+        out_1[34] = T.float32(0)
+        out_1[35] = T.float32(0)
+        out_1[36] = T.float32(0)
+        out_1[37] = T.float32(0)
+        out_1[38] = T.float32(0)
+        out_1[39] = T.float32(0)
+        out_1[40] = T.float32(0)
+        out_1[41] = T.float32(0)
+        out_1[42] = T.float32(0)
+        out_1[43] = T.float32(0)
+        out_1[44] = T.float32(0)
+        out_1[45] = T.float32(0)
+        out_1[46] = T.float32(0)
+        out_1[47] = T.float32(0)
+        out_1[48] = T.float32(0)
+        out_1[49] = T.float32(0)
+        out_1[50] = T.float32(0)
+        out_1[51] = T.float32(0)
+        out_1[52] = T.float32(0)
+        out_1[53] = T.float32(0)
+        out_1[54] = T.float32(0)
+        out_1[55] = T.float32(0)
+        out_1[56] = T.float32(0)
+        out_1[57] = T.float32(0)
+        out_1[58] = T.float32(0)
+        out_1[59] = T.float32(0)
+        out_1[60] = T.float32(0)
+        out_1[61] = T.float32(0)
+        out_1[62] = T.float32(0)
+        out_1[63] = T.float32(0)
+        for k_outer in range(8):
+            cse_var_15: T.int32 = k_outer * 8
+            cse_var_14: T.int32 = k_outer + 8
+            cse_var_13: T.int32 = k_outer + 56
+            cse_var_12: T.int32 = k_outer + 48
+            cse_var_11: T.int32 = k_outer + 40
+            cse_var_10: T.int32 = k_outer + 32
+            cse_var_9: T.int32 = k_outer + 24
+            cse_var_8: T.int32 = k_outer + 16
+            cse_var_7: T.int32 = cse_var_15 + 7
+            cse_var_6: T.int32 = cse_var_15 + 6
+            cse_var_5: T.int32 = cse_var_15 + 5
+            cse_var_4: T.int32 = cse_var_15 + 4
+            cse_var_3: T.int32 = cse_var_15 + 3
+            cse_var_2: T.int32 = cse_var_15 + 2
+            cse_var_1: T.int32 = cse_var_15 + 1
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[0] = out_1[0] + data_1[k_outer] * weight_1[cse_var_15]
+            out_1[1] = out_1[1] + data_1[k_outer] * weight_1[cse_var_1]
+            out_1[2] = out_1[2] + data_1[k_outer] * weight_1[cse_var_2]
+            out_1[3] = out_1[3] + data_1[k_outer] * weight_1[cse_var_3]
+            out_1[4] = out_1[4] + data_1[k_outer] * weight_1[cse_var_4]
+            out_1[5] = out_1[5] + data_1[k_outer] * weight_1[cse_var_5]
+            out_1[6] = out_1[6] + data_1[k_outer] * weight_1[cse_var_6]
+            out_1[7] = out_1[7] + data_1[k_outer] * weight_1[cse_var_7]
+            out_1[8] = out_1[8] + data_1[cse_var_14] * weight_1[cse_var_15]
+            out_1[9] = out_1[9] + data_1[cse_var_14] * weight_1[cse_var_1]
+            out_1[10] = out_1[10] + data_1[cse_var_14] * weight_1[cse_var_2]
+            out_1[11] = out_1[11] + data_1[cse_var_14] * weight_1[cse_var_3]
+            out_1[12] = out_1[12] + data_1[cse_var_14] * weight_1[cse_var_4]
+            out_1[13] = out_1[13] + data_1[cse_var_14] * weight_1[cse_var_5]
+            out_1[14] = out_1[14] + data_1[cse_var_14] * weight_1[cse_var_6]
+            out_1[15] = out_1[15] + data_1[cse_var_14] * weight_1[cse_var_7]
+            out_1[16] = out_1[16] + data_1[cse_var_8] * weight_1[cse_var_15]
+            out_1[17] = out_1[17] + data_1[cse_var_8] * weight_1[cse_var_1]
+            out_1[18] = out_1[18] + data_1[cse_var_8] * weight_1[cse_var_2]
+            out_1[19] = out_1[19] + data_1[cse_var_8] * weight_1[cse_var_3]
+            out_1[20] = out_1[20] + data_1[cse_var_8] * weight_1[cse_var_4]
+            out_1[21] = out_1[21] + data_1[cse_var_8] * weight_1[cse_var_5]
+            out_1[22] = out_1[22] + data_1[cse_var_8] * weight_1[cse_var_6]
+            out_1[23] = out_1[23] + data_1[cse_var_8] * weight_1[cse_var_7]
+            out_1[24] = out_1[24] + data_1[cse_var_9] * weight_1[cse_var_15]
+            out_1[25] = out_1[25] + data_1[cse_var_9] * weight_1[cse_var_1]
+            out_1[26] = out_1[26] + data_1[cse_var_9] * weight_1[cse_var_2]
+            out_1[27] = out_1[27] + data_1[cse_var_9] * weight_1[cse_var_3]
+            out_1[28] = out_1[28] + data_1[cse_var_9] * weight_1[cse_var_4]
+            out_1[29] = out_1[29] + data_1[cse_var_9] * weight_1[cse_var_5]
+            out_1[30] = out_1[30] + data_1[cse_var_9] * weight_1[cse_var_6]
+            out_1[31] = out_1[31] + data_1[cse_var_9] * weight_1[cse_var_7]
+            out_1[32] = out_1[32] + data_1[cse_var_10] * weight_1[cse_var_15]
+            out_1[33] = out_1[33] + data_1[cse_var_10] * weight_1[cse_var_1]
+            out_1[34] = out_1[34] + data_1[cse_var_10] * weight_1[cse_var_2]
+            out_1[35] = out_1[35] + data_1[cse_var_10] * weight_1[cse_var_3]
+            out_1[36] = out_1[36] + data_1[cse_var_10] * weight_1[cse_var_4]
+            out_1[37] = out_1[37] + data_1[cse_var_10] * weight_1[cse_var_5]
+            out_1[38] = out_1[38] + data_1[cse_var_10] * weight_1[cse_var_6]
+            out_1[39] = out_1[39] + data_1[cse_var_10] * weight_1[cse_var_7]
+            out_1[40] = out_1[40] + data_1[cse_var_11] * weight_1[cse_var_15]
+            out_1[41] = out_1[41] + data_1[cse_var_11] * weight_1[cse_var_1]
+            out_1[42] = out_1[42] + data_1[cse_var_11] * weight_1[cse_var_2]
+            out_1[43] = out_1[43] + data_1[cse_var_11] * weight_1[cse_var_3]
+            out_1[44] = out_1[44] + data_1[cse_var_11] * weight_1[cse_var_4]
+            out_1[45] = out_1[45] + data_1[cse_var_11] * weight_1[cse_var_5]
+            out_1[46] = out_1[46] + data_1[cse_var_11] * weight_1[cse_var_6]
+            out_1[47] = out_1[47] + data_1[cse_var_11] * weight_1[cse_var_7]
+            out_1[48] = out_1[48] + data_1[cse_var_12] * weight_1[cse_var_15]
+            out_1[49] = out_1[49] + data_1[cse_var_12] * weight_1[cse_var_1]
+            out_1[50] = out_1[50] + data_1[cse_var_12] * weight_1[cse_var_2]
+            out_1[51] = out_1[51] + data_1[cse_var_12] * weight_1[cse_var_3]
+            out_1[52] = out_1[52] + data_1[cse_var_12] * weight_1[cse_var_4]
+            out_1[53] = out_1[53] + data_1[cse_var_12] * weight_1[cse_var_5]
+            out_1[54] = out_1[54] + data_1[cse_var_12] * weight_1[cse_var_6]
+            out_1[55] = out_1[55] + data_1[cse_var_12] * weight_1[cse_var_7]
+            out_1[56] = out_1[56] + data_1[cse_var_13] * weight_1[cse_var_15]
+            out_1[57] = out_1[57] + data_1[cse_var_13] * weight_1[cse_var_1]
+            out_1[58] = out_1[58] + data_1[cse_var_13] * weight_1[cse_var_2]
+            out_1[59] = out_1[59] + data_1[cse_var_13] * weight_1[cse_var_3]
+            out_1[60] = out_1[60] + data_1[cse_var_13] * weight_1[cse_var_4]
+            out_1[61] = out_1[61] + data_1[cse_var_13] * weight_1[cse_var_5]
+            out_1[62] = out_1[62] + data_1[cse_var_13] * weight_1[cse_var_6]
+            out_1[63] = out_1[63] + data_1[cse_var_13] * weight_1[cse_var_7] Current/Best:   32.93/  32.93 GFLOPS | Progress: (1/1) | 2.16 s Done.
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        out_1[0] = T.float32(0)
+        out_1[1] = T.float32(0)
+        out_1[2] = T.float32(0)
+        out_1[3] = T.float32(0)
+        out_1[4] = T.float32(0)
+        out_1[5] = T.float32(0)
+        out_1[6] = T.float32(0)
+        out_1[7] = T.float32(0)
+        out_1[8] = T.float32(0)
+        out_1[9] = T.float32(0)
+        out_1[10] = T.float32(0)
+        out_1[11] = T.float32(0)
+        out_1[12] = T.float32(0)
+        out_1[13] = T.float32(0)
+        out_1[14] = T.float32(0)
+        out_1[15] = T.float32(0)
+        out_1[16] = T.float32(0)
+        out_1[17] = T.float32(0)
+        out_1[18] = T.float32(0)
+        out_1[19] = T.float32(0)
+        out_1[20] = T.float32(0)
+        out_1[21] = T.float32(0)
+        out_1[22] = T.float32(0)
+        out_1[23] = T.float32(0)
+        out_1[24] = T.float32(0)
+        out_1[25] = T.float32(0)
+        out_1[26] = T.float32(0)
+        out_1[27] = T.float32(0)
+        out_1[28] = T.float32(0)
+        out_1[29] = T.float32(0)
+        out_1[30] = T.float32(0)
+        out_1[31] = T.float32(0)
+        out_1[32] = T.float32(0)
+        out_1[33] = T.float32(0)
+        out_1[34] = T.float32(0)
+        out_1[35] = T.float32(0)
+        out_1[36] = T.float32(0)
+        out_1[37] = T.float32(0)
+        out_1[38] = T.float32(0)
+        out_1[39] = T.float32(0)
+        out_1[40] = T.float32(0)
+        out_1[41] = T.float32(0)
+        out_1[42] = T.float32(0)
+        out_1[43] = T.float32(0)
+        out_1[44] = T.float32(0)
+        out_1[45] = T.float32(0)
+        out_1[46] = T.float32(0)
+        out_1[47] = T.float32(0)
+        out_1[48] = T.float32(0)
+        out_1[49] = T.float32(0)
+        out_1[50] = T.float32(0)
+        out_1[51] = T.float32(0)
+        out_1[52] = T.float32(0)
+        out_1[53] = T.float32(0)
+        out_1[54] = T.float32(0)
+        out_1[55] = T.float32(0)
+        out_1[56] = T.float32(0)
+        out_1[57] = T.float32(0)
+        out_1[58] = T.float32(0)
+        out_1[59] = T.float32(0)
+        out_1[60] = T.float32(0)
+        out_1[61] = T.float32(0)
+        out_1[62] = T.float32(0)
+        out_1[63] = T.float32(0)
+        for k_outer in range(8):
+            cse_var_15: T.int32 = k_outer * 8
+            cse_var_14: T.int32 = k_outer + 8
+            cse_var_13: T.int32 = k_outer + 56
+            cse_var_12: T.int32 = k_outer + 48
+            cse_var_11: T.int32 = k_outer + 40
+            cse_var_10: T.int32 = k_outer + 32
+            cse_var_9: T.int32 = k_outer + 24
+            cse_var_8: T.int32 = k_outer + 16
+            cse_var_7: T.int32 = cse_var_15 + 7
+            cse_var_6: T.int32 = cse_var_15 + 6
+            cse_var_5: T.int32 = cse_var_15 + 5
+            cse_var_4: T.int32 = cse_var_15 + 4
+            cse_var_3: T.int32 = cse_var_15 + 3
+            cse_var_2: T.int32 = cse_var_15 + 2
+            cse_var_1: T.int32 = cse_var_15 + 1
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[0] = out_1[0] + data_1[k_outer] * weight_1[cse_var_15]
+            out_1[1] = out_1[1] + data_1[k_outer] * weight_1[cse_var_1]
+            out_1[2] = out_1[2] + data_1[k_outer] * weight_1[cse_var_2]
+            out_1[3] = out_1[3] + data_1[k_outer] * weight_1[cse_var_3]
+            out_1[4] = out_1[4] + data_1[k_outer] * weight_1[cse_var_4]
+            out_1[5] = out_1[5] + data_1[k_outer] * weight_1[cse_var_5]
+            out_1[6] = out_1[6] + data_1[k_outer] * weight_1[cse_var_6]
+            out_1[7] = out_1[7] + data_1[k_outer] * weight_1[cse_var_7]
+            out_1[8] = out_1[8] + data_1[cse_var_14] * weight_1[cse_var_15]
+            out_1[9] = out_1[9] + data_1[cse_var_14] * weight_1[cse_var_1]
+            out_1[10] = out_1[10] + data_1[cse_var_14] * weight_1[cse_var_2]
+            out_1[11] = out_1[11] + data_1[cse_var_14] * weight_1[cse_var_3]
+            out_1[12] = out_1[12] + data_1[cse_var_14] * weight_1[cse_var_4]
+            out_1[13] = out_1[13] + data_1[cse_var_14] * weight_1[cse_var_5]
+            out_1[14] = out_1[14] + data_1[cse_var_14] * weight_1[cse_var_6]
+            out_1[15] = out_1[15] + data_1[cse_var_14] * weight_1[cse_var_7]
+            out_1[16] = out_1[16] + data_1[cse_var_8] * weight_1[cse_var_15]
+            out_1[17] = out_1[17] + data_1[cse_var_8] * weight_1[cse_var_1]
+            out_1[18] = out_1[18] + data_1[cse_var_8] * weight_1[cse_var_2]
+            out_1[19] = out_1[19] + data_1[cse_var_8] * weight_1[cse_var_3]
+            out_1[20] = out_1[20] + data_1[cse_var_8] * weight_1[cse_var_4]
+            out_1[21] = out_1[21] + data_1[cse_var_8] * weight_1[cse_var_5]
+            out_1[22] = out_1[22] + data_1[cse_var_8] * weight_1[cse_var_6]
+            out_1[23] = out_1[23] + data_1[cse_var_8] * weight_1[cse_var_7]
+            out_1[24] = out_1[24] + data_1[cse_var_9] * weight_1[cse_var_15]
+            out_1[25] = out_1[25] + data_1[cse_var_9] * weight_1[cse_var_1]
+            out_1[26] = out_1[26] + data_1[cse_var_9] * weight_1[cse_var_2]
+            out_1[27] = out_1[27] + data_1[cse_var_9] * weight_1[cse_var_3]
+            out_1[28] = out_1[28] + data_1[cse_var_9] * weight_1[cse_var_4]
+            out_1[29] = out_1[29] + data_1[cse_var_9] * weight_1[cse_var_5]
+            out_1[30] = out_1[30] + data_1[cse_var_9] * weight_1[cse_var_6]
+            out_1[31] = out_1[31] + data_1[cse_var_9] * weight_1[cse_var_7]
+            out_1[32] = out_1[32] + data_1[cse_var_10] * weight_1[cse_var_15]
+            out_1[33] = out_1[33] + data_1[cse_var_10] * weight_1[cse_var_1]
+            out_1[34] = out_1[34] + data_1[cse_var_10] * weight_1[cse_var_2]
+            out_1[35] = out_1[35] + data_1[cse_var_10] * weight_1[cse_var_3]
+            out_1[36] = out_1[36] + data_1[cse_var_10] * weight_1[cse_var_4]
+            out_1[37] = out_1[37] + data_1[cse_var_10] * weight_1[cse_var_5]
+            out_1[38] = out_1[38] + data_1[cse_var_10] * weight_1[cse_var_6]
+            out_1[39] = out_1[39] + data_1[cse_var_10] * weight_1[cse_var_7]
+            out_1[40] = out_1[40] + data_1[cse_var_11] * weight_1[cse_var_15]
+            out_1[41] = out_1[41] + data_1[cse_var_11] * weight_1[cse_var_1]
+            out_1[42] = out_1[42] + data_1[cse_var_11] * weight_1[cse_var_2]
+            out_1[43] = out_1[43] + data_1[cse_var_11] * weight_1[cse_var_3]
+            out_1[44] = out_1[44] + data_1[cse_var_11] * weight_1[cse_var_4]
+            out_1[45] = out_1[45] + data_1[cse_var_11] * weight_1[cse_var_5]
+            out_1[46] = out_1[46] + data_1[cse_var_11] * weight_1[cse_var_6]
+            out_1[47] = out_1[47] + data_1[cse_var_11] * weight_1[cse_var_7]
+            out_1[48] = out_1[48] + data_1[cse_var_12] * weight_1[cse_var_15]
+            out_1[49] = out_1[49] + data_1[cse_var_12] * weight_1[cse_var_1]
+            out_1[50] = out_1[50] + data_1[cse_var_12] * weight_1[cse_var_2]
+            out_1[51] = out_1[51] + data_1[cse_var_12] * weight_1[cse_var_3]
+            out_1[52] = out_1[52] + data_1[cse_var_12] * weight_1[cse_var_4]
+            out_1[53] = out_1[53] + data_1[cse_var_12] * weight_1[cse_var_5]
+            out_1[54] = out_1[54] + data_1[cse_var_12] * weight_1[cse_var_6]
+            out_1[55] = out_1[55] + data_1[cse_var_12] * weight_1[cse_var_7]
+            out_1[56] = out_1[56] + data_1[cse_var_13] * weight_1[cse_var_15]
+            out_1[57] = out_1[57] + data_1[cse_var_13] * weight_1[cse_var_1]
+            out_1[58] = out_1[58] + data_1[cse_var_13] * weight_1[cse_var_2]
+            out_1[59] = out_1[59] + data_1[cse_var_13] * weight_1[cse_var_3]
+            out_1[60] = out_1[60] + data_1[cse_var_13] * weight_1[cse_var_4]
+            out_1[61] = out_1[61] + data_1[cse_var_13] * weight_1[cse_var_5]
+            out_1[62] = out_1[62] + data_1[cse_var_13] * weight_1[cse_var_6]
+            out_1[63] = out_1[63] + data_1[cse_var_13] * weight_1[cse_var_7]
+
+arg_bufs: [Tensor(shape=[8, 8], op.name=data), Tensor(shape=[8, 8], op.name=weight), Tensor(shape=[8, 8], op.name=out)]
+Execution time of this operator: max:25.781 ns   median:25.720 ns   min:25.640 ns

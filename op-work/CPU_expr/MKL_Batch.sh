@@ -1,0 +1,9 @@
+./MKLBatch.out D1 | tee ./MKL_batch/D1_MKLBatch.txt
+./MKLBatch.out D2 | tee ./MKL_batch/D2_MKLBatch.txt
+./MKLBatch.out D3 | tee ./MKL_batch/D3_MKLBatch.txt
+./MKLBatch.out D4 | tee ./MKL_batch/D4_MKLBatch.txt
+./MKLBatch.out D5 | tee ./MKL_batch/D5_MKLBatch.txt
+./MKLBatch.out AIDS | tee ./MKL_batch/AIDS_MKLBatch.txt
+./MKLBatch.out BZR | tee ./MKL_batch/BZR_MKLBatch.txt
+./MKLBatch.out COX2 | tee ./MKL_batch/COX2_MKLBatch.txt
+./MKLBatch.out DHFR | tee ./MKL_batch/DHFR_MKLBatch.txt

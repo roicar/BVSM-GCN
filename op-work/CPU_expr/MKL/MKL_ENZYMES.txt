@@ -1,0 +1,4 @@
+This is the execution time of ENZYMES:
+max: 0.004179954528808594
+min: 0.002477407455444336
+median: 0.0025184154510498047

@@ -1,0 +1,452 @@
+len is :50
+The 0th cublas starts running
+M: 20
+K: 20
+N: 3
+batch_size: 13
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0064224
+The 0th cublas ends running
+The 1th cublas starts running
+M: 21
+K: 21
+N: 3
+batch_size: 1
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.005296
+The 1th cublas ends running
+The 2th cublas starts running
+M: 22
+K: 22
+N: 3
+batch_size: 1
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.00512
+The 2th cublas ends running
+The 3th cublas starts running
+M: 23
+K: 23
+N: 3
+batch_size: 8
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0055328
+The 3th cublas ends running
+The 4th cublas starts running
+M: 24
+K: 24
+N: 3
+batch_size: 4
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0055776
+The 4th cublas ends running
+The 5th cublas starts running
+M: 25
+K: 25
+N: 3
+batch_size: 3
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.006176
+The 5th cublas ends running
+The 6th cublas starts running
+M: 26
+K: 26
+N: 3
+batch_size: 4
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0059168
+The 6th cublas ends running
+The 7th cublas starts running
+M: 27
+K: 27
+N: 3
+batch_size: 9
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0059392
+The 7th cublas ends running
+The 8th cublas starts running
+M: 28
+K: 28
+N: 3
+batch_size: 6
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.005792
+The 8th cublas ends running
+The 9th cublas starts running
+M: 29
+K: 29
+N: 3
+batch_size: 2
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.005888
+The 9th cublas ends running
+The 10th cublas starts running
+M: 30
+K: 30
+N: 3
+batch_size: 13
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0063072
+The 10th cublas ends running
+The 11th cublas starts running
+M: 31
+K: 31
+N: 3
+batch_size: 11
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0059168
+The 11th cublas ends running
+The 12th cublas starts running
+M: 32
+K: 32
+N: 3
+batch_size: 16
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0067456
+The 12th cublas ends running
+The 13th cublas starts running
+M: 33
+K: 33
+N: 3
+batch_size: 19
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0091232
+The 13th cublas ends running
+The 14th cublas starts running
+M: 34
+K: 34
+N: 3
+batch_size: 22
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0090048
+The 14th cublas ends running
+The 15th cublas starts running
+M: 35
+K: 35
+N: 3
+batch_size: 24
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0122976
+The 15th cublas ends running
+The 16th cublas starts running
+M: 36
+K: 36
+N: 3
+batch_size: 18
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0089792
+The 16th cublas ends running
+The 17th cublas starts running
+M: 37
+K: 37
+N: 3
+batch_size: 47
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0130336
+The 17th cublas ends running
+The 18th cublas starts running
+M: 38
+K: 38
+N: 3
+batch_size: 19
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0090112
+The 18th cublas ends running
+The 19th cublas starts running
+M: 39
+K: 39
+N: 3
+batch_size: 40
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0126464
+The 19th cublas ends running
+The 20th cublas starts running
+M: 40
+K: 40
+N: 3
+batch_size: 38
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0121216
+The 20th cublas ends running
+The 21th cublas starts running
+M: 41
+K: 41
+N: 3
+batch_size: 36
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0139264
+The 21th cublas ends running
+The 22th cublas starts running
+M: 42
+K: 42
+N: 3
+batch_size: 29
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.013824
+The 22th cublas ends running
+The 23th cublas starts running
+M: 43
+K: 43
+N: 3
+batch_size: 36
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0139456
+The 23th cublas ends running
+The 24th cublas starts running
+M: 44
+K: 44
+N: 3
+batch_size: 42
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0140384
+The 24th cublas ends running
+The 25th cublas starts running
+M: 45
+K: 45
+N: 3
+batch_size: 34
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0139776
+The 25th cublas ends running
+The 26th cublas starts running
+M: 46
+K: 46
+N: 3
+batch_size: 27
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0139104
+The 26th cublas ends running
+The 27th cublas starts running
+M: 47
+K: 47
+N: 3
+batch_size: 34
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0141152
+The 27th cublas ends running
+The 28th cublas starts running
+M: 48
+K: 48
+N: 3
+batch_size: 22
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0094272
+The 28th cublas ends running
+The 29th cublas starts running
+M: 49
+K: 49
+N: 3
+batch_size: 24
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.015152
+The 29th cublas ends running
+The 30th cublas starts running
+M: 50
+K: 50
+N: 3
+batch_size: 23
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.015184
+The 30th cublas ends running
+The 31th cublas starts running
+M: 51
+K: 51
+N: 3
+batch_size: 16
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0104192
+The 31th cublas ends running
+The 32th cublas starts running
+M: 52
+K: 52
+N: 3
+batch_size: 8
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0081216
+The 32th cublas ends running
+The 33th cublas starts running
+M: 53
+K: 53
+N: 3
+batch_size: 18
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0106496
+The 33th cublas ends running
+The 34th cublas starts running
+M: 54
+K: 54
+N: 3
+batch_size: 18
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0106496
+The 34th cublas ends running
+The 35th cublas starts running
+M: 55
+K: 55
+N: 3
+batch_size: 10
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0077056
+The 35th cublas ends running
+The 36th cublas starts running
+M: 56
+K: 56
+N: 3
+batch_size: 10
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0073728
+The 36th cublas ends running
+The 37th cublas starts running
+M: 57
+K: 57
+N: 3
+batch_size: 10
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0083456
+The 37th cublas ends running
+The 38th cublas starts running
+M: 58
+K: 58
+N: 3
+batch_size: 7
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.008064
+The 38th cublas ends running
+The 39th cublas starts running
+M: 59
+K: 59
+N: 3
+batch_size: 11
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0082272
+The 39th cublas ends running
+The 40th cublas starts running
+M: 60
+K: 60
+N: 3
+batch_size: 3
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0072832
+The 40th cublas ends running
+The 41th cublas starts running
+M: 61
+K: 61
+N: 3
+batch_size: 3
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0073728
+The 41th cublas ends running
+The 42th cublas starts running
+M: 62
+K: 62
+N: 3
+batch_size: 5
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0073504
+The 42th cublas ends running
+The 43th cublas starts running
+M: 63
+K: 63
+N: 3
+batch_size: 2
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0073696
+The 43th cublas ends running
+The 44th cublas starts running
+M: 64
+K: 64
+N: 3
+batch_size: 2
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0069632
+The 44th cublas ends running
+The 45th cublas starts running
+M: 65
+K: 65
+N: 3
+batch_size: 3
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0077824
+The 45th cublas ends running
+The 46th cublas starts running
+M: 66
+K: 66
+N: 3
+batch_size: 1
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0063392
+The 46th cublas ends running
+The 47th cublas starts running
+M: 67
+K: 67
+N: 3
+batch_size: 2
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0075904
+The 47th cublas ends running
+The 48th cublas starts running
+M: 68
+K: 68
+N: 3
+batch_size: 1
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0061504
+The 48th cublas ends running
+The 49th cublas starts running
+M: 71
+K: 71
+N: 3
+batch_size: 1
+sgemm success  0, line(297)
+Verfication batch_cublas result: The result of matrix multiplication is true!
+The compute cost is :0.0062528
+The 49th cublas ends running
+total cost time is:0.450358

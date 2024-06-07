@@ -1,0 +1,10 @@
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_1.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_2.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_3.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_4.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_5.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_6.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_7.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_8.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_9.txt
+python Ansor_op.py 32 32 32 | tee Ansor_32_32_32_10.txt

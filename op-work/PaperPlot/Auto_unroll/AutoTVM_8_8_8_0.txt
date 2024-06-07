@@ -1,0 +1,59 @@
+8x8x8
+Numpy running time: 0.000001
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        for i_inner_init, j_inner_init in T.grid(8, 8):
+            out_1[i_inner_init * 8 + j_inner_init] = T.float32(0)
+        for k_outer, i_inner, j_inner in T.grid(8, 8, 8):
+            cse_var_2: T.int32 = i_inner * 8
+            cse_var_1: T.int32 = cse_var_2 + j_inner
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[cse_var_1] = out_1[cse_var_1] + data_1[cse_var_2 + k_outer] * weight_1[k_outer * 8 + j_inner]
+ Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1) | 0.00 s Current/Best:   34.59/  34.59 GFLOPS | Progress: (1/1) | 2.15 sLowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        for i_inner_init, j_inner_init in T.grid(8, 8):
+            out_1[i_inner_init * 8 + j_inner_init] = T.float32(0)
+        for k_outer, i_inner, j_inner in T.grid(8, 8, 8):
+            cse_var_2: T.int32 = i_inner * 8
+            cse_var_1: T.int32 = cse_var_2 + j_inner
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[cse_var_1] = out_1[cse_var_1] + data_1[cse_var_2 + k_outer] * weight_1[k_outer * 8 + j_inner]
+ Done.
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        for i_inner_init, j_inner_init in T.grid(8, 8):
+            out_1[i_inner_init * 8 + j_inner_init] = T.float32(0)
+        for k_outer, i_inner, j_inner in T.grid(8, 8, 8):
+            cse_var_2: T.int32 = i_inner * 8
+            cse_var_1: T.int32 = cse_var_2 + j_inner
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[cse_var_1] = out_1[cse_var_1] + data_1[cse_var_2 + k_outer] * weight_1[k_outer * 8 + j_inner]
+arg_bufs: [Tensor(shape=[8, 8], op.name=data), Tensor(shape=[8, 8], op.name=weight), Tensor(shape=[8, 8], op.name=out)]
+Execution time of this operator: max:26.491 ns   median:26.438 ns   min:26.300 ns

@@ -1,0 +1,12 @@
+COX2 的第 465 个GEMM 的调优时间为：384.438116.3 s
+COX2 的第465个GEMM 的计算时间为：0.000481.3 ms
+Computational DAG:
+A = PLACEHOLDER [56, 56]
+B = PLACEHOLDER [56, 3]
+out(i, j) += (A[i, k]*B[k, j])
+
+COX2 的第 466 个GEMM 的调优时间（已重复）为：384.438116.3 s
+COX2 的第466个GEMM 的计算时间为：0.000482.3 ms
+COX2的Ansor顺序计算的时间是: 0.151878.3 (ms)
+COX2的Ansor顺序调优的时间是: 166458.511564.3 (s)
+

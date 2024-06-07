@@ -1,0 +1,74 @@
+Count A matrix:343
+The Number of dimension variety is :14
+The 0th Group info:
+m[0]:10
+k[0]:10
+n[0]:6
+size_per_grp[0]:9
+The 1th Group info:
+m[1]:11
+k[1]:11
+n[1]:6
+size_per_grp[1]:32
+The 2th Group info:
+m[2]:12
+k[2]:12
+n[2]:6
+size_per_grp[2]:49
+The 3th Group info:
+m[3]:13
+k[3]:13
+n[3]:6
+size_per_grp[3]:13
+The 4th Group info:
+m[4]:14
+k[4]:14
+n[4]:6
+size_per_grp[4]:6
+The 5th Group info:
+m[5]:1
+k[5]:1
+n[5]:6
+size_per_grp[5]:9
+The 6th Group info:
+m[6]:2
+k[6]:2
+n[6]:6
+size_per_grp[6]:29
+The 7th Group info:
+m[7]:3
+k[7]:3
+n[7]:6
+size_per_grp[7]:12
+The 8th Group info:
+m[8]:4
+k[8]:4
+n[8]:6
+size_per_grp[8]:18
+The 9th Group info:
+m[9]:5
+k[9]:5
+n[9]:6
+size_per_grp[9]:45
+The 10th Group info:
+m[10]:6
+k[10]:6
+n[10]:6
+size_per_grp[10]:40
+The 11th Group info:
+m[11]:7
+k[11]:7
+n[11]:6
+size_per_grp[11]:2
+The 12th Group info:
+m[12]:8
+k[12]:8
+n[12]:6
+size_per_grp[12]:29
+The 13th Group info:
+m[13]:9
+k[13]:9
+n[13]:6
+size_per_grp[13]:50
+cblas_sgemm_batch cost(us)：6.7
+The result of matrix multiplication is true!

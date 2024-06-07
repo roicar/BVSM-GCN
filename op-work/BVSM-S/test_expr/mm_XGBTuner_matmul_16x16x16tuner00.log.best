@@ -1,0 +1,1 @@
+{"input": ["llvm -keys=cpu -mcpu=core-avx2", "mm", [16, 16, 16, "float32"], {}], "config": {"index": 0, "code_hash": null, "entity": []}, "result": [[1.331e-07], 0, 0.19524717330932617, 1715217323.710524], "version": 0.2, "tvm_version": "0.12.0"}

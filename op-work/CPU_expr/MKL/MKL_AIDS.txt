@@ -1,0 +1,4 @@
+This is the execution time of AIDS:
+max: 0.005606174468994141
+min: 0.004732847213745117
+median: 0.00480341911315918

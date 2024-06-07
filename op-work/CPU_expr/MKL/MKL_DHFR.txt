@@ -1,0 +1,4 @@
+This is the execution time of DHFR:
+max: 0.003417491912841797
+min: 0.002611398696899414
+median: 0.0027195215225219727

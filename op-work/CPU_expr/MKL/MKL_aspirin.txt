@@ -1,0 +1,4 @@
+This is the execution time of aspirin:
+max: 0.3236734867095947
+min: 0.31810641288757324
+median: 0.3199145793914795

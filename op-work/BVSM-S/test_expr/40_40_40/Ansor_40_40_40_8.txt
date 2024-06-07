@@ -1,0 +1,1515 @@
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Generate Sketches		#s: 3
+Sample Initial Population	#s: 1929	fail_ct: 17	Time elapsed: 1.10
+GA Iter: 0	Max score: 0.9978	Min score: 0.9217	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9999	Min score: 0.9866	#Pop: 128	#M+: 1391	#M-: 68
+EvolutionarySearch		#s: 128	Time elapsed: 5.12
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+Get 64 programs to measure:
+................****************Computational DAG:
+A = PLACEHOLDER [40, 40]
+B = PLACEHOLDER [40, 40]
+out(i, j) += (A[i, k]*B[k, j])
+
+
+==================================================
+No: 1	GFLOPS: 12.08 / 12.08	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.27, Tstamp:1696730530.86)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,8)
+  for i.2 (0,4)
+    for j.2 (0,5)
+      for k.1 (0,40)
+        for i.3 (0,10)
+          out = ...
+
+==================================================
+No: 2	GFLOPS: 17.72 / 17.72	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.62, Tstamp:1696730531.15)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 16
+  for i_c.1 (0,4)
+    for j_c.1 (0,2)
+      for k.0 (0,20)
+        for j_c.2 (0,2)
+          for k.1 (0,2)
+            for i_c.3 (0,5)
+              vectorize j_c.3 (0,10)
+                out.local = ...
+  for i.1 (0,20)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 3	GFLOPS: 18.35 / 18.35	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.33, Tstamp:1696730531.28)
+==================================================
+Placeholder: A, B
+out auto_unroll: 512
+parallel i.0@j.0@i.1@ (0,5)
+  for j.1 (0,4)
+    for k.0 (0,2)
+      for k.1 (0,20)
+        for i.3 (0,40)
+          vectorize j.3 (0,2)
+            out = ...
+
+==================================================
+No: 4	GFLOPS: 73.70 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.64, Tstamp:1696730531.61)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,4)
+  for i_c.1 (0,2)
+    for j_c.1 (0,4)
+      for k.0 (0,5)
+        for j_c.2 (0,10)
+          for k.1 (0,8)
+            for i_c.3 (0,5)
+              out.local = ...
+  for i.1 (0,10)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 5	GFLOPS: 33.05 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.38, Tstamp:1696730531.89)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@ (0,200)
+  for j.1 (0,2)
+    for k.0 (0,4)
+      for j.2 (0,2)
+        for k.1 (0,10)
+          for i.3 (0,2)
+            out = ...
+
+==================================================
+No: 6	GFLOPS: 5.25 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.22, Tstamp:1696730532.02)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,1600)
+  out.local auto_unroll: 64
+  for k.0 (0,10)
+    for k.1 (0,4)
+      out.local = ...
+  out = ...
+
+==================================================
+No: 7	GFLOPS: 10.89 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.23, Tstamp:1696730532.15)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,320)
+  for j.1 (0,5)
+    out.local auto_unroll: 64
+    for k.1 (0,40)
+      out.local = ...
+    out = ...
+
+==================================================
+No: 8	GFLOPS: 68.61 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.24, Tstamp:1696730532.33)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,80)
+  for k.0 (0,20)
+    for j.2 (0,20)
+      for k.1 (0,2)
+        out = ...
+
+==================================================
+No: 9	GFLOPS: 21.47 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.35, Tstamp:1696730532.62)
+==================================================
+Placeholder: A, B
+for i.1 (0,4)
+  for k.0 (0,5)
+    for i.2 (0,10)
+      for j.2 (0,20)
+        for k.1 (0,8)
+          vectorize j.3 (0,2)
+            out = ...
+
+==================================================
+No: 10	GFLOPS: 21.69 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.23, Tstamp:1696730532.75)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,100)
+  for j.1 (0,2)
+    for k.0 (0,2)
+      for j_c.2 (0,2)
+        for k.1 (0,20)
+          for i_c.3 (0,4)
+            out.local = ...
+    for i.2 (0,4)................****************
+
+      vectorize j.2 (0,2)
+        out = ...
+
+==================================================
+No: 11	GFLOPS: 19.59 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.43, Tstamp:1696730533.08)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,8)
+  out.local auto_unroll: 16
+  for i_c.2 (0,5)
+    for j_c.2 (0,10)
+      for k.1 (0,40)
+        for i_c.3 (0,4)
+          out.local = ...
+  for i.1 (0,20)
+    vectorize j.1 (0,10)
+      out = ...
+
+==================================================
+No: 12	GFLOPS: 40.95 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.39, Tstamp:1696730533.39)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,10)
+  out.local auto_unroll: 64
+  for k.0 (0,20)
+    for i_c.2 (0,40)
+      for j_c.2 (0,4)
+        for k.1 (0,2)
+          out.local = ...
+  for i.2 (0,40)
+    vectorize j.2 (0,4)
+      out = ...
+
+==================================================
+No: 13	GFLOPS: 42.33 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.39, Tstamp:1696730533.70)
+==================================================
+Placeholder: A, B
+out auto_unroll: 512
+parallel i.0@j.0@i.1@j.1@ (0,400)
+  for k.0 (0,8)
+    for k.1 (0,5)
+      vectorize j.3 (0,4)
+        out = ...
+
+==================================================
+No: 14	GFLOPS: 24.97 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.38, Tstamp:1696730533.90)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,40)
+  for j.1 (0,2)
+    out.local auto_unroll: 64
+    for k.0 (0,10)
+      for j_c.2 (0,10)
+        for k.1 (0,4)
+          for i_c.3 (0,2)
+            out.local = ...
+    for i.2 (0,2)
+      vectorize j.2 (0,10)
+        out = ...
+
+==================================================
+No: 15	GFLOPS: 24.50 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.22, Tstamp:1696730534.03)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,4)
+  out.local auto_unroll: 16
+  for i_c.1 (0,10)
+    for k.0 (0,10)
+      for i_c.2 (0,2)
+        for j_c.2 (0,20)
+          for k.1 (0,4)
+            out.local = ...
+  for i.1 (0,20)
+    vectorize j.1 (0,20)
+      out = ...
+
+==================================================
+No: 16	GFLOPS: 32.62 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.37, Tstamp:1696730534.30)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 16
+  for k.0 (0,20)
+    for i_c.2 (0,10)
+      for j_c.2 (0,10)
+        for k.1 (0,2)
+          for i_c.3 (0,4)
+            vectorize j_c.3 (0,2)
+              out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,20)
+      out = ...
+
+==================================================
+No: 17	GFLOPS: 21.00 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.22, Tstamp:1696730538.31)
+==================================================
+Placeholder: A, B
+for i_c.1 (0,4)
+  for j_c.1 (0,2)
+    for k.0 (0,2)
+      for j_c.2 (0,5)
+        for k.1 (0,20)
+          for i_c.3 (0,10)
+            vectorize j_c.3 (0,4)
+              out.local = ...
+for i.1 (0,40)
+  vectorize j.1 (0,40)
+    out = ...
+
+==================================================
+No: 18	GFLOPS: 23.32 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.22, Tstamp:1696730538.59)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,10)
+  out.local auto_unroll: 512
+  for i_c.1 (0,2)
+    for j_c.1 (0,4)
+      for k.0 (0,2)
+        for k.1 (0,20)
+          for i_c.3 (0,20)
+            out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,4)
+      out = ...
+
+==================================================
+No: 19	GFLOPS: 4.42 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.42, Tstamp:1696730538.88)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+for k.0 (0,5)
+  for i.2 (0,5)
+    for k.1 (0,8)
+      for i.3 (0,8)
+        vectorize j.3 (0,40)
+          out = ...
+
+==================================================
+No: 20	GFLOPS: 29.90 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.64, Tstamp:1696730539.01)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,40)
+  out.local auto_unroll: 512
+  for i_c.1 (0,5)
+    for k.0 (0,5)
+      for i_c.2 (0,2)
+        for j_c.2 (0,2)
+          for k.1 (0,8)
+            for i_c.3 (0,2)
+              out.local = ...
+  for i.1 (0,20)
+    vectorize j.1 (0,2)
+      out = ...
+
+==================================================
+No: 21	GFLOPS: 26.01 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.38, Tstamp:1696730539.29)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,10)
+  for k.0 (0,4)
+    for i.2 (0,8)
+      for j.2 (0,10)
+        for k.1 (0,10)
+          vectorize j.3 (0,2)
+            out = ...
+
+==================================================
+No: 22	GFLOPS: 10.41 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.31, Tstamp:1696730539.43)
+==================================================
+Placeholder: A, B
+out auto_unroll: 512
+parallel i.0@j.0@i.1@ (0,20)
+  for j.1 (0,2)
+    for k.0 (0,40)
+      for i.3 (0,40)
+        out = ...
+
+==================================================
+No: 23	GFLOPS: 50.92 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.76, Tstamp:1696730539.68)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,4)
+  out.local auto_unroll: 512
+  for j_c.1 (0,5)
+    for k.0 (0,20)
+      for i_c.2 (0,4)
+        for j_c.2 (0,4)
+          for k.1 (0,2)
+            for i_c.3 (0,5)
+              out.local = ...
+  for i.1 (0,20)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 24	GFLOPS: 36.78 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.19, Tstamp:1696730539.92)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,40)
+  out.local auto_unroll: 512
+  for k.0 (0,5)
+    for i_c.2 (0,2)
+      for j_c.2 (0,2)
+        for k.1 (0,8)
+          for i_c.3 (0,10)
+            out.local = ...
+  for i.1 (0,20)
+    vectorize j.1 (0,2)
+      out = ...
+
+==================================================
+No: 25	GFLOPS: 37.14 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:2.23, Tstamp:1696730540.19)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,80)
+  out.local auto_unroll: 512
+  for k.0 (0,5)
+    for i_c.2 (0,2)
+      for j_c.2 (0,5)
+        for k.1 (0,8)
+          vectorize j_c.3 (0,2)
+            out.local = ...
+  for i.2 (0,2)
+    vectorize j.2 (0,10)
+      out = ...
+
+==================================================
+No: 26	GFLOPS: 20.05 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.39, Tstamp:1696730540.47)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,4)
+  for k.0 (0,4)
+    for i.2 (0,10)
+      for j.2 (0,10)
+        for k.1 (0,10)
+          for i.3 (0,2)
+            vectorize j.3 (0,2)
+              out = ...
+
+==================================================
+No: 27	GFLOPS: 14.70 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.57, Tstamp:1696730540.76)
+==================================================
+Placeholder: A, B
+out auto_unroll: 512
+parallel i.0@j.0@i.1@j.1@ (0,800)
+  for k.1 (0,40)
+    for i.3 (0,2)
+      out = ...
+
+==================================================
+No: 28	GFLOPS: 25.45 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.53, Tstamp:1696730541.04)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,8)
+  for k.0 (0,2)
+    for i.2 (0,2)
+      for j.2 (0,2)
+        for k.1 (0,20)
+          for i.3 (0,5)
+            for j.3 (0,10)
+              out = ...
+
+==================................****************
+================================
+No: 29	GFLOPS: 9.63 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.41, Tstamp:1696730541.38)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,40)
+  for i.2 (0,20)
+    for k.1 (0,40)
+      for i.3 (0,2)
+        out = ...
+
+==================================================
+No: 30	GFLOPS: 18.53 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.21, Tstamp:1696730541.52)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,40)
+  for k.0 (0,40)
+    for j_c.2 (0,2)
+      for i_c.3 (0,2)
+        vectorize j_c.3 (0,10)
+          out.local = ...
+  for i.1 (0,2)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 31	GFLOPS: 16.83 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.22, Tstamp:1696730541.65)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,400)
+  out.local auto_unroll: 16
+  for k.0 (0,4)
+    for i_c.2 (0,2)
+      for j_c.2 (0,2)
+        for k.1 (0,10)
+          out.local = ...
+  for i.2 (0,2)
+    vectorize j.2 (0,2)
+      out = ...
+
+==================================================
+No: 32	GFLOPS: 2.46 / 73.70	results: MeasureResult(cost:[0.0001], error_no:0, all_cost:0.22, Tstamp:1696730541.79)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,4)
+  for k.0 (0,40)
+    for i.2 (0,5)
+      for i.3 (0,8)
+        vectorize j.3 (0,10)
+          out = ...
+
+==================================================
+No: 33	GFLOPS: 38.96 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.24, Tstamp:1696730545.27)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,10)
+  out.local auto_unroll: 64
+  for i_c.2 (0,4)
+    for j_c.2 (0,2)
+      for k.1 (0,40)
+        for i_c.3 (0,10)
+          vectorize j_c.3 (0,2)
+            out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,4)
+      out = ...
+
+==================================================
+No: 34	GFLOPS: 26.38 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.30, Tstamp:1696730545.48)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,2)
+  for k.0 (0,20)
+    for i.2 (0,10)
+      for j.2 (0,4)
+        for k.1 (0,2)
+          for i.3 (0,2)
+            vectorize j.3 (0,10)
+              out = ...
+
+==================================================
+No: 35	GFLOPS: 49.12 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.42, Tstamp:1696730545.81)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,32)
+  for k.0 (0,10)
+    for k.1 (0,4)
+      for i_c.3 (0,5)
+        vectorize j_c.3 (0,10)
+          out.local = ...
+  for i.2 (0,5)
+    vectorize j.2 (0,10)
+      out = ...
+
+==================================================
+No: 36	GFLOPS: 2.82 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.43, Tstamp:1696730546.10)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,2)
+  for k.0 (0,5)
+    for i.2 (0,2)
+      for j.2 (0,5)
+        for k.1 (0,8)
+          for i.3 (0,20)
+            vectorize j.3 (0,4)
+              out = ...
+
+==================================================
+No: 37	GFLOPS: 17.63 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.27, Tstamp:1696730546.22)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,4)
+  for j.1 (0,2)
+    for i.2 (0,5)
+      for j.2 (0,10)
+        for k.1 (0,40)
+          for i.3 (0,2)
+            vectorize j.3 (0,2)
+              out = ...
+
+==================================================
+No: 38	GFLOPS: 66.30 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.31, Tstamp:1696730546.45)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,40)
+  out.local auto_unroll: 16
+  for k.0 (0,4)
+    for j_c.2 (0,2)
+      for k.1 (0,10)
+        for j_c.3 (0,20)
+          out.local = ...
+  for j.2 (0,40)
+    out = ...
+
+==================================================
+No: 39	GFLOPS: 22.07 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.39, Tstamp:1696730546.73)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,16)
+  for k.0 (0,4)
+    for i.2 (0,5)
+      for j.2 (0,10)
+        for k.1 (0,10)
+          vectorize j.3 (0,2)
+            out = ...
+
+==================================================
+No: 40	GFLOPS: 41.98 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.28, Tstamp:1696730546.85)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,4)
+  out.local auto_unroll: 16
+  for i_c.1 (0,2)
+    for j_c.1 (0,5)
+      for k.0 (0,40)
+        for i_c.2 (0,10)
+          for j_c.2 (0,4)
+            out.local = ...
+  for i.1 (0,20)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 41	GFLOPS: 54.36 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.43, Tstamp:1696730547.20)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,40)
+  for k.0 (0,5)
+    for k.1 (0,8)
+      for i_c.3 (0,8)
+        vectorize j_c.3 (0,5)
+          out.local = ...
+  for i.2 (0,8)
+    vectorize j.2 (0,5)
+      out = ...
+
+==================================================
+No: 42	GFLOPS: 11.78 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.62, Tstamp:1696730547.33)
+==================================================
+Placeholder: A, B
+out auto_unroll: 512
+parallel i.0@j.0@i.1@ (0,100)
+  for j.1 (0,2)
+    for i.2 (0,2)
+      for j.2 (0,2)
+        for k.1 (0,40)
+          for i.3 (0,2)
+            out = ...
+
+==================================================
+No: 43	GFLOPS: 23.48 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.67, Tstamp:1696730547.60)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 512
+  for j_c.1 (0,2)
+    for i_c.2 (0,2)
+      for j_c.2 (0,20)
+        for k.1 (0,40)
+          for i_c.3 (0,10)
+            out.local = ...
+  for i.1 (0,20)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 44	GFLOPS: 9.39 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.23, Tstamp:1696730547.81)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,10)
+  out.local auto_unroll: 16
+  for i_c.1 (0,20)
+    for i_c.2 (0,2)
+      for j_c.2 (0,4)
+        for k.1 (0,40)
+          out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,4)
+      out = ...
+
+==================================================
+No: 45	GFLOPS: 11.78 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.41, Tstamp:1696730548.13)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,40)
+  for j.1 (0,5)
+    out.local auto_unroll: 64
+    for j_c.2 (0,8)
+      for k.1 (0,40)
+        out.local = ...
+    vectorize j.2 (0,8)
+      out = ...
+
+==================================================
+No: 46	GFLOPS: 26.77 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.03, Tstamp:1696730548.42)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,8)
+  out.local auto_unroll: 512
+  for i_c.1 (0,5)
+    for j_c.1 (0,5)
+      for k.0 (0,40)
+        for i_c.2 (0,2)
+          for i_c.3 (0,4)
+            out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,5)
+      out = ...
+
+==================================================
+No: 47	GFLOPS: 26.53 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.21, Tstamp:1696730548.56)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,2)
+  out.local auto_unroll: 16
+  for k.0 (0,40)
+................****************
+    for i_c.2 (0,20)
+      for j_c.2 (0,4)
+        for i_c.3 (0,2)
+          vectorize j_c.3 (0,5)
+            out.local = ...
+  for i.2 (0,40)
+    for j.2 (0,20)
+      out = ...
+
+==================================================
+No: 48	GFLOPS: 32.17 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.33, Tstamp:1696730548.83)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,200)
+  out.local auto_unroll: 64
+  for k.0 (0,40)
+    for i_c.2 (0,2)
+      vectorize j_c.3 (0,4)
+        out.local = ...
+  for i.2 (0,2)
+    vectorize j.2 (0,4)
+      out = ...
+
+==================================================
+No: 49	GFLOPS: 14.08 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.43, Tstamp:1696730552.13)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 64
+  for k.0 (0,2)
+    for i_c.2 (0,40)
+      for j_c.2 (0,10)
+        for k.1 (0,20)
+          for j_c.3 (0,2)
+            out.local = ...
+  for i.1 (0,40)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 50	GFLOPS: 18.92 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.37, Tstamp:1696730552.38)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,80)
+  for k.0 (0,2)
+    for j.2 (0,4)
+      for k.1 (0,20)
+        vectorize j.3 (0,5)
+          out = ...
+
+==================================================
+No: 51	GFLOPS: 11.42 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.21, Tstamp:1696730552.51)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,400)
+  for k.0 (0,10)
+    for k.1 (0,4)
+      for i_c.3 (0,4)
+        out.local = ...
+  for i.2 (0,4)
+    out = ...
+
+==================================================
+No: 52	GFLOPS: 34.29 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.55, Tstamp:1696730552.86)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,200)
+  out.local auto_unroll: 512
+  for j_c.1 (0,4)
+    for k.0 (0,8)
+      for k.1 (0,5)
+        for i_c.3 (0,2)
+          out.local = ...
+  for i.1 (0,2)
+    vectorize j.1 (0,4)
+      out = ...
+
+==================================================
+No: 53	GFLOPS: 17.53 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730552.99)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,80)
+  for i_c.2 (0,2)
+    for k.1 (0,40)
+      for i_c.3 (0,10)
+        out.local = ...
+  for i.2 (0,20)
+    out = ...
+
+==================================================
+No: 54	GFLOPS: 73.00 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.18, Tstamp:1696730553.33)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,16)
+  out.local auto_unroll: 512
+  for i_c.2 (0,10)
+    for k.1 (0,40)
+      vectorize j_c.3 (0,10)
+        out.local = ...
+  for i.1 (0,10)
+    vectorize j.1 (0,10)
+      out = ...
+
+==================================================
+No: 55	GFLOPS: 53.50 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.42, Tstamp:1696730553.67)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,80)
+  for k.0 (0,2)
+    for i.2 (0,4)
+      for k.1 (0,20)
+        vectorize j.3 (0,5)
+          out = ...
+
+==================================================
+No: 56	GFLOPS: 9.56 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.31, Tstamp:1696730553.81)
+==================================================
+Placeholder: A, B
+parallel i.0@ (0,2)
+  for j.0 (0,2)
+    out.local auto_unroll: 64
+    for k.0 (0,2)
+      for j_c.2 (0,2)
+        for k.1 (0,20)
+          for i_c.3 (0,20)
+            vectorize j_c.3 (0,10)
+              out.local = ...
+    for i.1 (0,20)
+      for j.1 (0,20)
+        out = ...
+
+==================================================
+No: 57	GFLOPS: 31.05 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.24, Tstamp:1696730553.93)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  for j_c.1 (0,10)
+    for k.0 (0,8)
+      for i_c.2 (0,4)
+        for k.1 (0,5)
+          for i_c.3 (0,10)
+            vectorize j_c.3 (0,2)
+              out.local = ...
+  for i.1 (0,40)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 58	GFLOPS: 20.91 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.27, Tstamp:1696730554.06)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,10)
+  out.local auto_unroll: 512
+  for j_c.1 (0,4)
+    for i_c.2 (0,20)
+      for k.1 (0,40)
+        vectorize j_c.3 (0,2)
+          out.local = ...
+  for i.1 (0,20)
+    vectorize j.1 (0,8)
+      out = ...
+
+==================================================
+No: 59	GFLOPS: 22.10 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.37, Tstamp:1696730554.34)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,100)
+  for k.0 (0,8)
+    for j.2 (0,2)
+      for k.1 (0,5)
+        for i.3 (0,8)
+          out = ...
+
+==================================================
+No: 60	GFLOPS: 22.06 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.54, Tstamp:1696730554.63)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,40)
+  out.local auto_unroll: 512
+  for i_c.2 (0,10)
+    for j_c.2 (0,2)
+      for k.1 (0,40)
+        vectorize j_c.3 (0,2)
+          out.local = ...
+  for i.2 (0,10)
+    vectorize j.2 (0,4)
+      out = ...
+
+==================================================
+No: 61	GFLOPS: 58.23 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.31, Tstamp:1696730554.86)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,16)
+  out.local auto_unroll: 16
+  for k.0 (0,8)
+    for i_c.2 (0,10)
+      for j_c.2 (0,5)
+        for k.1 (0,5)
+          vectorize j_c.3 (0,2)
+            out.local = ...
+  for i.1 (0,10)
+    vectorize j.1 (0,10)
+      out = ...
+
+==================================================
+No: 62	GFLOPS: 22.78 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730554.99)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@ (0,200)
+  for i.1 (0,4)
+    for k.1 (0,40)
+      for i.3 (0,2)
+        out = ...
+
+==================================================
+No: 63	GFLOPS: 62.35 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.44, Tstamp:1696730555.34)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,20)
+  for k.0 (0,5)
+    for j.2 (0,20)
+      for k.1 (0,8)
+        for i.3 (0,4)
+          out = ...
+
+==================================================
+No: 64	GFLOPS: 55.92 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.48, Tstamp:1696730555.51)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,40)
+  out.local auto_unroll: 512
+  for k.0 (0,5)
+    for j_c.2 (0,8)
+      for k.1 (0,8)
+        vectorize j_c.3 (0,5)
+          out.local = ...
+  for j.2 (0,40)
+    out = ...
+
+Time elapsed for measurement: 27.19 s
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 0.15 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 1944	fail_ct: 23	Time elapsed: 1.24
+GA Iter: 0	Max score: 1.0000	Min score: 0.9300	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0000	Min score: 0.9875	#Pop: 128	#M+: 1388	#M-: 78
+EvolutionarySearch		#s: 128	Time elapsed: 5.39
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+Get 36 programs to measure:
+................****************
+==================================================
+No: 65	GFLOPS: 32.96 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.44, Tstamp:1696730565.33)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,8)
+  for k.0 (0,2)
+    for i.2 (0,10)
+      for j.2 (0,2)
+        for k.1 (0,20)
+          for i.3 (0,2)
+            vectorize j.3 (0,5)
+              out = ...
+
+==================================================
+No: 66	GFLOPS: 40.77 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.33, Tstamp:1696730565.54)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,8)
+  for i_c.1 (0,20)
+    for j_c.1 (0,2)
+      for k.0 (0,2)
+        for k.1 (0,20)
+          vectorize j_c.3 (0,5)
+            out.local = ...
+  for i.1 (0,20)
+    vectorize j.1 (0,10)
+      out = ...
+
+==================================================
+No: 67	GFLOPS: 26.96 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.39, Tstamp:1696730565.82)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,40)
+  for k.0 (0,2)
+    for i_c.2 (0,8)
+      for j_c.2 (0,5)
+        for k.1 (0,20)
+          out.local = ...
+  for i.2 (0,8)
+    vectorize j.2 (0,5)
+      out = ...
+
+==================================================
+No: 68	GFLOPS: 24.58 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.22, Tstamp:1696730565.96)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,8)
+  for j_c.1 (0,5)
+    for k.0 (0,5)
+      for i_c.2 (0,40)
+        for k.1 (0,8)
+          out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,5)
+      out = ...
+
+==================================================
+No: 69	GFLOPS: 25.15 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.42, Tstamp:1696730566.25)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 16
+  for k.0 (0,2)
+    for j_c.2 (0,4)
+      for k.1 (0,20)
+        for i_c.3 (0,40)
+          vectorize j_c.3 (0,5)
+            out.local = ...
+  for i.1 (0,40)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 70	GFLOPS: 19.75 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.27, Tstamp:1696730566.38)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,20)
+  for i_c.1 (0,20)
+    for k.0 (0,5)
+      for i_c.2 (0,2)
+        for j_c.2 (0,2)
+          for k.1 (0,8)
+            out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,2)
+      out = ...
+
+==================================================
+No: 71	GFLOPS: 45.23 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.41, Tstamp:1696730566.71)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,80)
+  out.local auto_unroll: 64
+  for k.0 (0,40)
+    for j_c.2 (0,5)
+      for i_c.3 (0,4)
+        out.local = ...
+  for i.2 (0,4)
+    vectorize j.2 (0,5)
+      out = ...
+
+==================================================
+No: 72	GFLOPS: 10.50 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730566.84)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,800)
+  out.local auto_unroll: 16
+  for k.0 (0,10)
+    for k.1 (0,4)
+      vectorize j_c.3 (0,2)
+        out.local = ...
+  vectorize j.2 (0,2)
+    out = ...
+
+==================================================
+No: 73	GFLOPS: 21.67 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.32, Tstamp:1696730567.09)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,320)
+  for k.0 (0,5)
+    for j_c.2 (0,5)
+      for k.1 (0,8)
+        out.local = ...
+  vectorize j.2 (0,5)
+    out = ...
+
+==================================================
+No: 74	GFLOPS: 22.79 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.37, Tstamp................****************
+:1696730567.37)
+==================================================
+Placeholder: A, B
+for j.0 (0,2)
+  out.local auto_unroll: 16
+  for i_c.1 (0,40)
+    for j_c.1 (0,2)
+      for k.0 (0,4)
+        for j_c.2 (0,2)
+          for k.1 (0,10)
+            vectorize j_c.3 (0,5)
+              out.local = ...
+  for i.1 (0,40)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 75	GFLOPS: 31.14 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.28, Tstamp:1696730567.50)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,16)
+  for i.2 (0,5)
+    for j.2 (0,20)
+      for k.1 (0,40)
+        out = ...
+
+==================================================
+No: 76	GFLOPS: 22.65 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.38, Tstamp:1696730567.78)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,32)
+  for j_c.1 (0,10)
+    for k.0 (0,5)
+      for i_c.2 (0,5)
+        for k.1 (0,8)
+          out.local = ...
+  for i.1 (0,5)
+    vectorize j.1 (0,10)
+      out = ...
+
+==================================================
+No: 77	GFLOPS: 41.52 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.99, Tstamp:1696730568.06)
+==================================================
+Placeholder: A, B
+out auto_unroll: 512
+parallel i.0@j.0@ (0,100)
+  for i.1 (0,2)
+    for k.0 (0,2)
+      for i.2 (0,4)
+        for k.1 (0,20)
+          vectorize j.3 (0,2)
+            out = ...
+
+==================================================
+No: 78	GFLOPS: 41.41 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.27, Tstamp:1696730568.25)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,80)
+  for k.0 (0,2)
+    for i.2 (0,2)
+      for j.2 (0,2)
+        for k.1 (0,20)
+          vectorize j.3 (0,5)
+            out = ...
+
+==================================================
+No: 79	GFLOPS: 23.34 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730568.38)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,400)
+  for k.0 (0,4)
+    for i.2 (0,2)
+      for k.1 (0,10)
+        vectorize j.3 (0,2)
+          out = ...
+
+==================================================
+No: 80	GFLOPS: 18.41 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.54, Tstamp:1696730568.66)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 64
+  for k.0 (0,5)
+    for j_c.2 (0,40)
+      for k.1 (0,8)
+        for i_c.3 (0,20)
+          out.local = ...
+  for i.1 (0,20)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 81	GFLOPS: 44.64 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.02, Tstamp:1696730572.67)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,20)
+  out.local auto_unroll: 512
+  for k.0 (0,4)
+    for i_c.2 (0,4)
+      for j_c.2 (0,10)
+        for k.1 (0,10)
+          vectorize j_c.3 (0,2)
+            out.local = ...
+  for i.1 (0,4)
+    vectorize j.1 (0,20)
+      out = ...
+
+==================================================
+No: 82	GFLOPS: 20.00 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730572.80)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@ (0,20)
+  for k.0 (0,40)
+    for i.2 (0,4)
+      for j.2 (0,2)
+        vectorize j.3 (0,10)
+          out = ...
+
+==================================================
+No: 83	GFLOPS: 42.77 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.34, Tstamp:1696730573.07)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,80)
+  for i.2 (0,2)
+    for k.1 (0,40)
+      for i.3 (0,5)
+        vectorize j.3 (0,2)
+          out = ...
+
+==================================================
+No: 84	GFLOPS: 35.32 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.46, Tstamp:1696730573.41)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@ (0,80)
+  for j.1 (0,2)
+    for k.0 (0,40)
+      vectorize j.3 (0,10)
+        out = ...
+
+==================================================
+No: 85	GFLOPS: 19.40 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.40, Tstamp:1696730573.73)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,10)
+  for j.1 (0,20)
+    out.local auto_unroll: 16
+    for i_c.2 (0,2)
+      for j_c.2 (0,2)
+        for k.1 (0,40)
+          for i_c.3 (0,2)
+            out.local = ...
+    for i.2 (0,4)
+      vectorize j.2 (0,2)
+        out = ...
+
+==================================================
+No: 86	GFLOPS: 42.53 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.52, Tstamp:1696730573.95)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,10)
+  out.local auto_unroll: 512
+  for k.0 (0,40)
+    for i_c.2 (0,40)
+      for j_c.2 (0,4)
+        out.local = ...
+  for i.2 (0,40)
+    vectorize j.2 (0,4)
+      out = ...
+
+==================================================
+No: 87	GFLOPS: 63.05 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.45, Tstamp:1696730574.29)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,20)
+  out.local auto_unroll: 16
+  for k.0 (0,20)
+    for j_c.2 (0,4)
+      for k.1 (0,2)
+        for i_c.3 (0,4)
+          vectorize j_c.3 (0,5)
+            out.local = ...
+  for i.1 (0,4)
+    for j.1 (0,20)
+      out = ...
+
+==================================================
+No: 88	GFLOPS: 47.59 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.36, Tstamp:1696730574.53)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,10)
+  out.local auto_unroll: 16
+  for k.0 (0,5)
+    for i_c.2 (0,4)
+      for j_c.2 (0,10)
+        for k.1 (0,8)
+          for i_c.3 (0,2)
+            vectorize j_c.3 (0,2)
+              out.local = ...
+  for i.2 (0,8)
+    for j.2 (0,20)
+      out = ...
+
+==================================================
+No: 89	GFLOPS: 24.72 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.42, Tstamp:1696730574.79)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,200)
+  for k.0 (0,2)
+    for i.2 (0,2)
+      for j.2 (0,2)
+        for k.1 (0,20)
+          vectorize j.3 (0,2)
+            out = ...
+
+==================================================
+No: 90	GFLOPS: 18.34 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.44, Tstamp:1696730575.08)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,4)
+  for k.0 (0,8)
+    for i.2 (0,5)
+      for j.2 (0,2)
+        for k.1 (0,5)
+          for i.3 (0,4)
+            vectorize j.3 (0,10)
+              out = ...
+
+==================================================
+No: 91	GFLOPS: 18.46 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.24, Tstamp:1696730575.21)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@ (0,100)
+  out.local auto_unroll: 16
+  for i_c.2 (0,2)
+    for j_c.2 (0,4)
+      for k.1 (0,40)
+        for i_c.3 (0,2)
+          out.local = ...
+  for i.2 (0,4)
+    vectorize j.2 (0,4)
+      out = ...
+
+==================================================
+No: 92	GFLOPS: 10.35 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.19, Tstamp:1696730575.34)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,800)
+  out.local auto_unroll: 16
+  for k.0 (0,5)
+    for k.1 (0,8)
+      vectorize j_c.3 (0,2)
+        out.local = ...
+  vectorize j.2 (0,2)
+    out = ...
+
+==================================================
+No....****
+: 93	GFLOPS: 23.96 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:1.97, Tstamp:1696730575.56)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@i.1@j.1@ (0,160)
+  out.local auto_unroll: 512
+  for k.0 (0,20)
+    for i_c.2 (0,5)
+      for j_c.2 (0,2)
+        for k.1 (0,2)
+          out.local = ...
+  for i.2 (0,5)
+    for j.2 (0,2)
+      out = ...
+
+==================================================
+No: 94	GFLOPS: 26.20 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.40, Tstamp:1696730575.84)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,10)
+  out.local auto_unroll: 64
+  for j_c.1 (0,2)
+    for k.0 (0,2)
+      for i_c.2 (0,4)
+        for j_c.2 (0,2)
+          for k.1 (0,20)
+            for i_c.3 (0,10)
+              out.local = ...
+  for i.1 (0,40)
+    vectorize j.1 (0,4)
+      out = ...
+
+==================================================
+No: 95	GFLOPS: 9.45 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730575.97)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,800)
+  out.local auto_unroll: 64
+  for k.0 (0,4)
+    for i_c.2 (0,2)
+      for k.1 (0,10)
+        out.local = ...
+  for i.1 (0,2)
+    out = ...
+
+==================================================
+No: 96	GFLOPS: 63.99 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.38, Tstamp:1696730576.16)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,8)
+  out.local auto_unroll: 512
+  for i_c.1 (0,5)
+    for j_c.1 (0,40)
+      for k.0 (0,8)
+        for k.1 (0,5)
+          out.local = ...
+  for i.1 (0,5)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 97	GFLOPS: 33.83 / 73.70	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.64, Tstamp:1696730578.27)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,2)
+  out.local auto_unroll: 64
+  for i_c.1 (0,2)
+    for j_c.1 (0,4)
+      for k.0 (0,5)
+        for i_c.2 (0,2)
+          for j_c.2 (0,5)
+            for k.1 (0,8)
+              for i_c.3 (0,5)
+                vectorize j_c.3 (0,2)
+                  out.local = ...
+  for i.1 (0,20)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 98	GFLOPS: 89.20 / 89.20	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.45, Tstamp:1696730578.61)
+==================================================
+Placeholder: A, B
+parallel i.0@j.0@ (0,8)
+  for j_c.1 (0,2)
+    for k.0 (0,20)
+      for k.1 (0,2)
+        for i_c.3 (0,5)
+          for j_c.3 (0,20)
+            out.local = ...
+  for i.1 (0,5)
+    for j.1 (0,40)
+      out = ...
+
+==================================================
+No: 99	GFLOPS: 28.52 / 89.20	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.36, Tstamp:1696730578.87)
+==================================================
+Placeholder: A, B
+out auto_unroll: 64
+parallel i.0@j.0@i.1@j.1@ (0,20)
+  for k.0 (0,4)
+    for i.2 (0,4)
+      for j.2 (0,4)
+        for k.1 (0,10)
+          vectorize j.3 (0,5)
+            out = ...
+
+==================================================
+No: 100	GFLOPS: 9.67 / 89.20	results: MeasureResult(cost:[0.0000], error_no:0, all_cost:0.20, Tstamp:1696730579.00)
+==================================================
+Placeholder: A, B
+out auto_unroll: 16
+parallel i.0@j.0@i.1@j.1@ (0,40)
+  for k.0 (0,4)
+    for i.2 (0,10)
+      for j.2 (0,2)
+        for k.1 (0,10)
+          for i.3 (0,2)
+            out = ...
+
+Time elapsed for measurement: 16.67 s
+----------------------------------------------------------------------
+------------------------------  [ Done ]
+----------------------------------------------------------------------
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(A: T.Buffer((40, 40), "float32"), B: T.Buffer((40, 40), "float32"), out: T.Buffer((40, 40), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        for i_outer_outer_outer_j_outer_outer_outer_fused_i_outer_outer_inner_fused_j_outer_outer_inner_fused in T.parallel(40):
+            cse_var_1: T.int32 = i_outer_outer_outer_j_outer_outer_outer_fused_i_outer_outer_inner_fused_j_outer_outer_inner_fused * 40
+            out_1 = T.Buffer((1600,), data=out.data)
+            out_1[cse_var_1:cse_var_1 + 8] = T.Broadcast(T.float32(0), 8)
+            out_1[cse_var_1 + 8:cse_var_1 + 8 + 8] = T.Broadcast(T.float32(0), 8)
+            out_1[cse_var_1 + 16:cse_var_1 + 16 + 8] = T.Broadcast(T.float32(0), 8)
+            out_1[cse_var_1 + 24:cse_var_1 + 24 + 8] = T.Broadcast(T.float32(0), 8)
+            out_1[cse_var_1 + 32:cse_var_1 + 32 + 8] = T.Broadcast(T.float32(0), 8)
+            for k_outer in range(10):
+                cse_var_10: T.int32 = k_outer * 160
+                cse_var_9: T.int32 = cse_var_1 + 8
+                cse_var_8: T.int32 = cse_var_1 + 32
+                cse_var_7: T.int32 = cse_var_1 + 24
+                cse_var_6: T.int32 = cse_var_1 + 16
+                cse_var_5: T.int32 = cse_var_1 + k_outer * 4
+                cse_var_4: T.int32 = cse_var_5 + 3
+                cse_var_3: T.int32 = cse_var_5 + 2
+                cse_var_2: T.int32 = cse_var_5 + 1
+                A_1 = T.Buffer((1600,), data=A.data)
+                B_1 = T.Buffer((1600,), data=B.data)
+                out_1[cse_var_1:cse_var_1 + 8] = out_1[cse_var_1:cse_var_1 + 8] + T.Broadcast(A_1[cse_var_5], 8) * B_1[cse_var_10:cse_var_10 + 8]
+                out_1[cse_var_1:cse_var_1 + 8] = out_1[cse_var_1:cse_var_1 + 8] + T.Broadcast(A_1[cse_var_2], 8) * B_1[cse_var_10 + 40:cse_var_10 + 40 + 8]
+                out_1[cse_var_1:cse_var_1 + 8] = out_1[cse_var_1:cse_var_1 + 8] + T.Broadcast(A_1[cse_var_3], 8) * B_1[cse_var_10 + 80:cse_var_10 + 80 + 8]
+                out_1[cse_var_1:cse_var_1 + 8] = out_1[cse_var_1:cse_var_1 + 8] + T.Broadcast(A_1[cse_var_4], 8) * B_1[cse_var_10 + 120:cse_var_10 + 120 + 8]
+                out_1[cse_var_9:cse_var_9 + 8] = out_1[cse_var_9:cse_var_9 + 8] + T.Broadcast(A_1[cse_var_5], 8) * B_1[cse_var_10 + 8:cse_var_10 + 8 + 8]
+                out_1[cse_var_9:cse_var_9 + 8] = out_1[cse_var_9:cse_var_9 + 8] + T.Broadcast(A_1[cse_var_2], 8) * B_1[cse_var_10 + 48:cse_var_10 + 48 + 8]
+                out_1[cse_var_9:cse_var_9 + 8] = out_1[cse_var_9:cse_var_9 + 8] + T.Broadcast(A_1[cse_var_3], 8) * B_1[cse_var_10 + 88:cse_var_10 + 88 + 8]
+                out_1[cse_var_9:cse_var_9 + 8] = out_1[cse_var_9:cse_var_9 + 8] + T.Broadcast(A_1[cse_var_4], 8) * B_1[cse_var_10 + 128:cse_var_10 + 128 + 8]
+                out_1[cse_var_6:cse_var_6 + 8] = out_1[cse_var_6:cse_var_6 + 8] + T.Broadcast(A_1[cse_var_5], 8) * B_1[cse_var_10 + 16:cse_var_10 + 16 + 8]
+                out_1[cse_var_6:cse_var_6 + 8] = out_1[cse_var_6:cse_var_6 + 8] + T.Broadcast(A_1[cse_var_2], 8) * B_1[cse_var_10 + 56:cse_var_10 + 56 + 8]
+                out_1[cse_var_6:cse_var_6 + 8] = out_1[cse_var_6:cse_var_6 + 8] + T.Broadcast(A_1[cse_var_3], 8) * B_1[cse_var_10 + 96:cse_var_10 + 96 + 8]
+                out_1[cse_var_6:cse_var_6 + 8] = out_1[cse_var_6:cse_var_6 + 8] + T.Broadcast(A_1[cse_var_4], 8) * B_1[cse_var_10 + 136:cse_var_10 + 136 + 8]
+                out_1[cse_var_7:cse_var_7 + 8] = out_1[cse_var_7:cse_var_7 + 8] + T.Broadcast(A_1[cse_var_5], 8) * B_1[cse_var_10 + 24:cse_var_10 + 24 + 8]
+                out_1[cse_var_7:cse_var_7 + 8] = out_1[cse_var_7:cse_var_7 + 8] + T.Broadcast(A_1[cse_var_2], 8) * B_1[cse_var_10 + 64:cse_var_10 + 64 + 8]
+                out_1[cse_var_7:cse_var_7 + 8] = out_1[cse_var_7:cse_var_7 + 8] + T.Broadcast(A_1[cse_var_3], 8) * B_1[cse_var_10 + 104:cse_var_10 + 104 + 8]
+                out_1[cse_var_7:cse_var_7 + 8] = out_1[cse_var_7:cse_var_7 + 8] + T.Broadcast(A_1[cse_var_4], 8) * B_1[cse_var_10 + 144:cse_var_10 + 144 + 8]
+                out_1[cse_var_8:cse_var_8 + 8] = out_1[cse_var_8:cse_var_8 + 8] + T.Broadcast(A_1[cse_var_5], 8) * B_1[cse_var_10 + 32:cse_var_10 + 32 + 8]
+                out_1[cse_var_8:cse_var_8 + 8] = out_1[cse_var_8:cse_var_8 + 8] + T.Broadcast(A_1[cse_var_2], 8) * B_1[cse_var_10 + 72:cse_var_10 + 72 + 8]
+                out_1[cse_var_8:cse_var_8 + 8] = out_1[cse_var_8:cse_var_8 + 8] + T.Broadcast(A_1[cse_var_3], 8) * B_1[cse_var_10 + 112:cse_var_10 + 112 + 8]
+                out_1[cse_var_8:cse_var_8 + 8] = out_1[cse_var_8:cse_var_8 + 8] + T.Broadcast(A_1[cse_var_4], 8) * B_1[cse_var_10 + 152:cse_var_10 + 152 + 8]
+Execution time of this operator: max:1.063 us   median:1.051 us   min:1.034 us
+Equivalent python schedule:
+out_i, out_j, out_k = tuple(out.op.axis) + tuple(out.op.reduce_axis)
+out_i_o_i, out_i_i = s[out].split(out_i, factor=1)
+out_i_o_o_i, out_i_o_i = s[out].split(out_i_o_i, factor=1)
+out_i_o_o_o, out_i_o_o_i = s[out].split(out_i_o_o_i, factor=8)
+out_j_o_i, out_j_i = s[out].split(out_j, factor=8)
+out_j_o_o_i, out_j_o_i = s[out].split(out_j_o_i, factor=5)
+out_j_o_o_o, out_j_o_o_i = s[out].split(out_j_o_o_i, factor=1)
+out_k_o, out_k_i = s[out].split(out_k, factor=4)
+s[out].reorder(out_i_o_o_o, out_j_o_o_o, out_i_o_o_i, out_j_o_o_i, out_k_o, out_i_o_i, out_j_o_i, out_k_i, out_i_i, out_j_i)
+out_i_o_o_o_j_o_o_o_fused_i_o_o_i_fused_j_o_o_i_fused = s[out].fuse(out_i_o_o_o, out_j_o_o_o, out_i_o_o_i, out_j_o_o_i)
+s[out].parallel(out_i_o_o_o_j_o_o_o_fused_i_o_o_i_fused_j_o_o_i_fused)
+s[out].pragma(out_i_o_o_o_j_o_o_o_fused_i_o_o_i_fused_j_o_o_i_fused, "auto_unroll_max_step", 64)
+s[out].pragma(out_i_o_o_o_j_o_o_o_fused_i_o_o_i_fused_j_o_o_i_fused, "unroll_explicit", True)
+s[out].vectorize(out_j_i)
+

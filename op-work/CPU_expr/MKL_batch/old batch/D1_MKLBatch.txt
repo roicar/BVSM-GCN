@@ -1,0 +1,34 @@
+Count A matrix:142
+The Number of dimension variety is :6
+The 0th Group info:
+m[0]:33
+k[0]:33
+n[0]:2
+size_per_grp[0]:12
+The 1th Group info:
+m[1]:34
+k[1]:34
+n[1]:2
+size_per_grp[1]:10
+The 2th Group info:
+m[2]:35
+k[2]:35
+n[2]:2
+size_per_grp[2]:15
+The 3th Group info:
+m[3]:36
+k[3]:36
+n[3]:2
+size_per_grp[3]:39
+The 4th Group info:
+m[4]:38
+k[4]:38
+n[4]:2
+size_per_grp[4]:37
+The 5th Group info:
+m[5]:39
+k[5]:39
+n[5]:2
+size_per_grp[5]:29
+cblas_sgemm_batch cost(us)：10.3
+The result of matrix multiplication is true!

@@ -1,0 +1,128 @@
+8x8x8
+Numpy running time: 0.000001
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        for i_inner_init in range(8):
+            cse_var_1: T.int32 = i_inner_init * 8
+            out_1[cse_var_1] = T.float32(0)
+            out_1[cse_var_1 + 1] = T.float32(0)
+            out_1[cse_var_1 + 2] = T.float32(0)
+            out_1[cse_var_1 + 3] = T.float32(0)
+            out_1[cse_var_1 + 4] = T.float32(0)
+            out_1[cse_var_1 + 5] = T.float32(0)
+            out_1[cse_var_1 + 6] = T.float32(0)
+            out_1[cse_var_1 + 7] = T.float32(0)
+        for k_outer, i_inner in T.grid(8, 8):
+            cse_var_11: T.int32 = k_outer * 8
+            cse_var_10: T.int32 = i_inner * 8
+            cse_var_9: T.int32 = cse_var_10 + k_outer
+            cse_var_8: T.int32 = cse_var_10 + 7
+            cse_var_7: T.int32 = cse_var_10 + 6
+            cse_var_6: T.int32 = cse_var_10 + 5
+            cse_var_5: T.int32 = cse_var_10 + 4
+            cse_var_4: T.int32 = cse_var_10 + 3
+            cse_var_3: T.int32 = cse_var_10 + 2
+            cse_var_2: T.int32 = cse_var_10 + 1
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[cse_var_10] = out_1[cse_var_10] + data_1[cse_var_9] * weight_1[cse_var_11]
+            out_1[cse_var_2] = out_1[cse_var_2] + data_1[cse_var_9] * weight_1[cse_var_11 + 1]
+            out_1[cse_var_3] = out_1[cse_var_3] + data_1[cse_var_9] * weight_1[cse_var_11 + 2]
+            out_1[cse_var_4] = out_1[cse_var_4] + data_1[cse_var_9] * weight_1[cse_var_11 + 3]
+            out_1[cse_var_5] = out_1[cse_var_5] + data_1[cse_var_9] * weight_1[cse_var_11 + 4]
+            out_1[cse_var_6] = out_1[cse_var_6] + data_1[cse_var_9] * weight_1[cse_var_11 + 5]
+            out_1[cse_var_7] = out_1[cse_var_7] + data_1[cse_var_9] * weight_1[cse_var_11 + 6]
+            out_1[cse_var_8] = out_1[cse_var_8] + data_1[cse_var_9] * weight_1[cse_var_11 + 7]
+ Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1) | 0.00 s Current/Best:   34.83/  34.83 GFLOPS | Progress: (1/1) | 2.15 sLowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        for i_inner_init in range(8):
+            cse_var_1: T.int32 = i_inner_init * 8
+            out_1[cse_var_1] = T.float32(0)
+            out_1[cse_var_1 + 1] = T.float32(0)
+            out_1[cse_var_1 + 2] = T.float32(0)
+            out_1[cse_var_1 + 3] = T.float32(0)
+            out_1[cse_var_1 + 4] = T.float32(0)
+            out_1[cse_var_1 + 5] = T.float32(0)
+            out_1[cse_var_1 + 6] = T.float32(0)
+            out_1[cse_var_1 + 7] = T.float32(0)
+        for k_outer, i_inner in T.grid(8, 8):
+            cse_var_11: T.int32 = k_outer * 8
+            cse_var_10: T.int32 = i_inner * 8
+            cse_var_9: T.int32 = cse_var_10 + k_outer
+            cse_var_8: T.int32 = cse_var_10 + 7
+            cse_var_7: T.int32 = cse_var_10 + 6
+            cse_var_6: T.int32 = cse_var_10 + 5
+            cse_var_5: T.int32 = cse_var_10 + 4
+            cse_var_4: T.int32 = cse_var_10 + 3
+            cse_var_3: T.int32 = cse_var_10 + 2
+            cse_var_2: T.int32 = cse_var_10 + 1
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[cse_var_10] = out_1[cse_var_10] + data_1[cse_var_9] * weight_1[cse_var_11]
+            out_1[cse_var_2] = out_1[cse_var_2] + data_1[cse_var_9] * weight_1[cse_var_11 + 1]
+            out_1[cse_var_3] = out_1[cse_var_3] + data_1[cse_var_9] * weight_1[cse_var_11 + 2]
+            out_1[cse_var_4] = out_1[cse_var_4] + data_1[cse_var_9] * weight_1[cse_var_11 + 3]
+            out_1[cse_var_5] = out_1[cse_var_5] + data_1[cse_var_9] * weight_1[cse_var_11 + 4]
+            out_1[cse_var_6] = out_1[cse_var_6] + data_1[cse_var_9] * weight_1[cse_var_11 + 5]
+            out_1[cse_var_7] = out_1[cse_var_7] + data_1[cse_var_9] * weight_1[cse_var_11 + 6]
+            out_1[cse_var_8] = out_1[cse_var_8] + data_1[cse_var_9] * weight_1[cse_var_11 + 7]
+ Done.
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        for i_inner_init in range(8):
+            cse_var_1: T.int32 = i_inner_init * 8
+            out_1[cse_var_1] = T.float32(0)
+            out_1[cse_var_1 + 1] = T.float32(0)
+            out_1[cse_var_1 + 2] = T.float32(0)
+            out_1[cse_var_1 + 3] = T.float32(0)
+            out_1[cse_var_1 + 4] = T.float32(0)
+            out_1[cse_var_1 + 5] = T.float32(0)
+            out_1[cse_var_1 + 6] = T.float32(0)
+            out_1[cse_var_1 + 7] = T.float32(0)
+        for k_outer, i_inner in T.grid(8, 8):
+            cse_var_11: T.int32 = k_outer * 8
+            cse_var_10: T.int32 = i_inner * 8
+            cse_var_9: T.int32 = cse_var_10 + k_outer
+            cse_var_8: T.int32 = cse_var_10 + 7
+            cse_var_7: T.int32 = cse_var_10 + 6
+            cse_var_6: T.int32 = cse_var_10 + 5
+            cse_var_5: T.int32 = cse_var_10 + 4
+            cse_var_4: T.int32 = cse_var_10 + 3
+            cse_var_3: T.int32 = cse_var_10 + 2
+            cse_var_2: T.int32 = cse_var_10 + 1
+            data_1 = T.Buffer((64,), data=data.data)
+            weight_1 = T.Buffer((64,), data=weight.data)
+            out_1[cse_var_10] = out_1[cse_var_10] + data_1[cse_var_9] * weight_1[cse_var_11]
+            out_1[cse_var_2] = out_1[cse_var_2] + data_1[cse_var_9] * weight_1[cse_var_11 + 1]
+            out_1[cse_var_3] = out_1[cse_var_3] + data_1[cse_var_9] * weight_1[cse_var_11 + 2]
+            out_1[cse_var_4] = out_1[cse_var_4] + data_1[cse_var_9] * weight_1[cse_var_11 + 3]
+            out_1[cse_var_5] = out_1[cse_var_5] + data_1[cse_var_9] * weight_1[cse_var_11 + 4]
+            out_1[cse_var_6] = out_1[cse_var_6] + data_1[cse_var_9] * weight_1[cse_var_11 + 5]
+            out_1[cse_var_7] = out_1[cse_var_7] + data_1[cse_var_9] * weight_1[cse_var_11 + 6]
+            out_1[cse_var_8] = out_1[cse_var_8] + data_1[cse_var_9] * weight_1[cse_var_11 + 7]
+arg_bufs: [Tensor(shape=[8, 8], op.name=data), Tensor(shape=[8, 8], op.name=weight), Tensor(shape=[8, 8], op.name=out)]
+Execution time of this operator: max:26.380 ns   median:26.321 ns   min:26.264 ns

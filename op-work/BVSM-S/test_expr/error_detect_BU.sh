@@ -1,0 +1,21 @@
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_1.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_2.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_3.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_4.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_5.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_6.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_7.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_8.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_9.txt
+python Ansor_op.py 56 56 56 | tee Ansor_56_56_56_10.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_1.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_2.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_3.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_4.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_5.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_6.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_7.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_8.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_9.txt
+python Ansor_op.py 24 24 24 | tee Ansor_24_24_24_10.txt
+

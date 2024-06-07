@@ -1,0 +1,10 @@
+length of list_A:1
+The 0th SpMM starts running
+M: 128
+K: 128
+N: 128
+开始存储矩阵到一维数组
+OK1
+The compute cost is :0.0073056
+The 0th SpMM ends running
+total cost time is:0.0073056 ms

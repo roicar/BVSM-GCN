@@ -1,0 +1,142 @@
+length of list_A:10
+The 0th SpMM starts running
+M: 32
+K: 32
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0096352ms
+The 0th SpMM ends running
+The 1th SpMM starts running
+M: 32
+K: 32
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0095072ms
+The 1th SpMM ends running
+The 2th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0099552ms
+The 2th SpMM ends running
+The 3th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0099616ms
+The 3th SpMM ends running
+The 4th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0099296ms
+The 4th SpMM ends running
+The 5th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0100288ms
+The 5th SpMM ends running
+The 6th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0098976ms
+The 6th SpMM ends running
+The 7th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0099136ms
+The 7th SpMM ends running
+The 8th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0099712ms
+The 8th SpMM ends running
+The 9th SpMM starts running
+M: 34
+K: 34
+N: 128
+开始存储矩阵到一维数组
+开始转化稀疏格式
+sparse2csr调用成功
+开始转置
+cuda分配空间
+GPU开始计算
+GPU结束计算
+Verfication cusparse result: The result of matrix multiplication is wrong!
+The compute cost is :0.0098304ms
+The 9th SpMM ends running
+total cost time is:0.0986304ms

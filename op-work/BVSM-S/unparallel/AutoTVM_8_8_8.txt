@@ -1,0 +1,257 @@
+8x8x8
+Numpy running time: 0.000001
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        out_1[0:8] = T.Broadcast(T.float32(0), 8)
+        out_1[8:16] = T.Broadcast(T.float32(0), 8)
+        out_1[16:24] = T.Broadcast(T.float32(0), 8)
+        out_1[24:32] = T.Broadcast(T.float32(0), 8)
+        out_1[32:40] = T.Broadcast(T.float32(0), 8)
+        out_1[40:48] = T.Broadcast(T.float32(0), 8)
+        out_1[48:56] = T.Broadcast(T.float32(0), 8)
+        out_1[56:64] = T.Broadcast(T.float32(0), 8)
+        data_1 = T.Buffer((64,), data=data.data)
+        weight_1 = T.Buffer((64,), data=weight.data)
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[0], 8) * weight_1[0:8]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[8], 8) * weight_1[0:8]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[16], 8) * weight_1[0:8]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[24], 8) * weight_1[0:8]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[32], 8) * weight_1[0:8]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[40], 8) * weight_1[0:8]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[48], 8) * weight_1[0:8]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[56], 8) * weight_1[0:8]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[1], 8) * weight_1[8:16]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[9], 8) * weight_1[8:16]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[17], 8) * weight_1[8:16]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[25], 8) * weight_1[8:16]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[33], 8) * weight_1[8:16]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[41], 8) * weight_1[8:16]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[49], 8) * weight_1[8:16]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[57], 8) * weight_1[8:16]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[2], 8) * weight_1[16:24]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[10], 8) * weight_1[16:24]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[18], 8) * weight_1[16:24]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[26], 8) * weight_1[16:24]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[34], 8) * weight_1[16:24]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[42], 8) * weight_1[16:24]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[50], 8) * weight_1[16:24]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[58], 8) * weight_1[16:24]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[3], 8) * weight_1[24:32]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[11], 8) * weight_1[24:32]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[19], 8) * weight_1[24:32]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[27], 8) * weight_1[24:32]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[35], 8) * weight_1[24:32]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[43], 8) * weight_1[24:32]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[51], 8) * weight_1[24:32]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[59], 8) * weight_1[24:32]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[4], 8) * weight_1[32:40]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[12], 8) * weight_1[32:40]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[20], 8) * weight_1[32:40]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[28], 8) * weight_1[32:40]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[36], 8) * weight_1[32:40]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[44], 8) * weight_1[32:40]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[52], 8) * weight_1[32:40]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[60], 8) * weight_1[32:40]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[5], 8) * weight_1[40:48]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[13], 8) * weight_1[40:48]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[21], 8) * weight_1[40:48]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[29], 8) * weight_1[40:48]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[37], 8) * weight_1[40:48]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[45], 8) * weight_1[40:48]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[53], 8) * weight_1[40:48]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[61], 8) * weight_1[40:48]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[6], 8) * weight_1[48:56]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[14], 8) * weight_1[48:56]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[22], 8) * weight_1[48:56]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[30], 8) * weight_1[48:56]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[38], 8) * weight_1[48:56]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[46], 8) * weight_1[48:56]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[54], 8) * weight_1[48:56]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[62], 8) * weight_1[48:56]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[7], 8) * weight_1[56:64]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[15], 8) * weight_1[56:64]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[23], 8) * weight_1[56:64]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[31], 8) * weight_1[56:64]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[39], 8) * weight_1[56:64]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[47], 8) * weight_1[56:64]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[55], 8) * weight_1[56:64]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[63], 8) * weight_1[56:64]
+ Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/1) | 0.00 s Current/Best:   37.79/  37.79 GFLOPS | Progress: (1/1) | 2.20 sLowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        out_1[0:8] = T.Broadcast(T.float32(0), 8)
+        out_1[8:16] = T.Broadcast(T.float32(0), 8)
+        out_1[16:24] = T.Broadcast(T.float32(0), 8)
+        out_1[24:32] = T.Broadcast(T.float32(0), 8)
+        out_1[32:40] = T.Broadcast(T.float32(0), 8)
+        out_1[40:48] = T.Broadcast(T.float32(0), 8)
+        out_1[48:56] = T.Broadcast(T.float32(0), 8)
+        out_1[56:64] = T.Broadcast(T.float32(0), 8)
+        data_1 = T.Buffer((64,), data=data.data)
+        weight_1 = T.Buffer((64,), data=weight.data)
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[0], 8) * weight_1[0:8]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[8], 8) * weight_1[0:8]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[16], 8) * weight_1[0:8]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[24], 8) * weight_1[0:8]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[32], 8) * weight_1[0:8]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[40], 8) * weight_1[0:8]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[48], 8) * weight_1[0:8]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[56], 8) * weight_1[0:8]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[1], 8) * weight_1[8:16]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[9], 8) * weight_1[8:16]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[17], 8) * weight_1[8:16]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[25], 8) * weight_1[8:16]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[33], 8) * weight_1[8:16]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[41], 8) * weight_1[8:16]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[49], 8) * weight_1[8:16]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[57], 8) * weight_1[8:16]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[2], 8) * weight_1[16:24]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[10], 8) * weight_1[16:24]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[18], 8) * weight_1[16:24]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[26], 8) * weight_1[16:24]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[34], 8) * weight_1[16:24]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[42], 8) * weight_1[16:24]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[50], 8) * weight_1[16:24]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[58], 8) * weight_1[16:24]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[3], 8) * weight_1[24:32]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[11], 8) * weight_1[24:32]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[19], 8) * weight_1[24:32]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[27], 8) * weight_1[24:32]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[35], 8) * weight_1[24:32]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[43], 8) * weight_1[24:32]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[51], 8) * weight_1[24:32]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[59], 8) * weight_1[24:32]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[4], 8) * weight_1[32:40]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[12], 8) * weight_1[32:40]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[20], 8) * weight_1[32:40]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[28], 8) * weight_1[32:40]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[36], 8) * weight_1[32:40]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[44], 8) * weight_1[32:40]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[52], 8) * weight_1[32:40]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[60], 8) * weight_1[32:40]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[5], 8) * weight_1[40:48]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[13], 8) * weight_1[40:48]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[21], 8) * weight_1[40:48]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[29], 8) * weight_1[40:48]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[37], 8) * weight_1[40:48]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[45], 8) * weight_1[40:48]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[53], 8) * weight_1[40:48]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[61], 8) * weight_1[40:48]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[6], 8) * weight_1[48:56]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[14], 8) * weight_1[48:56]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[22], 8) * weight_1[48:56]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[30], 8) * weight_1[48:56]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[38], 8) * weight_1[48:56]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[46], 8) * weight_1[48:56]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[54], 8) * weight_1[48:56]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[62], 8) * weight_1[48:56]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[7], 8) * weight_1[56:64]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[15], 8) * weight_1[56:64]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[23], 8) * weight_1[56:64]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[31], 8) * weight_1[56:64]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[39], 8) * weight_1[56:64]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[47], 8) * weight_1[56:64]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[55], 8) * weight_1[56:64]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[63], 8) * weight_1[56:64]
+ Done.
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(data: T.Buffer((8, 8), "float32"), weight: T.Buffer((8, 8), "float32"), out: T.Buffer((8, 8), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        out_1 = T.Buffer((64,), data=out.data)
+        out_1[0:8] = T.Broadcast(T.float32(0), 8)
+        out_1[8:16] = T.Broadcast(T.float32(0), 8)
+        out_1[16:24] = T.Broadcast(T.float32(0), 8)
+        out_1[24:32] = T.Broadcast(T.float32(0), 8)
+        out_1[32:40] = T.Broadcast(T.float32(0), 8)
+        out_1[40:48] = T.Broadcast(T.float32(0), 8)
+        out_1[48:56] = T.Broadcast(T.float32(0), 8)
+        out_1[56:64] = T.Broadcast(T.float32(0), 8)
+        data_1 = T.Buffer((64,), data=data.data)
+        weight_1 = T.Buffer((64,), data=weight.data)
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[0], 8) * weight_1[0:8]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[8], 8) * weight_1[0:8]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[16], 8) * weight_1[0:8]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[24], 8) * weight_1[0:8]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[32], 8) * weight_1[0:8]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[40], 8) * weight_1[0:8]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[48], 8) * weight_1[0:8]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[56], 8) * weight_1[0:8]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[1], 8) * weight_1[8:16]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[9], 8) * weight_1[8:16]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[17], 8) * weight_1[8:16]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[25], 8) * weight_1[8:16]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[33], 8) * weight_1[8:16]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[41], 8) * weight_1[8:16]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[49], 8) * weight_1[8:16]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[57], 8) * weight_1[8:16]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[2], 8) * weight_1[16:24]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[10], 8) * weight_1[16:24]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[18], 8) * weight_1[16:24]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[26], 8) * weight_1[16:24]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[34], 8) * weight_1[16:24]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[42], 8) * weight_1[16:24]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[50], 8) * weight_1[16:24]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[58], 8) * weight_1[16:24]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[3], 8) * weight_1[24:32]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[11], 8) * weight_1[24:32]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[19], 8) * weight_1[24:32]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[27], 8) * weight_1[24:32]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[35], 8) * weight_1[24:32]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[43], 8) * weight_1[24:32]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[51], 8) * weight_1[24:32]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[59], 8) * weight_1[24:32]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[4], 8) * weight_1[32:40]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[12], 8) * weight_1[32:40]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[20], 8) * weight_1[32:40]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[28], 8) * weight_1[32:40]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[36], 8) * weight_1[32:40]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[44], 8) * weight_1[32:40]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[52], 8) * weight_1[32:40]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[60], 8) * weight_1[32:40]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[5], 8) * weight_1[40:48]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[13], 8) * weight_1[40:48]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[21], 8) * weight_1[40:48]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[29], 8) * weight_1[40:48]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[37], 8) * weight_1[40:48]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[45], 8) * weight_1[40:48]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[53], 8) * weight_1[40:48]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[61], 8) * weight_1[40:48]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[6], 8) * weight_1[48:56]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[14], 8) * weight_1[48:56]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[22], 8) * weight_1[48:56]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[30], 8) * weight_1[48:56]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[38], 8) * weight_1[48:56]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[46], 8) * weight_1[48:56]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[54], 8) * weight_1[48:56]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[62], 8) * weight_1[48:56]
+        out_1[0:8] = out_1[0:8] + T.Broadcast(data_1[7], 8) * weight_1[56:64]
+        out_1[8:16] = out_1[8:16] + T.Broadcast(data_1[15], 8) * weight_1[56:64]
+        out_1[16:24] = out_1[16:24] + T.Broadcast(data_1[23], 8) * weight_1[56:64]
+        out_1[24:32] = out_1[24:32] + T.Broadcast(data_1[31], 8) * weight_1[56:64]
+        out_1[32:40] = out_1[32:40] + T.Broadcast(data_1[39], 8) * weight_1[56:64]
+        out_1[40:48] = out_1[40:48] + T.Broadcast(data_1[47], 8) * weight_1[56:64]
+        out_1[48:56] = out_1[48:56] + T.Broadcast(data_1[55], 8) * weight_1[56:64]
+        out_1[56:64] = out_1[56:64] + T.Broadcast(data_1[63], 8) * weight_1[56:64]
+arg_bufs: [Tensor(shape=[8, 8], op.name=data), Tensor(shape=[8, 8], op.name=weight), Tensor(shape=[8, 8], op.name=out)]
+Execution time of this operator: max:24.353 ns   median:24.314 ns   min:24.168 ns

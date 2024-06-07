@@ -1,0 +1,481 @@
+Count A matrix:2000
+The Number of dimension variety is :74
+The 0th Group info:
+m[0]:10
+k[0]:10
+n[0]:4
+size_per_grp[0]:344
+The 1th Group info:
+m[1]:11
+k[1]:11
+n[1]:4
+size_per_grp[1]:464
+The 2th Group info:
+m[2]:12
+k[2]:12
+n[2]:4
+size_per_grp[2]:359
+The 3th Group info:
+m[3]:13
+k[3]:13
+n[3]:4
+size_per_grp[3]:3
+The 4th Group info:
+m[4]:15
+k[4]:15
+n[4]:4
+size_per_grp[4]:4
+The 5th Group info:
+m[5]:16
+k[5]:16
+n[5]:4
+size_per_grp[5]:5
+The 6th Group info:
+m[6]:17
+k[6]:17
+n[6]:4
+size_per_grp[6]:6
+The 7th Group info:
+m[7]:18
+k[7]:18
+n[7]:4
+size_per_grp[7]:5
+The 8th Group info:
+m[8]:19
+k[8]:19
+n[8]:4
+size_per_grp[8]:13
+The 9th Group info:
+m[9]:20
+k[9]:20
+n[9]:4
+size_per_grp[9]:27
+The 10th Group info:
+m[10]:21
+k[10]:21
+n[10]:4
+size_per_grp[10]:19
+The 11th Group info:
+m[11]:22
+k[11]:22
+n[11]:4
+size_per_grp[11]:19
+The 12th Group info:
+m[12]:23
+k[12]:23
+n[12]:4
+size_per_grp[12]:26
+The 13th Group info:
+m[13]:24
+k[13]:24
+n[13]:4
+size_per_grp[13]:12
+The 14th Group info:
+m[14]:25
+k[14]:25
+n[14]:4
+size_per_grp[14]:6
+The 15th Group info:
+m[15]:26
+k[15]:26
+n[15]:4
+size_per_grp[15]:8
+The 16th Group info:
+m[16]:27
+k[16]:27
+n[16]:4
+size_per_grp[16]:13
+The 17th Group info:
+m[17]:28
+k[17]:28
+n[17]:4
+size_per_grp[17]:5
+The 18th Group info:
+m[18]:29
+k[18]:29
+n[18]:4
+size_per_grp[18]:3
+The 19th Group info:
+m[19]:2
+k[19]:2
+n[19]:4
+size_per_grp[19]:2
+The 20th Group info:
+m[20]:30
+k[20]:30
+n[20]:4
+size_per_grp[20]:4
+The 21th Group info:
+m[21]:31
+k[21]:31
+n[21]:4
+size_per_grp[21]:4
+The 22th Group info:
+m[22]:32
+k[22]:32
+n[22]:4
+size_per_grp[22]:5
+The 23th Group info:
+m[23]:33
+k[23]:33
+n[23]:4
+size_per_grp[23]:12
+The 24th Group info:
+m[24]:34
+k[24]:34
+n[24]:4
+size_per_grp[24]:12
+The 25th Group info:
+m[25]:35
+k[25]:35
+n[25]:4
+size_per_grp[25]:10
+The 26th Group info:
+m[26]:36
+k[26]:36
+n[26]:4
+size_per_grp[26]:8
+The 27th Group info:
+m[27]:37
+k[27]:37
+n[27]:4
+size_per_grp[27]:4
+The 28th Group info:
+m[28]:38
+k[28]:38
+n[28]:4
+size_per_grp[28]:7
+The 29th Group info:
+m[29]:39
+k[29]:39
+n[29]:4
+size_per_grp[29]:5
+The 30th Group info:
+m[30]:3
+k[30]:3
+n[30]:4
+size_per_grp[30]:2
+The 31th Group info:
+m[31]:40
+k[31]:40
+n[31]:4
+size_per_grp[31]:1
+The 32th Group info:
+m[32]:41
+k[32]:41
+n[32]:4
+size_per_grp[32]:3
+The 33th Group info:
+m[33]:42
+k[33]:42
+n[33]:4
+size_per_grp[33]:2
+The 34th Group info:
+m[34]:43
+k[34]:43
+n[34]:4
+size_per_grp[34]:1
+The 35th Group info:
+m[35]:44
+k[35]:44
+n[35]:4
+size_per_grp[35]:6
+The 36th Group info:
+m[36]:45
+k[36]:45
+n[36]:4
+size_per_grp[36]:3
+The 37th Group info:
+m[37]:46
+k[37]:46
+n[37]:4
+size_per_grp[37]:6
+The 38th Group info:
+m[38]:47
+k[38]:47
+n[38]:4
+size_per_grp[38]:9
+The 39th Group info:
+m[39]:48
+k[39]:48
+n[39]:4
+size_per_grp[39]:6
+The 40th Group info:
+m[40]:49
+k[40]:49
+n[40]:4
+size_per_grp[40]:5
+The 41th Group info:
+m[41]:4
+k[41]:4
+n[41]:4
+size_per_grp[41]:12
+The 42th Group info:
+m[42]:50
+k[42]:50
+n[42]:4
+size_per_grp[42]:3
+The 43th Group info:
+m[43]:51
+k[43]:51
+n[43]:4
+size_per_grp[43]:4
+The 44th Group info:
+m[44]:52
+k[44]:52
+n[44]:4
+size_per_grp[44]:6
+The 45th Group info:
+m[45]:53
+k[45]:53
+n[45]:4
+size_per_grp[45]:3
+The 46th Group info:
+m[46]:54
+k[46]:54
+n[46]:4
+size_per_grp[46]:12
+The 47th Group info:
+m[47]:55
+k[47]:55
+n[47]:4
+size_per_grp[47]:3
+The 48th Group info:
+m[48]:56
+k[48]:56
+n[48]:4
+size_per_grp[48]:10
+The 49th Group info:
+m[49]:57
+k[49]:57
+n[49]:4
+size_per_grp[49]:7
+The 50th Group info:
+m[50]:58
+k[50]:58
+n[50]:4
+size_per_grp[50]:9
+The 51th Group info:
+m[51]:59
+k[51]:59
+n[51]:4
+size_per_grp[51]:10
+The 52th Group info:
+m[52]:5
+k[52]:5
+n[52]:4
+size_per_grp[52]:4
+The 53th Group info:
+m[53]:60
+k[53]:60
+n[53]:4
+size_per_grp[53]:2
+The 54th Group info:
+m[54]:61
+k[54]:61
+n[54]:4
+size_per_grp[54]:3
+The 55th Group info:
+m[55]:62
+k[55]:62
+n[55]:4
+size_per_grp[55]:1
+The 56th Group info:
+m[56]:63
+k[56]:63
+n[56]:4
+size_per_grp[56]:2
+The 57th Group info:
+m[57]:65
+k[57]:65
+n[57]:4
+size_per_grp[57]:6
+The 58th Group info:
+m[58]:67
+k[58]:67
+n[58]:4
+size_per_grp[58]:3
+The 59th Group info:
+m[59]:68
+k[59]:68
+n[59]:4
+size_per_grp[59]:2
+The 60th Group info:
+m[60]:69
+k[60]:69
+n[60]:4
+size_per_grp[60]:2
+The 61th Group info:
+m[61]:6
+k[61]:6
+n[61]:4
+size_per_grp[61]:28
+The 62th Group info:
+m[62]:73
+k[62]:73
+n[62]:4
+size_per_grp[62]:2
+The 63th Group info:
+m[63]:74
+k[63]:74
+n[63]:4
+size_per_grp[63]:1
+The 64th Group info:
+m[64]:76
+k[64]:76
+n[64]:4
+size_per_grp[64]:1
+The 65th Group info:
+m[65]:77
+k[65]:77
+n[65]:4
+size_per_grp[65]:7
+The 66th Group info:
+m[66]:78
+k[66]:78
+n[66]:4
+size_per_grp[66]:2
+The 67th Group info:
+m[67]:7
+k[67]:7
+n[67]:4
+size_per_grp[67]:47
+The 68th Group info:
+m[68]:80
+k[68]:80
+n[68]:4
+size_per_grp[68]:1
+The 69th Group info:
+m[69]:81
+k[69]:81
+n[69]:4
+size_per_grp[69]:2
+The 70th Group info:
+m[70]:85
+k[70]:85
+n[70]:4
+size_per_grp[70]:3
+The 71th Group info:
+m[71]:8
+k[71]:8
+n[71]:4
+size_per_grp[71]:123
+The 72th Group info:
+m[72]:95
+k[72]:95
+n[72]:4
+size_per_grp[72]:3
+The 73th Group info:
+m[73]:9
+k[73]:9
+n[73]:4
+size_per_grp[73]:218
+-------------------------------
+0 : 62.262
+1 : 62.292
+2 : 62.33
+3 : 62.365
+4 : 62.413
+5 : 62.428
+6 : 62.495
+7 : 62.537
+8 : 62.548
+9 : 62.567
+10 : 62.581
+11 : 62.615
+12 : 62.621
+13 : 62.649
+14 : 62.719
+15 : 62.792
+16 : 63.722
+17 : 63.817
+18 : 63.821
+19 : 63.849
+20 : 63.869
+21 : 63.977
+22 : 64.011
+23 : 64.037
+24 : 64.054
+25 : 64.057
+26 : 64.058
+27 : 64.063
+28 : 64.066
+29 : 64.105
+30 : 64.137
+31 : 64.162
+32 : 64.162
+33 : 64.166
+34 : 64.176
+35 : 64.176
+36 : 64.183
+37 : 64.214
+38 : 64.214
+39 : 64.239
+40 : 64.239
+41 : 64.249
+42 : 64.253
+43 : 64.261
+44 : 64.267
+45 : 64.268
+46 : 64.273
+47 : 64.278
+48 : 64.279
+49 : 64.283
+50 : 64.286
+51 : 64.313
+52 : 64.313
+53 : 64.321
+54 : 64.347
+55 : 64.35
+56 : 64.362
+57 : 64.364
+58 : 64.369
+59 : 64.378
+60 : 64.383
+61 : 64.387
+62 : 64.392
+63 : 64.396
+64 : 64.4
+65 : 64.425
+66 : 64.439
+67 : 64.455
+68 : 64.477
+69 : 64.484
+70 : 64.508
+71 : 64.63
+72 : 64.676
+73 : 64.935
+74 : 65.322
+75 : 65.639
+76 : 65.72
+77 : 65.733
+78 : 65.79
+79 : 65.931
+80 : 66.574
+81 : 67.201
+82 : 67.896
+83 : 67.984
+84 : 68.145
+85 : 69.369
+86 : 69.825
+87 : 70.641
+88 : 70.804
+89 : 80.137
+90 : 80.157
+91 : 81.73
+92 : 96.328
+93 : 98.12
+94 : 117.117
+95 : 150.401
+96 : 177.775
+97 : 254.11
+98 : 3042.06
+99 : 4597.29
+--------------------------------
+cost(us):
+max:4597.29
+index75:65.639
+median:64
+index25:64.057
+min:62.262
+The result of matrix multiplication is true!
