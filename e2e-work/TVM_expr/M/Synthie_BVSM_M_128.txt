@@ -1,0 +1,17 @@
+min time is 1.430511474609375e-06
+max time is 5.9604644775390625e-06
+median time is 1.9073486328125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+num:  400.0
+Test accuracy of TVM results: 42.75%
+Min model inference total time:  5.7220458984375e-06
+Median model inference total time:  6.9141387939453125e-06
+Max model inference total time:  4.1961669921875e-05

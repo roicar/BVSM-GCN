@@ -1,0 +1,643 @@
+Max number of node: 71
+Number of graph categories: 2
+[Graph(num_nodes=204, num_edges=432,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), tensor([[0],
+        [0],
+        [1],
+        [0],
+        [1]])]
+Number of nodes for each graph element in the batch: tensor([54, 39, 35, 34, 42])
+Number of edges for each graph element in the batch: tensor([112,  82,  74,  72,  92])
+The original graphs in the minibatch:
+[Graph(num_nodes=54, num_edges=112,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), Graph(num_nodes=39, num_edges=82,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), Graph(num_nodes=35, num_edges=74,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), Graph(num_nodes=34, num_edges=72,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), Graph(num_nodes=42, num_edges=92,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})]
+OK
+OK2
+batched_graph:  Graph(num_nodes=210, num_edges=448,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.3978, -0.0178],
+        [-0.4897,  0.0106],
+        [-1.2784,  0.2777],
+        [-1.1108,  0.3051],
+        [-0.3918, -0.0080]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 0
+num_correct_after: 5
+batched_graph:  Graph(num_nodes=217, num_edges=458,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.5641,  0.0539],
+        [-0.0701, -0.1327],
+        [-0.5678,  0.0473],
+        [-0.5511, -0.0116],
+        [-0.6739,  0.2643]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 0, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 0, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 5
+num_correct_after: 9
+batched_graph:  Graph(num_nodes=205, num_edges=430,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 0, 1, 1])
+pred:  tensor([[-0.8191,  0.1463],
+        [-0.6100,  0.0952],
+        [-1.4026,  0.2141],
+        [-0.6554,  0.1036],
+        [-0.5310,  0.0421]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 9
+num_correct_after: 13
+batched_graph:  Graph(num_nodes=222, num_edges=480,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.4357,  0.0933],
+        [ 0.0706, -0.0997],
+        [-0.3786, -0.0506],
+        [ 0.0893, -0.1408],
+        [-1.0212,  0.4100]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 0, 1, 0, 1])
+pred.argmax(1).squeeze():  tensor([1, 0, 1, 0, 1])
+(pred.argmax(1)==labels).sum:  tensor(3)
+(pred.argmax(1)==labels).sum.item():  3
+num_correct_before: 13
+num_correct_after: 16
+batched_graph:  Graph(num_nodes=190, num_edges=400,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.5486,  0.2228],
+        [ 0.1226, -0.1422],
+        [-1.1757,  0.1583],
+        [-0.6227,  0.1438],
+        [-0.3246, -0.0839]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 0, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 0, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 16
+num_correct_after: 20
+batched_graph:  Graph(num_nodes=201, num_edges=420,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-1.2477,  0.0584],
+        [-2.1047,  0.4266],
+        [-1.9612,  0.1658],
+        [-0.9989,  0.2158],
+        [-0.6066,  0.2156]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 20
+num_correct_after: 25
+batched_graph:  Graph(num_nodes=194, num_edges=414,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.5564,  0.0090],
+        [-0.4990,  0.1511],
+        [-0.1918,  0.0047],
+        [-0.4361,  0.0701],
+        [-0.9216,  0.1091]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 25
+num_correct_after: 30
+batched_graph:  Graph(num_nodes=200, num_edges=424,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6272, -0.1087],
+        [-0.2771, -0.0013],
+        [-0.2569, -0.0614],
+        [-0.9853,  0.2361],
+        [-0.9760,  0.0181]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 30
+num_correct_after: 35
+batched_graph:  Graph(num_nodes=179, num_edges=374,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [0],
+        [0],
+        [1]])
+labels.squeeze():  tensor([1, 1, 0, 0, 1])
+pred:  tensor([[-1.2529,  0.2236],
+        [-1.1131,  0.4035],
+        [ 0.0441, -0.2864],
+        [-1.7411,  0.4735],
+        [-1.0101,  0.4648]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 0, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 0, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 35
+num_correct_after: 39
+batched_graph:  Graph(num_nodes=208, num_edges=440,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.3126,  0.1043],
+        [-0.9840,  0.2277],
+        [-0.0522,  0.0568],
+        [-0.2499, -0.0424],
+        [-0.6542,  0.1305]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 39
+num_correct_after: 44
+batched_graph:  Graph(num_nodes=207, num_edges=438,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.4909,  0.0653],
+        [-0.7808,  0.0194],
+        [-0.8275, -0.0037],
+        [-1.2532,  0.2117],
+        [-0.7652, -0.0181]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 44
+num_correct_after: 49
+batched_graph:  Graph(num_nodes=202, num_edges=424,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6379,  0.1157],
+        [-1.1363,  0.2034],
+        [-0.9758,  0.3232],
+        [-0.8938,  0.1638],
+        [-0.5128, -0.0144]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 49
+num_correct_after: 54
+batched_graph:  Graph(num_nodes=225, num_edges=480,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6471,  0.0618],
+        [-0.6270,  0.1307],
+        [-0.4249, -0.0791],
+        [-0.1445, -0.0850],
+        [-0.1189, -0.1927]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 0])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 0])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 54
+num_correct_after: 58
+batched_graph:  Graph(num_nodes=170, num_edges=366,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([0, 1, 1, 1, 1])
+pred:  tensor([[-0.7705,  0.0921],
+        [-0.0148, -0.1099],
+        [-0.0911, -0.1040],
+        [-0.6361,  0.1541],
+        [-0.6456,  0.2316]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 0, 0, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 0, 0, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(2)
+(pred.argmax(1)==labels).sum.item():  2
+num_correct_before: 58
+num_correct_after: 60
+batched_graph:  Graph(num_nodes=183, num_edges=388,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6470,  0.0315],
+        [-0.5344,  0.1566],
+        [-0.9219,  0.0713],
+        [-0.5100,  0.1851],
+        [-1.3806,  0.2738]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 60
+num_correct_after: 65
+batched_graph:  Graph(num_nodes=202, num_edges=430,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6271,  0.0969],
+        [-0.6317,  0.2210],
+        [-0.3418,  0.0373],
+        [-0.5032, -0.0574],
+        [-0.5189,  0.0555]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 65
+num_correct_after: 70
+batched_graph:  Graph(num_nodes=195, num_edges=410,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6678,  0.1516],
+        [-0.6375, -0.1829],
+        [-0.9985,  0.0369],
+        [-0.4818,  0.1679],
+        [ 0.1668, -0.3713]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 0])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 0])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 70
+num_correct_after: 74
+batched_graph:  Graph(num_nodes=218, num_edges=456,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-7.6432e-01,  5.0679e-02],
+        [-7.9585e-01,  1.2349e-01],
+        [-2.1814e+00,  1.9503e-01],
+        [-1.4500e+00,  4.5502e-01],
+        [ 9.5943e-04, -3.7312e-02]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 0])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 0])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 74
+num_correct_after: 78
+batched_graph:  Graph(num_nodes=197, num_edges=420,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-1.4331,  0.3264],
+        [-0.6698,  0.1535],
+        [-0.3639, -0.0167],
+        [-1.1742,  0.1688],
+        [-0.6078,  0.1043]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 78
+num_correct_after: 83
+batched_graph:  Graph(num_nodes=212, num_edges=452,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 0, 1, 1])
+pred:  tensor([[-0.6156,  0.0444],
+        [-0.6394,  0.2201],
+        [-0.4762,  0.1000],
+        [-0.5058,  0.0095],
+        [ 0.5437, -0.2978]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 0])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 0])
+(pred.argmax(1)==labels).sum:  tensor(3)
+(pred.argmax(1)==labels).sum.item():  3
+num_correct_before: 83
+num_correct_after: 86
+batched_graph:  Graph(num_nodes=208, num_edges=436,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([0, 1, 1, 1, 1])
+pred:  tensor([[-0.2454,  0.0846],
+        [-0.8933, -0.0080],
+        [-0.9927, -0.0524],
+        [-1.5151,  0.4198],
+        [-1.2614,  0.2081]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 86
+num_correct_after: 90
+batched_graph:  Graph(num_nodes=177, num_edges=378,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 0, 1, 1, 1])
+pred:  tensor([[-0.3430,  0.0378],
+        [-0.7593,  0.0894],
+        [-0.6394,  0.1049],
+        [-1.1848,  0.3297],
+        [-1.3708,  0.2426]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 90
+num_correct_after: 94
+batched_graph:  Graph(num_nodes=225, num_edges=472,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[ 0.1749, -0.5017],
+        [-0.2826, -0.0569],
+        [-0.7976, -0.0541],
+        [-0.5899,  0.1327],
+        [-1.1290,  0.1236]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([0, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 94
+num_correct_after: 98
+batched_graph:  Graph(num_nodes=224, num_edges=474,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.5987,  0.2008],
+        [-0.6199,  0.1868],
+        [-0.3568, -0.0554],
+        [-0.9006,  0.0277],
+        [-0.3952,  0.0258]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 98
+num_correct_after: 103
+batched_graph:  Graph(num_nodes=199, num_edges=416,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.5047,  0.0267],
+        [-0.4050, -0.1147],
+        [-0.5051,  0.1734],
+        [-1.3790,  0.5891],
+        [-0.8697,  0.2889]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 103
+num_correct_after: 108
+batched_graph:  Graph(num_nodes=220, num_edges=462,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-1.3677,  0.1892],
+        [-1.0059,  0.2673],
+        [-0.1767, -0.1456],
+        [-0.8344,  0.0827],
+        [-0.0904, -0.3566]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 0])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 0])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 108
+num_correct_after: 112
+batched_graph:  Graph(num_nodes=179, num_edges=378,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 0, 1, 1, 1])
+pred:  tensor([[-0.7978,  0.3036],
+        [-0.7916,  0.0925],
+        [-0.8324, -0.0442],
+        [-0.9111,  0.1297],
+        [-1.1790,  0.4360]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 112
+num_correct_after: 116
+batched_graph:  Graph(num_nodes=226, num_edges=478,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-6.7277e-01,  2.4189e-01],
+        [-4.0642e-01, -4.8074e-04],
+        [-6.1756e-01,  2.5898e-01],
+        [ 1.2902e-02, -6.8452e-02],
+        [-6.5140e-02, -2.7554e-01]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 0, 0])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 0, 0])
+(pred.argmax(1)==labels).sum:  tensor(3)
+(pred.argmax(1)==labels).sum.item():  3
+num_correct_before: 116
+num_correct_after: 119
+batched_graph:  Graph(num_nodes=228, num_edges=474,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 1, 1, 1, 1])
+pred:  tensor([[-0.6931,  0.0992],
+        [-0.9766,  0.2970],
+        [-1.4186,  0.4287],
+        [-1.7861,  0.1918],
+        [-1.5342,  0.1600]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(5)
+(pred.argmax(1)==labels).sum.item():  5
+num_correct_before: 119
+num_correct_after: 124
+batched_graph:  Graph(num_nodes=179, num_edges=380,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1]])
+labels.squeeze():  tensor([1, 0, 1, 1, 1])
+pred:  tensor([[-0.6513,  0.2305],
+        [-0.7003,  0.0524],
+        [-1.2833,  0.4773],
+        [-1.3154,  0.2750],
+        [-0.9688,  0.2200]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1, 1, 1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1, 1, 1, 1])
+(pred.argmax(1)==labels).sum:  tensor(4)
+(pred.argmax(1)==labels).sum.item():  4
+num_correct_before: 124
+num_correct_after: 128
+batched_graph:  Graph(num_nodes=75, num_edges=160,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+labels:  tensor([[1],
+        [1]])
+labels.squeeze():  tensor([1, 1])
+pred:  tensor([[-0.6946, -0.1908],
+        [-0.9966,  0.2496]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1, 1])
+pred.argmax(1).squeeze():  tensor([1, 1])
+(pred.argmax(1)==labels).sum:  tensor(2)
+(pred.argmax(1)==labels).sum.item():  2
+num_correct_before: 128
+num_correct_after: 130
+num_correct:  130
+num_tests:  152
+Test accuracy: 0.8552631578947368
+Infer time: 0.11383199691772461

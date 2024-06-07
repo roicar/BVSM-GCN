@@ -1,0 +1,42 @@
+Max number of node: 56
+Number of graph categories: 2
+[Graph(num_nodes=1383, num_edges=2902,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), tensor([[0],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0]])]
+Number of nodes for each graph element in the batch: tensor([39, 36, 36, 39, 42, 42, 44, 39, 42, 42, 45, 49, 42, 35, 44, 47, 45, 39,
+        44, 44, 51, 45, 41, 40, 39, 39, 50, 48, 43, 53, 53, 46])
+Number of edges for each graph element in the batch: tensor([ 82,  76,  76,  82,  88,  88,  92,  82,  88,  88,  94, 104,  88,  74,
+         92,  98,  94,  82,  92,  92, 108,  94,  86,  84,  82,  82, 104, 100,
+         90, 112, 112,  96])
+The original graphs in the minibatch:

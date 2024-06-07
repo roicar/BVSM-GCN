@@ -1,0 +1,81 @@
+The max dimension of this span is: 16
+min time is 1.430511474609375e-06
+max time is 5.9604644775390625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 24
+min time is 1.6689300537109375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 26
+min time is 1.430511474609375e-06
+max time is 7.3909759521484375e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 30
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 31
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 32
+min time is 1.430511474609375e-06
+max time is 5.9604644775390625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 32
+min time is 1.430511474609375e-06
+max time is 1.8835067749023438e-05
+median time is 1.9073486328125e-06
+The max dimension of this span is: 33
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 34
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 35
+min time is 1.430511474609375e-06
+max time is 5.9604644775390625e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 37
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 39
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.9073486328125e-06
+The max dimension of this span is: 40
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 43
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 45
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 48
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 48
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 56
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.9073486328125e-06
+The max dimension of this span is: 57
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+num:  475.0
+Test accuracy of TVM results: 79.16%
+Min model inference total time:  2.7418136596679688e-05
+Median model inference total time:  3.4332275390625e-05
+Max model inference total time:  0.00016570091247558594

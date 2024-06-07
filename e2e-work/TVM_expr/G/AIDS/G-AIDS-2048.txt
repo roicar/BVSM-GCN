@@ -1,0 +1,54 @@
+The batch_size has been large enough for the whole dataset!
+The max dimension of this span is: 8
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 16
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 24
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 32
+min time is 1.430511474609375e-06
+max time is 2.2172927856445312e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 40
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 48
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 56
+min time is 1.430511474609375e-06
+max time is 1.4543533325195312e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 63
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 69
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 80
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 85
+min time is 1.430511474609375e-06
+max time is 2.6464462280273438e-05
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 95
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+num:  20962.0
+Test accuracy of TVM results: 82.79%
+Min model inference total time:  1.71661376953125e-05
+Median model inference total time:  2.002716064453125e-05
+Max model inference total time:  0.0001533031463623047

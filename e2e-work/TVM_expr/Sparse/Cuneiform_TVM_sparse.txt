@@ -1,0 +1,1617 @@
+dgl_g:  (Graph(num_nodes=36, num_edges=180,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(2,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_labels': Scheme(shape=(2,), dtype=torch.float64), 'edge_labels': Scheme(shape=(1,), dtype=torch.int64)}), tensor([0]))
+dgl_g[0]:  Graph(num_nodes=36, num_edges=180,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(2,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_labels': Scheme(shape=(2,), dtype=torch.float64), 'edge_labels': Scheme(shape=(1,), dtype=torch.int64)})
+The 1 graph has been processed
+one SparseMM operator time is: 3.9577484130859375e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 2 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 3 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.9073486328125e-06
+The 4 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 1.7881393432617188e-05
+median time is 1.6689300537109375e-06
+The 5 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.193450927734375e-05
+median time is 1.6689300537109375e-06
+The 6 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.71661376953125e-05
+median time is 1.6689300537109375e-06
+The 7 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 8 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 9 graph has been processed
+one SparseMM operator time is: 1.3113021850585938e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 10 graph has been processed
+one SparseMM operator time is: 0.00017023086547851562
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 11 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 12 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 13 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.7642974853515625e-05
+median time is 1.6689300537109375e-06
+The 14 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 15 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 16 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 17 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.8835067749023438e-05
+median time is 1.6689300537109375e-06
+The 18 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 19 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 20 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.2411346435546875e-05
+median time is 1.6689300537109375e-06
+The 21 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.6689300537109375e-06
+The 22 graph has been processed
+one SparseMM operator time is: 1.0967254638671875e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.3365020751953125e-05
+median time is 1.6689300537109375e-06
+The 23 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 24 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.6464462280273438e-05
+median time is 1.6689300537109375e-06
+The 25 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 26 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 27 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 28 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+The 29 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 7.3909759521484375e-06
+median time is 1.6689300537109375e-06
+The 30 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.6689300537109375e-06
+The 31 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 32 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 33 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 34 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 1.8358230590820312e-05
+median time is 1.6689300537109375e-06
+The 35 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 36 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 37 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 38 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 39 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 40 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 41 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 42 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 43 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 44 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 1.8835067749023438e-05
+median time is 1.6689300537109375e-06
+The 45 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 46 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 47 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.4318695068359375e-05
+median time is 1.6689300537109375e-06
+The 48 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+The 49 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 50 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.1219253540039062e-05
+median time is 1.6689300537109375e-06
+The 51 graph has been processed
+one SparseMM operator time is: 1.049041748046875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 52 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 53 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 54 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+The 55 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.3603439331054688e-05
+median time is 1.6689300537109375e-06
+The 56 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 5.9604644775390625e-06
+median time is 1.6689300537109375e-06
+The 57 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 58 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 59 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.6689300537109375e-06
+The 60 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 61 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.384185791015625e-05
+median time is 1.6689300537109375e-06
+The 62 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.5735626220703125e-05
+median time is 1.6689300537109375e-06
+The 63 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.002716064453125e-05
+median time is 1.6689300537109375e-06
+The 64 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 65 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 66 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 67 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 68 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.811981201171875e-05
+median time is 1.6689300537109375e-06
+The 69 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 70 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.002716064453125e-05
+median time is 1.6689300537109375e-06
+The 71 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.5510787963867188e-05
+median time is 1.6689300537109375e-06
+The 72 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 73 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.7881393432617188e-05
+median time is 1.6689300537109375e-06
+The 74 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 75 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.152557373046875e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 76 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.9802322387695312e-05
+median time is 1.6689300537109375e-06
+The 77 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 78 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 79 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 80 graph has been processed
+one SparseMM operator time is: 1.049041748046875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 81 graph has been processed
+one SparseMM operator time is: 1.0967254638671875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 82 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 83 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.5974044799804688e-05
+median time is 1.6689300537109375e-06
+The 84 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 85 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.7642974853515625e-05
+median time is 1.6689300537109375e-06
+The 86 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 2.288818359375e-05
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 87 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.52587890625e-05
+median time is 1.6689300537109375e-06
+The 88 graph has been processed
+one SparseMM operator time is: 1.33514404296875e-05
+one SparseMM operator time is: 8.821487426757812e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 89 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 90 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.7642974853515625e-05
+median time is 1.6689300537109375e-06
+The 91 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 92 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 93 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 94 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 95 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 96 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 97 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.0503997802734375e-05
+median time is 1.6689300537109375e-06
+The 98 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.821487426757812e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 99 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 100 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.9788742065429688e-05
+median time is 1.6689300537109375e-06
+The 101 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 102 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 103 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 104 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 105 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 106 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.09808349609375e-05
+median time is 1.6689300537109375e-06
+The 107 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 108 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 109 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 110 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 5.9604644775390625e-06
+median time is 1.6689300537109375e-06
+The 111 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 1.9311904907226562e-05
+median time is 1.6689300537109375e-06
+The 112 graph has been processed
+one SparseMM operator time is: 1.0967254638671875e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The 113 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.0265579223632812e-05
+median time is 1.6689300537109375e-06
+The 114 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.6689300537109375e-06
+The 115 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 116 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 117 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 118 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.152557373046875e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+The 119 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 120 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.9087066650390625e-05
+median time is 1.6689300537109375e-06
+The 121 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 122 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.9073486328125e-06
+The 123 graph has been processed
+one SparseMM operator time is: 1.0728836059570312e-05
+one SparseMM operator time is: 9.059906005859375e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 124 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.6702880859375e-05
+median time is 1.6689300537109375e-06
+The 125 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.6702880859375e-05
+median time is 1.6689300537109375e-06
+The 126 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.6689300537109375e-06
+The 127 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.0265579223632812e-05
+median time is 1.6689300537109375e-06
+The 128 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 129 graph has been processed
+one SparseMM operator time is: 1.0728836059570312e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 130 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 131 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 132 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.09808349609375e-05
+median time is 1.6689300537109375e-06
+The 133 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 134 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 135 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 136 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+The 137 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.2411346435546875e-05
+median time is 1.6689300537109375e-06
+The 138 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 2.6226043701171875e-05
+median time is 1.6689300537109375e-06
+The 139 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.6689300537109375e-06
+The 140 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 141 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 7.867813110351562e-06
+median time is 1.9073486328125e-06
+The 142 graph has been processed
+one SparseMM operator time is: 1.5735626220703125e-05
+one SparseMM operator time is: 9.059906005859375e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 143 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 144 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 145 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 1.6927719116210938e-05
+median time is 1.6689300537109375e-06
+The 146 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 147 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.6689300537109375e-06
+The 148 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 149 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+The 150 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.5033950805664062e-05
+median time is 1.6689300537109375e-06
+The 151 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+The 152 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.8358230590820312e-05
+median time is 1.6689300537109375e-06
+The 153 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.002716064453125e-05
+median time is 1.6689300537109375e-06
+The 154 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.7179718017578125e-05
+median time is 1.6689300537109375e-06
+The 155 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 156 graph has been processed
+one SparseMM operator time is: 1.9788742065429688e-05
+one SparseMM operator time is: 7.152557373046875e-06
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.6689300537109375e-06
+The 157 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.6941299438476562e-05
+median time is 1.6689300537109375e-06
+The 158 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 159 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 160 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 161 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+The 162 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 163 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.2172927856445312e-05
+median time is 1.6689300537109375e-06
+The 164 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.0742416381835938e-05
+median time is 1.6689300537109375e-06
+The 165 graph has been processed
+one SparseMM operator time is: 1.5974044799804688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.6226043701171875e-05
+median time is 1.6689300537109375e-06
+The 166 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 167 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 168 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+The 169 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 170 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 171 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 172 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.4080276489257812e-05
+median time is 1.6689300537109375e-06
+The 173 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 174 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.8358230590820312e-05
+median time is 1.6689300537109375e-06
+The 175 graph has been processed
+one SparseMM operator time is: 1.33514404296875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 176 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.0265579223632812e-05
+median time is 1.6689300537109375e-06
+The 177 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 178 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+The 179 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 1.6689300537109375e-05
+median time is 1.6689300537109375e-06
+The 180 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.52587890625e-05
+median time is 1.6689300537109375e-06
+The 181 graph has been processed
+one SparseMM operator time is: 1.8835067749023438e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 182 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 1.811981201171875e-05
+median time is 1.6689300537109375e-06
+The 183 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.6226043701171875e-05
+median time is 1.6689300537109375e-06
+The 184 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.71661376953125e-05
+median time is 1.6689300537109375e-06
+The 185 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.6464462280273438e-05
+median time is 1.6689300537109375e-06
+The 186 graph has been processed
+one SparseMM operator time is: 1.3113021850585938e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 187 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.5735626220703125e-05
+median time is 1.6689300537109375e-06
+The 188 graph has been processed
+one SparseMM operator time is: 1.0728836059570312e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 189 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.5974044799804688e-05
+median time is 1.6689300537109375e-06
+The 190 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.3603439331054688e-05
+median time is 1.6689300537109375e-06
+The 191 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.0503997802734375e-05
+median time is 1.6689300537109375e-06
+The 192 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.3365020751953125e-05
+median time is 1.6689300537109375e-06
+The 193 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 194 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.09808349609375e-05
+median time is 1.6689300537109375e-06
+The 195 graph has been processed
+one SparseMM operator time is: 1.621246337890625e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 196 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 197 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.2172927856445312e-05
+median time is 1.6689300537109375e-06
+The 198 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 199 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.8371810913085938e-05
+median time is 1.6689300537109375e-06
+The 200 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 201 graph has been processed
+one SparseMM operator time is: 1.3589859008789062e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.3603439331054688e-05
+median time is 1.6689300537109375e-06
+The 202 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 203 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.6464462280273438e-05
+median time is 1.6689300537109375e-06
+The 204 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 1.239776611328125e-05
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 205 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.6689300537109375e-06
+The 206 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.621246337890625e-05
+median time is 1.6689300537109375e-06
+The 207 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.6464462280273438e-05
+median time is 1.6689300537109375e-06
+The 208 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 209 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The 210 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 211 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 3.743171691894531e-05
+median time is 1.6689300537109375e-06
+The 212 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.2172927856445312e-05
+median time is 1.6689300537109375e-06
+The 213 graph has been processed
+one SparseMM operator time is: 1.0967254638671875e-05
+one SparseMM operator time is: 9.059906005859375e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.9073486328125e-06
+The 214 graph has been processed
+one SparseMM operator time is: 1.049041748046875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 215 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.5033950805664062e-05
+median time is 1.6689300537109375e-06
+The 216 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 217 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 218 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 219 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 220 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.2649765014648438e-05
+median time is 1.6689300537109375e-06
+The 221 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 222 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 223 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.6450881958007812e-05
+median time is 1.6689300537109375e-06
+The 224 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.821487426757812e-06
+min time is 1.430511474609375e-06
+max time is 2.002716064453125e-05
+median time is 1.6689300537109375e-06
+The 225 graph has been processed
+one SparseMM operator time is: 1.3113021850585938e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 226 graph has been processed
+one SparseMM operator time is: 1.049041748046875e-05
+one SparseMM operator time is: 7.3909759521484375e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 227 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.6689300537109375e-06
+The 228 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 229 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.9073486328125e-05
+median time is 1.6689300537109375e-06
+The 230 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 231 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 232 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.6689300537109375e-05
+median time is 1.6689300537109375e-06
+The 233 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.5987625122070312e-05
+median time is 1.6689300537109375e-06
+The 234 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.4080276489257812e-05
+median time is 1.6689300537109375e-06
+The 235 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 236 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.152557373046875e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 237 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 1.9311904907226562e-05
+median time is 1.6689300537109375e-06
+The 238 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.8596649169921875e-05
+median time is 1.6689300537109375e-06
+The 239 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The 240 graph has been processed
+one SparseMM operator time is: 1.3828277587890625e-05
+one SparseMM operator time is: 8.821487426757812e-06
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The 241 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.384185791015625e-05
+median time is 1.6689300537109375e-06
+The 242 graph has been processed
+one SparseMM operator time is: 0.000171661376953125
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.9141387939453125e-06
+median time is 1.6689300537109375e-06
+The 243 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.09808349609375e-05
+median time is 1.6689300537109375e-06
+The 244 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 9.059906005859375e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 245 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.58306884765625e-06
+min time is 1.430511474609375e-06
+max time is 2.6226043701171875e-05
+median time is 1.6689300537109375e-06
+The 246 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.821487426757812e-06
+min time is 1.430511474609375e-06
+max time is 7.152557373046875e-06
+median time is 1.6689300537109375e-06
+The 247 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 248 graph has been processed
+one SparseMM operator time is: 1.1205673217773438e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.3365020751953125e-05
+median time is 1.6689300537109375e-06
+The 249 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.574920654296875e-05
+median time is 1.6689300537109375e-06
+The 250 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 251 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 1.7881393432617188e-05
+median time is 1.6689300537109375e-06
+The 252 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.1219253540039062e-05
+median time is 1.6689300537109375e-06
+The 253 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 254 graph has been processed
+one SparseMM operator time is: 1.2159347534179688e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.6226043701171875e-05
+median time is 1.6689300537109375e-06
+The 255 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.1219253540039062e-05
+median time is 1.9073486328125e-06
+The 256 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 2.3126602172851562e-05
+median time is 1.9073486328125e-06
+The 257 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 258 graph has been processed
+one SparseMM operator time is: 1.1682510375976562e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 259 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.9087066650390625e-05
+median time is 1.6689300537109375e-06
+The 260 graph has been processed
+one SparseMM operator time is: 1.1920928955078125e-05
+one SparseMM operator time is: 8.106231689453125e-06
+min time is 1.430511474609375e-06
+max time is 6.4373016357421875e-06
+median time is 1.6689300537109375e-06
+The 261 graph has been processed
+one SparseMM operator time is: 1.2874603271484375e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 1.8358230590820312e-05
+median time is 1.6689300537109375e-06
+The 262 graph has been processed
+one SparseMM operator time is: 1.0967254638671875e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 2.288818359375e-05
+median time is 1.6689300537109375e-06
+The 263 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.62939453125e-06
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The 264 graph has been processed
+one SparseMM operator time is: 1.2636184692382812e-05
+one SparseMM operator time is: 7.152557373046875e-06
+min time is 1.430511474609375e-06
+max time is 2.4080276489257812e-05
+median time is 1.6689300537109375e-06
+The 265 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 8.344650268554688e-06
+min time is 1.430511474609375e-06
+max time is 2.1219253540039062e-05
+median time is 1.6689300537109375e-06
+The 266 graph has been processed
+one SparseMM operator time is: 1.239776611328125e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 2.1457672119140625e-05
+median time is 1.6689300537109375e-06
+The 267 graph has been processed
+one SparseMM operator time is: 1.1444091796875e-05
+one SparseMM operator time is: 7.867813110351562e-06
+min time is 1.430511474609375e-06
+max time is 1.9550323486328125e-05
+median time is 1.9073486328125e-06
+num:  267.0
+DAD_time is : 0.008288860321044922
+the denseMM time is : 0.005702495574951172
+the sparseMM time is : 0.005717039108276367
+the meanlogits time is : 0.015591144561767578
+Test accuracy of TVM results: 25.09%
+Min model inference total time:  0.0003819465637207031
+Median model inference total time:  0.00047798851013183594
+Max model inference total time:  0.003867626190185547

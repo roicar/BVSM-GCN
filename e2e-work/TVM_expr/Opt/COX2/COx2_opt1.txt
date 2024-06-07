@@ -1,0 +1,6095 @@
+dgl_g:  (Graph(num_nodes=32, num_edges=68,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), tensor([1]))
+dgl_g[0]:  Graph(num_nodes=32, num_edges=68,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(3,), dtype=torch.float64), 'node_labels': Scheme(shape=(1,), dtype=torch.int64)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)})
+The 1 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00029468536376953125
+median time is 2.491474151611328e-05
+pred:  0
+label:  1
+The 2 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00011157989501953125
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 3 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.0001468658447265625
+median time is 8.20159912109375e-05
+pred:  0
+label:  0
+The 4 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.00010633468627929688
+median time is 1.0251998901367188e-05
+pred:  0
+label:  0
+The 5 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.001108407974243164
+median time is 1.3828277587890625e-05
+pred:  0
+label:  0
+The 6 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 8.678436279296875e-05
+median time is 1.0728836059570312e-05
+pred:  0
+label:  1
+The 7 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.000110626220703125
+median time is 1.049041748046875e-05
+pred:  0
+label:  1
+The 8 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00012540817260742188
+median time is 1.0967254638671875e-05
+pred:  0
+label:  1
+The 9 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00011110305786132812
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 10 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00010371208190917969
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 11 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.9141387939453125e-06
+max time is 8.606910705566406e-05
+median time is 7.62939453125e-06
+pred:  0
+label:  0
+The 12 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 9.34600830078125e-05
+median time is 7.867813110351562e-06
+pred:  0
+label:  1
+The 13 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.9141387939453125e-06
+max time is 0.00010657310485839844
+median time is 7.62939453125e-06
+pred:  0
+label:  1
+The 14 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.9141387939453125e-06
+max time is 7.557868957519531e-05
+median time is 9.775161743164062e-06
+pred:  0
+label:  1
+The 15 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.67572021484375e-06
+max time is 0.00010585784912109375
+median time is 7.62939453125e-06
+pred:  0
+label:  0
+The 16 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00011658668518066406
+median time is 2.1219253540039062e-05
+pred:  0
+label:  0
+The 17 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 7.987022399902344e-05
+median time is 7.867813110351562e-06
+pred:  0
+label:  0
+The 18 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.9141387939453125e-06
+max time is 0.00027680397033691406
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 19 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.9141387939453125e-06
+max time is 0.008098363876342773
+median time is 1.6927719116210938e-05
+pred:  0
+label:  0
+The 20 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 8.58306884765625e-05
+median time is 1.4781951904296875e-05
+pred:  0
+label:  1
+The 21 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.298324584960938e-06
+max time is 0.00011277198791503906
+median time is 1.2874603271484375e-05
+pred:  0
+label:  0
+The 22 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.0001773834228515625
+median time is 7.796287536621094e-05
+pred:  0
+label:  1
+The 23 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 9.131431579589844e-05
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 24 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.00011968612670898438
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 25 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00010752677917480469
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 26 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.298324584960938e-06
+max time is 8.0108642578125e-05
+median time is 1.0251998901367188e-05
+pred:  0
+label:  0
+The 27 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0001513957977294922
+median time is 7.605552673339844e-05
+pred:  0
+label:  0
+The 28 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00011038780212402344
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 29 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.005773305892944336
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 30 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.008087396621704102
+median time is 7.724761962890625e-05
+pred:  0
+label:  0
+The 31 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.003432035446166992
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 32 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.00200653076171875
+median time is 1.049041748046875e-05
+pred:  0
+label:  1
+The 33 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00010943412780761719
+median time is 1.0251998901367188e-05
+pred:  0
+label:  0
+The 34 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00011682510375976562
+median time is 1.049041748046875e-05
+pred:  0
+label:  1
+The 35 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.006186723709106445
+median time is 2.288818359375e-05
+pred:  0
+label:  1
+The 36 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00010323524475097656
+median time is 1.049041748046875e-05
+pred:  0
+label:  1
+The 37 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 9.179115295410156e-05
+median time is 1.049041748046875e-05
+pred:  0
+label:  1
+The 38 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.0059435367584228516
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 39 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.009261369705200195
+median time is 2.2411346435546875e-05
+pred:  0
+label:  0
+The 40 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.0001049041748046875
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 41 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.00011301040649414062
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 42 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 9.274482727050781e-05
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 43 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.298324584960938e-06
+max time is 0.00011682510375976562
+median time is 1.0251998901367188e-05
+pred:  0
+label:  0
+The 44 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0019147396087646484
+median time is 1.049041748046875e-05
+pred:  0
+label:  1
+The 45 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.107589721679688e-05
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 46 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 0.00010466575622558594
+median time is 7.867813110351562e-06
+pred:  0
+label:  0
+The 47 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0010869503021240234
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 48 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 8.702278137207031e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 49 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.72747802734375e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 50 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 5.8650970458984375e-05
+median time is 7.867813110351562e-06
+pred:  0
+label:  0
+The 51 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 8.988380432128906e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 52 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00011134147644042969
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 53 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 8.654594421386719e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 54 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010800361633300781
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 55 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0001087188720703125
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 56 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 8.344650268554688e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 57 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.608268737792969e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 58 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.107589721679688e-05
+median time is 1.7642974853515625e-05
+pred:  0
+label:  0
+The 59 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010657310485839844
+median time is 7.867813110351562e-06
+pred:  0
+label:  1
+The 60 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010418891906738281
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 61 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.179115295410156e-05
+median time is 1.3589859008789062e-05
+pred:  0
+label:  0
+The 62 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00012564659118652344
+median time is 2.6702880859375e-05
+pred:  0
+label:  0
+The 63 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.441375732421875e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 64 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 7.2479248046875e-05
+median time is 1.5497207641601562e-05
+pred:  0
+label:  0
+The 65 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00010037422180175781
+median time is 9.179115295410156e-06
+pred:  0
+label:  0
+The 66 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.226799011230469e-05
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 67 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 8.749961853027344e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 68 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 6.9141387939453125e-06
+max time is 9.274482727050781e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 69 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 7.367134094238281e-05
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 70 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010514259338378906
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 71 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.0001068115234375
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 72 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 8.320808410644531e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 73 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010728836059570312
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 74 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010132789611816406
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 75 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 8.606910705566406e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 76 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00012302398681640625
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 77 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 8.606910705566406e-05
+median time is 7.867813110351562e-06
+pred:  0
+label:  1
+The 78 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010395050048828125
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 79 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 0.0001068115234375
+median time is 9.775161743164062e-06
+pred:  0
+label:  0
+The 80 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 7.414817810058594e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 81 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00010609626770019531
+median time is 8.344650268554688e-06
+pred:  0
+label:  1
+The 82 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0003440380096435547
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 83 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00011420249938964844
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 84 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 0.00010180473327636719
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 85 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 7.796287536621094e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  1
+The 86 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.870529174804688e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  1
+The 87 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.894371032714844e-05
+median time is 1.71661376953125e-05
+pred:  0
+label:  0
+The 88 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.821487426757812e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 89 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 0.00010991096496582031
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 90 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 8.869171142578125e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 91 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00022912025451660156
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 92 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.00017905235290527344
+median time is 3.62396240234375e-05
+pred:  0
+label:  0
+The 93 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.71661376953125e-05
+max time is 0.0010290145874023438
+median time is 1.7642974853515625e-05
+pred:  0
+label:  0
+The 94 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.049041748046875e-05
+max time is 0.002653360366821289
+median time is 0.00010728836059570312
+pred:  0
+label:  0
+The 95 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.00010943412780761719
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 96 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.0020732879638671875
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 97 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00011348724365234375
+median time is 1.0967254638671875e-05
+pred:  0
+label:  0
+The 98 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00010919570922851562
+median time is 1.4185905456542969e-05
+pred:  0
+label:  0
+The 99 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00015854835510253906
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 100 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.049041748046875e-05
+max time is 0.00016880035400390625
+median time is 0.0001068115234375
+pred:  0
+label:  0
+The 101 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00023436546325683594
+median time is 5.269050598144531e-05
+pred:  0
+label:  0
+The 102 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.0001780986785888672
+median time is 9.393692016601562e-05
+pred:  0
+label:  0
+The 103 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.049041748046875e-05
+max time is 0.0001220703125
+median time is 1.1444091796875e-05
+pred:  0
+label:  0
+The 104 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.0002319812774658203
+median time is 1.1324882507324219e-05
+pred:  0
+label:  0
+The 105 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00012373924255371094
+median time is 1.0967254638671875e-05
+pred:  0
+label:  1
+The 106 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.0001285076141357422
+median time is 1.0967254638671875e-05
+pred:  0
+label:  1
+The 107 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.00012373924255371094
+median time is 1.0967254638671875e-05
+pred:  0
+label:  0
+The 108 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0003561973571777344
+median time is 4.00543212890625e-05
+pred:  0
+label:  0
+The 109 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00011229515075683594
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 110 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.0012841224670410156
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 111 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00015783309936523438
+median time is 6.4849853515625e-05
+pred:  0
+label:  0
+The 112 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.0001277923583984375
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 113 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 9.417533874511719e-05
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 114 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0002491474151611328
+median time is 3.719329833984375e-05
+pred:  0
+label:  0
+The 115 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.0044748783111572266
+median time is 1.1205673217773438e-05
+pred:  0
+label:  0
+The 116 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 9.179115295410156e-05
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 117 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.00011205673217773438
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 118 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.000278472900390625
+median time is 3.314018249511719e-05
+pred:  0
+label:  0
+The 119 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0013480186462402344
+median time is 2.765655517578125e-05
+pred:  0
+label:  0
+The 120 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.7642974853515625e-05
+max time is 0.00810098648071289
+median time is 2.3126602172851562e-05
+pred:  0
+label:  1
+The 121 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00011014938354492188
+median time is 1.0728836059570312e-05
+pred:  0
+label:  1
+The 122 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.008074283599853516
+median time is 1.728534698486328e-05
+pred:  0
+label:  1
+The 123 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.010789155960083008
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 124 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 0.00012183189392089844
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 125 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 9.584426879882812e-05
+median time is 1.0728836059570312e-05
+pred:  0
+label:  1
+The 126 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00010848045349121094
+median time is 3.5762786865234375e-05
+pred:  0
+label:  0
+The 127 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0026960372924804688
+median time is 2.384185791015625e-05
+pred:  0
+label:  0
+The 128 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0013580322265625e-05
+max time is 9.465217590332031e-05
+median time is 3.504753112792969e-05
+pred:  0
+label:  0
+The 129 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.00013113021850585938
+median time is 1.0728836059570312e-05
+pred:  0
+label:  1
+The 130 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 0.0013055801391601562
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 131 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 9.72747802734375e-05
+median time is 1.0967254638671875e-05
+pred:  0
+label:  0
+The 132 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.775161743164062e-06
+max time is 9.989738464355469e-05
+median time is 2.6464462280273438e-05
+pred:  0
+label:  1
+The 133 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.059906005859375e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 134 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.239776611328125e-05
+max time is 0.008062601089477539
+median time is 1.811981201171875e-05
+pred:  0
+label:  0
+The 135 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 0.0028557777404785156
+median time is 1.0728836059570312e-05
+pred:  0
+label:  0
+The 136 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 7.510185241699219e-05
+median time is 1.0967254638671875e-05
+pred:  0
+label:  1
+The 137 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010514259338378906
+median time is 2.2411346435546875e-05
+pred:  0
+label:  0
+The 138 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.0007140636444091797
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 139 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00738978385925293
+median time is 1.7881393432617188e-05
+pred:  0
+label:  1
+The 140 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2636184692382812e-05
+max time is 0.012594938278198242
+median time is 1.811981201171875e-05
+pred:  0
+label:  0
+The 141 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.006886005401611328
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 142 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00011229515075683594
+median time is 1.4543533325195312e-05
+pred:  0
+label:  0
+The 143 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00011348724365234375
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 144 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.004453420639038086
+median time is 1.1205673217773438e-05
+pred:  0
+label:  1
+The 145 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0001068115234375
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 146 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2636184692382812e-05
+max time is 0.0185697078704834
+median time is 2.4318695068359375e-05
+pred:  0
+label:  0
+The 147 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.009295940399169922
+median time is 1.7881393432617188e-05
+pred:  0
+label:  0
+The 148 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00011992454528808594
+median time is 1.71661376953125e-05
+pred:  0
+label:  0
+The 149 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 8.654594421386719e-05
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 150 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.751319885253906e-05
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 151 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.0015921592712402344
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 152 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.130073547363281e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 153 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.152557373046875e-06
+max time is 0.00010728836059570312
+median time is 8.106231689453125e-06
+pred:  0
+label:  0
+The 154 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 7.963180541992188e-05
+median time is 1.4781951904296875e-05
+pred:  0
+label:  0
+The 155 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.584426879882812e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  1
+The 156 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00023603439331054688
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 157 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 8.177757263183594e-05
+median time is 1.6927719116210938e-05
+pred:  0
+label:  0
+The 158 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.72747802734375e-05
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 159 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0017695426940917969
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 160 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.00011920928955078125
+median time is 1.6927719116210938e-05
+pred:  0
+label:  0
+The 161 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00024271011352539062
+median time is 2.002716064453125e-05
+pred:  0
+label:  1
+The 162 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011920928955078125
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 163 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00012230873107910156
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 164 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00015115737915039062
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 165 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00011992454528808594
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 166 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.007956504821777344
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 167 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00013303756713867188
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 168 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00012755393981933594
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 169 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00012993812561035156
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 170 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0001227855682373047
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 171 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00014734268188476562
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 172 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 9.1552734375e-05
+median time is 1.1682510375976562e-05
+pred:  0
+label:  1
+The 173 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0002918243408203125
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 174 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011944770812988281
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 175 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00012087821960449219
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 176 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0001385211944580078
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 177 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0006430149078369141
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 178 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00012874603271484375
+median time is 6.937980651855469e-05
+pred:  0
+label:  0
+The 179 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.009435892105102539
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 180 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.004258871078491211
+median time is 1.1682510375976562e-05
+pred:  0
+label:  1
+The 181 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00013875961303710938
+median time is 4.267692565917969e-05
+pred:  0
+label:  1
+The 182 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00018334388732910156
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 183 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001385211944580078
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 184 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0028727054595947266
+median time is 5.5789947509765625e-05
+pred:  0
+label:  0
+The 185 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00014662742614746094
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 186 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00011801719665527344
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 187 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.00010991096496582031
+median time is 1.1444091796875e-05
+pred:  0
+label:  0
+The 188 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0001468658447265625
+median time is 4.172325134277344e-05
+pred:  0
+label:  1
+The 189 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001614093780517578
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 190 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00013709068298339844
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 191 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00016069412231445312
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 192 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00015091896057128906
+median time is 4.1604042053222656e-05
+pred:  0
+label:  1
+The 193 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.00011777877807617188
+median time is 1.1444091796875e-05
+pred:  0
+label:  1
+The 194 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0001392364501953125
+median time is 6.747245788574219e-05
+pred:  0
+label:  1
+The 195 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00012993812561035156
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 196 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00011968612670898438
+median time is 1.2874603271484375e-05
+pred:  0
+label:  1
+The 197 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00015974044799804688
+median time is 1.5735626220703125e-05
+pred:  0
+label:  1
+The 198 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00012135505676269531
+median time is 5.507469177246094e-05
+pred:  0
+label:  0
+The 199 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00013518333435058594
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 200 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00023055076599121094
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 201 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.00011229515075683594
+median time is 1.1444091796875e-05
+pred:  0
+label:  1
+The 202 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 8.511543273925781e-05
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 203 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.00011205673217773438
+median time is 1.1444091796875e-05
+pred:  0
+label:  0
+The 204 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00015687942504882812
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 205 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00011730194091796875
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 206 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0001251697540283203
+median time is 6.771087646484375e-05
+pred:  0
+label:  0
+The 207 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0002503395080566406
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 208 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00010204315185546875
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 209 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00018072128295898438
+median time is 6.365776062011719e-05
+pred:  0
+label:  0
+The 210 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010395050048828125
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 211 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010275840759277344
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 212 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 8.320808410644531e-05
+median time is 1.8358230590820312e-05
+pred:  0
+label:  0
+The 213 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010275840759277344
+median time is 1.7642974853515625e-05
+pred:  0
+label:  0
+The 214 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.322166442871094e-05
+median time is 1.7881393432617188e-05
+pred:  0
+label:  0
+The 215 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.918212890625e-05
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 216 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00010514259338378906
+median time is 8.344650268554688e-06
+pred:  0
+label:  0
+The 217 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.00010347366333007812
+median time is 2.3126602172851562e-05
+pred:  0
+label:  0
+The 218 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00010895729064941406
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 219 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00011396408081054688
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 220 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0003154277801513672
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 221 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010156631469726562
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 222 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 7.724761962890625e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  1
+The 223 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00010609626770019531
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 224 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.002056121826171875
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 225 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 8.845329284667969e-05
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 226 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.0022652149200439453
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 227 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.487701416015625e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 228 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.0001227855682373047
+median time is 2.5987625122070312e-05
+pred:  0
+label:  0
+The 229 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 9.179115295410156e-05
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 230 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.678436279296875e-05
+median time is 1.3113021850585938e-05
+pred:  0
+label:  0
+The 231 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0001423358917236328
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 232 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.004005908966064453
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 233 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0002734661102294922
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 234 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.004129171371459961
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 235 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 8.702278137207031e-05
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 236 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00016760826110839844
+median time is 1.8835067749023438e-05
+pred:  0
+label:  0
+The 237 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00011372566223144531
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 238 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 8.511543273925781e-05
+median time is 1.6689300537109375e-05
+pred:  0
+label:  0
+The 239 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00011587142944335938
+median time is 2.2411346435546875e-05
+pred:  0
+label:  0
+The 240 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.003955841064453125
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 241 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.606910705566406e-05
+median time is 1.6450881958007812e-05
+pred:  0
+label:  0
+The 242 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010228157043457031
+median time is 2.3126602172851562e-05
+pred:  0
+label:  0
+The 243 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.007461071014404297
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 244 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.004910945892333984
+median time is 9.775161743164062e-06
+pred:  0
+label:  0
+The 245 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010776519775390625
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 246 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.0002620220184326172
+median time is 1.811981201171875e-05
+pred:  0
+label:  0
+The 247 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0012123584747314453
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 248 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.703636169433594e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 249 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.942054748535156e-05
+median time is 1.71661376953125e-05
+pred:  0
+label:  0
+The 250 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.0009009838104248047
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 251 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0013017654418945312
+median time is 2.0742416381835938e-05
+pred:  0
+label:  0
+The 252 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0008060932159423828
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 253 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.007963418960571289
+median time is 8.58306884765625e-06
+pred:  0
+label:  1
+The 254 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 9.5367431640625e-05
+median time is 1.5974044799804688e-05
+pred:  0
+label:  1
+The 255 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0003387928009033203
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 256 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 9.083747863769531e-05
+median time is 1.9073486328125e-05
+pred:  0
+label:  0
+The 257 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0030591487884521484
+median time is 1.1444091796875e-05
+pred:  0
+label:  0
+The 258 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010323524475097656
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 259 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.678436279296875e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 260 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 0.0001049041748046875
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 261 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.005746603012084961
+median time is 1.7881393432617188e-05
+pred:  0
+label:  0
+The 262 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.0001163482666015625
+median time is 2.2411346435546875e-05
+pred:  0
+label:  0
+The 263 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.3909759521484375e-06
+max time is 9.250640869140625e-05
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 264 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.298324584960938e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 265 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010800361633300781
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 266 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.58306884765625e-06
+max time is 0.00011706352233886719
+median time is 2.2172927856445312e-05
+pred:  0
+label:  0
+The 267 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.0001354217529296875
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 268 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.8596649169921875e-05
+max time is 0.0017991065979003906
+median time is 2.5033950805664062e-05
+pred:  0
+label:  0
+The 269 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.8835067749023438e-05
+max time is 0.007508516311645508
+median time is 2.5272369384765625e-05
+pred:  0
+label:  1
+The 270 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.000762939453125
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 271 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.006894111633300781
+median time is 1.2159347534179688e-05
+pred:  0
+label:  1
+The 272 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.00010895729064941406
+median time is 2.47955322265625e-05
+pred:  0
+label:  0
+The 273 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00019407272338867188
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 274 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0030565261840820312
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 275 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00010156631469726562
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 276 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00016236305236816406
+median time is 9.799003601074219e-05
+pred:  0
+label:  1
+The 277 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0008800029754638672
+median time is 8.058547973632812e-05
+pred:  0
+label:  0
+The 278 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00012731552124023438
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 279 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001354217529296875
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 280 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00013589859008789062
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 281 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 9.083747863769531e-05
+median time is 3.0994415283203125e-05
+pred:  0
+label:  0
+The 282 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0001480579376220703
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 283 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.00017189979553222656
+median time is 2.8133392333984375e-05
+pred:  0
+label:  0
+The 284 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001552104949951172
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 285 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.000118255615234375
+median time is 1.1682510375976562e-05
+pred:  0
+label:  1
+The 286 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00028777122497558594
+median time is 6.556510925292969e-05
+pred:  0
+label:  0
+The 287 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00012373924255371094
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 288 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001506805419921875
+median time is 7.128715515136719e-05
+pred:  0
+label:  0
+The 289 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.004915952682495117
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 290 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.006433963775634766
+median time is 1.2159347534179688e-05
+pred:  0
+label:  1
+The 291 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0010764598846435547
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 292 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00013208389282226562
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 293 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001270771026611328
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 294 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00024890899658203125
+median time is 0.00010538101196289062
+pred:  0
+label:  0
+The 295 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0022373199462890625
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 296 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00011992454528808594
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 297 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00010013580322265625
+median time is 1.2159347534179688e-05
+pred:  0
+label:  1
+The 298 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 9.846687316894531e-05
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 299 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 9.608268737792969e-05
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 300 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0017557144165039062
+median time is 3.1113624572753906e-05
+pred:  0
+label:  0
+The 301 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.000118255615234375
+median time is 1.2159347534179688e-05
+pred:  0
+label:  1
+The 302 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001342296600341797
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 303 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00010156631469726562
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 304 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.01794576644897461
+median time is 3.075599670410156e-05
+pred:  0
+label:  0
+The 305 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 9.369850158691406e-05
+median time is 1.1682510375976562e-05
+pred:  0
+label:  0
+The 306 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00012445449829101562
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 307 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011849403381347656
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 308 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.0001399517059326172
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 309 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00011920928955078125
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 310 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00010752677917480469
+median time is 1.239776611328125e-05
+pred:  0
+label:  1
+The 311 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.0001232624053955078
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 312 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.010506868362426758
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 313 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.000110626220703125
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 314 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.008067607879638672
+median time is 1.9550323486328125e-05
+pred:  0
+label:  1
+The 315 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.002395153045654297
+median time is 1.9073486328125e-05
+pred:  0
+label:  0
+The 316 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 9.202957153320312e-05
+median time is 1.7404556274414062e-05
+pred:  0
+label:  0
+The 317 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.870529174804688e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  1
+The 318 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.008087873458862305
+median time is 2.2411346435546875e-05
+pred:  0
+label:  0
+The 319 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 7.390975952148438e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 320 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00024509429931640625
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 321 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010204315185546875
+median time is 2.002716064453125e-05
+pred:  0
+label:  0
+The 322 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.007055759429931641
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 323 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 9.918212890625e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 324 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00026226043701171875
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 325 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.655952453613281e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 326 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 8.821487426757812e-05
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 327 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00010967254638671875
+median time is 1.1205673217773438e-05
+pred:  0
+label:  0
+The 328 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0012357234954833984
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 329 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.369850158691406e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 330 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.007939577102661133
+median time is 9.775161743164062e-06
+pred:  0
+label:  0
+The 331 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 9.250640869140625e-05
+median time is 8.821487426757812e-06
+pred:  0
+label:  1
+The 332 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.3113021850585938e-05
+max time is 0.008104562759399414
+median time is 2.193450927734375e-05
+pred:  0
+label:  1
+The 333 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0001087188720703125
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 334 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0005605220794677734
+median time is 1.9073486328125e-05
+pred:  0
+label:  1
+The 335 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.5367431640625e-06
+max time is 0.0009479522705078125
+median time is 2.2649765014648438e-05
+pred:  0
+label:  0
+The 336 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.002226114273071289
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 337 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.821487426757812e-06
+max time is 8.606910705566406e-05
+median time is 2.47955322265625e-05
+pred:  0
+label:  0
+The 338 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.33514404296875e-05
+max time is 0.0011811256408691406
+median time is 1.430511474609375e-05
+pred:  0
+label:  0
+The 339 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2874603271484375e-05
+max time is 0.008050918579101562
+median time is 3.0517578125e-05
+pred:  0
+label:  0
+The 340 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.33514404296875e-05
+max time is 0.010022640228271484
+median time is 1.8835067749023438e-05
+pred:  0
+label:  0
+The 341 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 8.893013000488281e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 342 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0027189254760742188
+median time is 8.821487426757812e-06
+pred:  0
+label:  0
+The 343 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 9.298324584960938e-06
+max time is 0.00011038780212402344
+median time is 2.47955322265625e-05
+pred:  0
+label:  0
+The 344 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.004692792892456055
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 345 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.3113021850585938e-05
+max time is 0.009409666061401367
+median time is 1.8835067749023438e-05
+pred:  0
+label:  0
+The 346 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010919570922851562
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 347 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00018453598022460938
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 348 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010752677917480469
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 349 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.3589859008789062e-05
+max time is 0.008095264434814453
+median time is 2.9087066650390625e-05
+pred:  0
+label:  0
+The 350 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.00011157989501953125
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 351 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011181831359863281
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 352 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.0001633167266845703
+median time is 1.2636184692382812e-05
+pred:  0
+label:  1
+The 353 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011181831359863281
+median time is 7.176399230957031e-05
+pred:  0
+label:  0
+The 354 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00010824203491210938
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 355 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0007853507995605469
+median time is 3.910064697265625e-05
+pred:  0
+label:  1
+The 356 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.009007453918457031
+median time is 0.00011444091796875
+pred:  0
+label:  0
+The 357 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.005011796951293945
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 358 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00010895729064941406
+median time is 1.239776611328125e-05
+pred:  0
+label:  1
+The 359 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.0018832683563232422
+median time is 0.00010395050048828125
+pred:  0
+label:  0
+The 360 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0038673877716064453
+median time is 2.0742416381835938e-05
+pred:  0
+label:  0
+The 361 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00014066696166992188
+median time is 7.081031799316406e-05
+pred:  0
+label:  0
+The 362 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0076220035552978516
+median time is 7.641315460205078e-05
+pred:  0
+label:  1
+The 363 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00010585784912109375
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 364 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00011348724365234375
+median time is 1.2636184692382812e-05
+pred:  0
+label:  0
+The 365 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.4066696166992188e-05
+max time is 0.0016973018646240234
+median time is 0.00012373924255371094
+pred:  0
+label:  0
+The 366 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00736236572265625
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 367 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 2.3365020751953125e-05
+max time is 0.008078336715698242
+median time is 0.00011539459228515625
+pred:  0
+label:  0
+The 368 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.0001697540283203125
+median time is 0.00010085105895996094
+pred:  0
+label:  0
+The 369 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.008110761642456055
+median time is 2.6464462280273438e-05
+pred:  0
+label:  1
+The 370 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 7.62939453125e-05
+median time is 1.2636184692382812e-05
+pred:  0
+label:  0
+The 371 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00010275840759277344
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 372 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00013256072998046875
+median time is 8.153915405273438e-05
+pred:  0
+label:  0
+The 373 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.01178288459777832
+median time is 2.6702880859375e-05
+pred:  0
+label:  0
+The 374 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011324882507324219
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 375 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.0003037452697753906
+median time is 5.8650970458984375e-05
+pred:  0
+label:  1
+The 376 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0001857280731201172
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 377 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00011754035949707031
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 378 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.00011944770812988281
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 379 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00011944770812988281
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 380 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.62939453125e-06
+max time is 0.00010347366333007812
+median time is 1.3113021850585938e-05
+pred:  0
+label:  1
+The 381 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 8.630752563476562e-05
+median time is 1.3113021850585938e-05
+pred:  0
+label:  1
+The 382 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.00012135505676269531
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 383 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0001068115234375
+median time is 8.58306884765625e-06
+pred:  0
+label:  0
+The 384 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.799003601074219e-05
+median time is 1.9311904907226562e-05
+pred:  0
+label:  0
+The 385 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.965896606445312e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  1
+The 386 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.821487426757812e-06
+max time is 9.703636169433594e-05
+median time is 9.775161743164062e-06
+pred:  0
+label:  0
+The 387 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.799003601074219e-05
+median time is 9.059906005859375e-06
+pred:  0
+label:  0
+The 388 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.679794311523438e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 389 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.107589721679688e-05
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 390 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010013580322265625
+median time is 1.1205673217773438e-05
+pred:  0
+label:  0
+The 391 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 8.177757263183594e-05
+median time is 1.8596649169921875e-05
+pred:  0
+label:  0
+The 392 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00011301040649414062
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 393 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.00010466575622558594
+median time is 1.8358230590820312e-05
+pred:  0
+label:  0
+The 394 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 8.940696716308594e-05
+median time is 1.4066696166992188e-05
+pred:  0
+label:  0
+The 395 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00030303001403808594
+median time is 2.6226043701171875e-05
+pred:  0
+label:  1
+The 396 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.560585021972656e-05
+median time is 9.775161743164062e-06
+pred:  0
+label:  0
+The 397 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 9.608268737792969e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 398 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.00011181831359863281
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 399 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 6.937980651855469e-05
+median time is 2.0742416381835938e-05
+pred:  0
+label:  0
+The 400 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.0002307891845703125
+median time is 9.775161743164062e-06
+pred:  0
+label:  0
+The 401 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0020194053649902344
+median time is 1.049041748046875e-05
+pred:  0
+label:  0
+The 402 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010180473327636719
+median time is 1.6927719116210938e-05
+pred:  0
+label:  0
+The 403 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.58306884765625e-06
+max time is 9.870529174804688e-05
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 404 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 7.081031799316406e-05
+median time is 1.3589859008789062e-05
+pred:  0
+label:  0
+The 405 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.008122920989990234
+median time is 5.14984130859375e-05
+pred:  0
+label:  0
+The 406 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.00020933151245117188
+median time is 1.3113021850585938e-05
+pred:  0
+label:  0
+The 407 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.0011773109436035156
+median time is 8.916854858398438e-05
+pred:  0
+label:  1
+The 408 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00011849403381347656
+median time is 1.2874603271484375e-05
+pred:  0
+label:  0
+The 409 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2636184692382812e-05
+max time is 0.011654138565063477
+median time is 2.7418136596679688e-05
+pred:  0
+label:  0
+The 410 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.239776611328125e-05
+max time is 0.00016617774963378906
+median time is 9.012222290039062e-05
+pred:  0
+label:  0
+The 411 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.00014162063598632812
+median time is 1.3113021850585938e-05
+pred:  0
+label:  0
+The 412 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.0001308917999267578
+median time is 1.2874603271484375e-05
+pred:  0
+label:  1
+The 413 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.0001246929168701172
+median time is 6.341934204101562e-05
+pred:  0
+label:  0
+The 414 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.9550323486328125e-05
+max time is 0.008073806762695312
+median time is 2.6226043701171875e-05
+pred:  0
+label:  0
+The 415 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.012048006057739258
+median time is 2.6941299438476562e-05
+pred:  0
+label:  0
+The 416 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.239776611328125e-05
+max time is 0.00016546249389648438
+median time is 9.012222290039062e-05
+pred:  0
+label:  1
+The 417 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1920928955078125e-05
+max time is 0.0007011890411376953
+median time is 7.43865966796875e-05
+pred:  0
+label:  0
+The 418 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1920928955078125e-05
+max time is 0.008072137832641602
+median time is 5.1975250244140625e-05
+pred:  0
+label:  0
+The 419 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.0006957054138183594
+median time is 3.7670135498046875e-05
+pred:  0
+label:  0
+The 420 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.0001678466796875
+median time is 1.3113021850585938e-05
+pred:  0
+label:  0
+The 421 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00011587142944335938
+median time is 3.266334533691406e-05
+pred:  0
+label:  0
+The 422 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1920928955078125e-05
+max time is 0.00014972686767578125
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 423 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 9.894371032714844e-05
+median time is 3.910064697265625e-05
+pred:  0
+label:  0
+The 424 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2159347534179688e-05
+max time is 0.010973453521728516
+median time is 2.6226043701171875e-05
+pred:  0
+label:  0
+The 425 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1920928955078125e-05
+max time is 0.00011873245239257812
+median time is 1.33514404296875e-05
+pred:  0
+label:  0
+The 426 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1444091796875e-05
+max time is 0.0001125335693359375
+median time is 4.1961669921875e-05
+pred:  0
+label:  0
+The 427 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.00011014938354492188
+median time is 1.2636184692382812e-05
+pred:  0
+label:  0
+The 428 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00010037422180175781
+median time is 2.0503997802734375e-05
+pred:  0
+label:  1
+The 429 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0009469985961914062
+median time is 1.5497207641601562e-05
+pred:  0
+label:  0
+The 430 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 7.867813110351562e-06
+max time is 0.0029532909393310547
+median time is 1.239776611328125e-05
+pred:  0
+label:  0
+The 431 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 8.511543273925781e-05
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 432 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.821487426757812e-06
+max time is 9.72747802734375e-05
+median time is 2.384185791015625e-05
+pred:  0
+label:  0
+The 433 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.58306884765625e-06
+max time is 0.009462833404541016
+median time is 2.002716064453125e-05
+pred:  0
+label:  0
+The 434 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.5497207641601562e-05
+max time is 9.250640869140625e-05
+median time is 2.5987625122070312e-05
+pred:  0
+label:  0
+The 435 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.58306884765625e-06
+max time is 0.00016307830810546875
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 436 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 0.00014901161193847656
+median time is 9.5367431640625e-06
+pred:  0
+label:  0
+The 437 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.106231689453125e-06
+max time is 0.00040984153747558594
+median time is 9.298324584960938e-06
+pred:  0
+label:  0
+The 438 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.34600830078125e-05
+median time is 1.7881393432617188e-05
+pred:  0
+label:  0
+The 439 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 8.344650268554688e-06
+max time is 9.131431579589844e-05
+median time is 1.7642974853515625e-05
+pred:  0
+label:  0
+The 440 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0002086162567138672
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 441 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0014085769653320312
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 442 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.015982627868652344
+median time is 1.1920928955078125e-05
+pred:  0
+label:  1
+The 443 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00020384788513183594
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 444 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1682510375976562e-05
+max time is 0.001252889633178711
+median time is 0.00010061264038085938
+pred:  0
+label:  0
+The 445 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.0012166500091552734
+median time is 1.1920928955078125e-05
+pred:  0
+label:  0
+The 446 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 2.2411346435546875e-05
+max time is 0.008150577545166016
+median time is 2.3603439331054688e-05
+pred:  0
+label:  1
+The 447 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00024628639221191406
+median time is 1.1205673217773438e-05
+pred:  0
+label:  0
+The 448 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.049041748046875e-05
+max time is 0.00015592575073242188
+median time is 1.1205673217773438e-05
+pred:  0
+label:  0
+The 449 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0251998901367188e-05
+max time is 0.00012540817260742188
+median time is 1.0967254638671875e-05
+pred:  0
+label:  0
+The 450 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2874603271484375e-05
+max time is 0.00023627281188964844
+median time is 1.4066696166992188e-05
+pred:  0
+label:  1
+The 451 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2636184692382812e-05
+max time is 0.0004181861877441406
+median time is 0.000141143798828125
+pred:  0
+label:  0
+The 452 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.3113021850585938e-05
+max time is 0.008137941360473633
+median time is 1.4066696166992188e-05
+pred:  0
+label:  0
+The 453 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.00026106834411621094
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 454 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.00038433074951171875
+median time is 0.00017881393432617188
+pred:  0
+label:  1
+The 455 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.0002276897430419922
+median time is 0.0001347064971923828
+pred:  0
+label:  0
+The 456 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1205673217773438e-05
+max time is 0.009013652801513672
+median time is 2.4557113647460938e-05
+pred:  0
+label:  0
+The 457 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2636184692382812e-05
+max time is 0.011907577514648438
+median time is 4.220008850097656e-05
+pred:  0
+label:  1
+The 458 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.3589859008789062e-05
+max time is 0.009328365325927734
+median time is 2.9802322387695312e-05
+pred:  0
+label:  1
+The 459 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 2.3126602172851562e-05
+max time is 0.008079051971435547
+median time is 2.86102294921875e-05
+pred:  0
+label:  0
+The 460 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.1920928955078125e-05
+max time is 0.007805585861206055
+median time is 0.0001201629638671875
+pred:  0
+label:  0
+The 461 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.7404556274414062e-05
+max time is 0.00027632713317871094
+median time is 0.0001976490020751953
+pred:  0
+label:  0
+The 462 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0967254638671875e-05
+max time is 0.004652500152587891
+median time is 1.2636184692382812e-05
+pred:  0
+label:  0
+The 463 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.0728836059570312e-05
+max time is 0.0002779960632324219
+median time is 1.2159347534179688e-05
+pred:  0
+label:  0
+The 464 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2874603271484375e-05
+max time is 0.0027298927307128906
+median time is 2.956390380859375e-05
+pred:  0
+label:  0
+The 465 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.2636184692382812e-05
+max time is 0.002590179443359375
+median time is 0.00020956993103027344
+pred:  0
+label:  0
+The 466 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.71661376953125e-05
+max time is 0.0002455711364746094
+median time is 1.8835067749023438e-05
+pred:  0
+label:  1
+The 467 graph has been processed
+adj: %0 = multiply(meta[relay.Constant][1], meta[relay.Constant][2]);
+multiply(meta[relay.Constant][0], %0)
+
+OK1
+OK2
+OK3
+OK4
+min time is 1.5735626220703125e-05
+max time is 0.008748054504394531
+median time is 4.76837158203125e-05
+pred:  0
+label:  1
+CreateW_time is : 0.04957914352416992
+TransformW_time is : 0.008954763412475586
+bias_var is : 0.03162097930908203
+biasAdd_time is : 0.015899181365966797
+AH_1_time is : 0.0072438716888427734
+AH_2_time is : 0.004684925079345703
+HW_1_time is : 0.004519462585449219
+HW_2_time is : 0.004553556442260742
+activation_time is : 0.0027801990509033203
+squeeze_time is : 0.014291048049926758
+Graphconv1_time is : 0.07333731651306152
+Graphconv2_time is : 0.07326388359069824
+the meanlogits time is : 0.04048752784729004
+num:  467.0
+Test accuracy of TVM results: 78.16%
+Min model inference total time:  0.004554271697998047
+Median model inference total time:  0.009989500045776367
+Max model inference total time:  0.6905243396759033

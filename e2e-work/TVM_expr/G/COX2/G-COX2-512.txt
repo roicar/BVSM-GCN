@@ -1,0 +1,22 @@
+The batch_size has been large enough for the whole dataset!
+The max dimension of this span is: 32
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 40
+min time is 1.430511474609375e-06
+max time is 6.67572021484375e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 48
+min time is 1.430511474609375e-06
+max time is 6.198883056640625e-06
+median time is 1.6689300537109375e-06
+The max dimension of this span is: 56
+min time is 1.430511474609375e-06
+max time is 1.7404556274414062e-05
+median time is 1.6689300537109375e-06
+num:  1123.0
+Test accuracy of TVM results: 77.03%
+Min model inference total time:  5.7220458984375e-06
+Median model inference total time:  6.67572021484375e-06
+Max model inference total time:  3.647804260253906e-05

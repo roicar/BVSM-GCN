@@ -1,0 +1,4421 @@
+Max number of node: 100
+Number of graph categories: 4
+The Dataload time is :  0.00011706352233886719
+[Graph(num_nodes=90, num_edges=432,
+      ndata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64), 'node_attr': Scheme(shape=(15,), dtype=torch.float64), 'norm': Scheme(shape=(1,), dtype=torch.float32)}
+      edata_schemes={'_ID': Scheme(shape=(), dtype=torch.int64)}), tensor([[3]])]
+Number of nodes for each graph element in the batch: tensor([90])
+Number of edges for each graph element in the batch: tensor([432])
+The original graphs in the minibatch:
+test_num:  0
+-----------------------------------------------------
+This graph sparseMM time is: 5.316734313964844e-05
+This graph sparseMM time is: 2.1219253540039062e-05
+pred:  tensor([[  7.0265, -12.5474, -11.5012,   2.9986]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 0
+num_correct_after: 0
+test_num:  1
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[-2.2175, -0.4369, -7.0186, -8.3448]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 0
+num_correct_after: 1
+test_num:  2
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-3.3415, -8.7450, -1.7359, -5.5253]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 1
+num_correct_after: 2
+test_num:  3
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -8.4288,   8.8535,   0.0210, -14.6907]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 2
+num_correct_after: 3
+test_num:  4
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -5.4225,   3.0261,  -2.5813, -12.2915]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 3
+num_correct_after: 3
+test_num:  5
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ -8.7771,  14.2815,  -0.6796, -17.7925]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 3
+num_correct_after: 4
+test_num:  6
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[-4.4864, -2.2822, -6.7559, -1.5759]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 4
+num_correct_after: 5
+test_num:  7
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[  8.8365, -12.8886, -17.2707,   3.4961]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 5
+num_correct_after: 6
+test_num:  8
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-18.8955,  -3.6725,   6.3066,  -6.8001]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 6
+num_correct_after: 7
+test_num:  9
+-----------------------------------------------------
+This graph sparseMM time is: 2.2172927856445312e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-14.0862,   8.5811,   3.1917, -12.5456]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 7
+num_correct_after: 8
+test_num:  10
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  9.5157, -10.2306, -18.4280,   2.6112]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 8
+num_correct_after: 8
+test_num:  11
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[  1.2179,   3.5055,  -5.8712, -11.5786]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 8
+num_correct_after: 8
+test_num:  12
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-6.8373,  1.2181, -2.7583, -9.2175]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 8
+num_correct_after: 8
+test_num:  13
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -1.3715,   1.7240,  -5.1020, -11.1333]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 8
+num_correct_after: 9
+test_num:  14
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  0.8718, -24.0148,  -8.3143,   9.5554]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 9
+num_correct_after: 10
+test_num:  15
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -7.4827,   7.5310,  -3.1485, -10.9791]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 10
+num_correct_after: 11
+test_num:  16
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-8.5252,  2.2718, -0.6049, -7.7778]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 11
+num_correct_after: 11
+test_num:  17
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[  9.2618,  -2.0907, -17.1181,  -2.8248]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 11
+num_correct_after: 12
+test_num:  18
+-----------------------------------------------------
+This graph sparseMM time is: 1.7642974853515625e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ 1.6140, -7.5167, -9.7171,  1.0635]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 12
+num_correct_after: 12
+test_num:  19
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[-12.7909,  10.4902,   0.8947, -13.3767]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 12
+num_correct_after: 13
+test_num:  20
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-2.9524,  3.4953, -4.1662, -9.0092]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 13
+num_correct_after: 13
+test_num:  21
+-----------------------------------------------------
+This graph sparseMM time is: 0.0001266002655029297
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 12.2655,  -9.6789, -19.9889,   2.3848]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 13
+num_correct_after: 14
+test_num:  22
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-14.5595,  12.4199,   5.4495, -18.4267]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 14
+num_correct_after: 14
+test_num:  23
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 16.1227,  -4.4023, -22.7110,   0.6629]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 14
+num_correct_after: 15
+test_num:  24
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  4.1013, -10.8858, -11.6065,   0.4418]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 15
+num_correct_after: 15
+test_num:  25
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.6689300537109375e-05
+pred:  tensor([[ 12.0895,  -4.6255, -15.8821,  -1.2715]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 15
+num_correct_after: 16
+test_num:  26
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-12.8996,   7.5406,   2.9825, -13.7745]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 16
+num_correct_after: 16
+test_num:  27
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -0.9172,   9.8985,  -6.5446, -11.7376]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 16
+num_correct_after: 17
+test_num:  28
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-16.4839,   8.1627,   2.7788, -13.0357]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 17
+num_correct_after: 17
+test_num:  29
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  7.6144,   3.9467, -13.4297,  -8.7090]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 17
+num_correct_after: 18
+test_num:  30
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-2.1764, -9.3129, -5.4555,  0.2005]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 18
+num_correct_after: 19
+test_num:  31
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -3.2622,   3.4374,  -3.9744, -10.6399]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 19
+num_correct_after: 20
+test_num:  32
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ 3.7562, -5.2937, -9.6283, -1.1168]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 20
+num_correct_after: 20
+test_num:  33
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 13.1725,  -1.6481, -21.9559,  -1.5285]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 20
+num_correct_after: 21
+test_num:  34
+-----------------------------------------------------
+This graph sparseMM time is: 2.4080276489257812e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[  2.0917,  -8.8140, -14.8364,   5.0769]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 21
+num_correct_after: 22
+test_num:  35
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ 6.1497, -7.2055, -9.3646, -0.7478]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 22
+num_correct_after: 23
+test_num:  36
+-----------------------------------------------------
+This graph sparseMM time is: 1.8835067749023438e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-6.1080, -1.1867, -1.2325, -8.4045]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 23
+num_correct_after: 23
+test_num:  37
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ 2.7368, -0.6985, -8.4185, -3.5459]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 23
+num_correct_after: 24
+test_num:  38
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  5.1887,  -7.2536, -14.6130,   1.3133]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 24
+num_correct_after: 24
+test_num:  39
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  6.0702,   5.8522, -13.1751,  -8.3153]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 24
+num_correct_after: 25
+test_num:  40
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -8.1004,   5.2569,  -1.9720, -14.0851]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 25
+num_correct_after: 25
+test_num:  41
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -7.0404,   8.6822,  -2.3721, -15.6363]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 25
+num_correct_after: 26
+test_num:  42
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[-15.0369,   0.8532,   0.8534,  -5.6531]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 26
+num_correct_after: 27
+test_num:  43
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -4.0604,  15.0781,  -2.1098, -19.9655]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 27
+num_correct_after: 28
+test_num:  44
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-3.8497, -6.9677, -7.8385,  2.7820]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 28
+num_correct_after: 29
+test_num:  45
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 10.2721,   1.5141, -18.7895,  -2.5712]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 29
+num_correct_after: 30
+test_num:  46
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.8835067749023438e-05
+pred:  tensor([[  0.2628,  -7.1146, -14.1018,   5.3438]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 30
+num_correct_after: 31
+test_num:  47
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -7.4858,  12.9576,  -1.2170, -16.3046]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 31
+num_correct_after: 32
+test_num:  48
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-0.9962, -8.7593, -4.0473, -2.5101]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 32
+num_correct_after: 32
+test_num:  49
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -7.9972,   9.4123,  -3.6395, -10.6929]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 32
+num_correct_after: 33
+test_num:  50
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-22.1605,  13.6538,  16.9575, -23.7331]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 33
+num_correct_after: 34
+test_num:  51
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ 2.0130,  1.2962, -8.7093, -8.1092]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 34
+num_correct_after: 35
+test_num:  52
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-12.5473,   2.6668,   6.2259, -12.8065]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 35
+num_correct_after: 36
+test_num:  53
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[  8.4728,  -4.9639, -13.6299,  -2.7609]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 36
+num_correct_after: 37
+test_num:  54
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 0.0026798248291015625
+pred:  tensor([[  5.3092, -18.5466, -15.2847,  11.9159]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 37
+num_correct_after: 38
+test_num:  55
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ 3.2044, -3.9804, -8.2775, -6.2809]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 38
+num_correct_after: 39
+test_num:  56
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ 0.9076, -8.7665, -7.2693, -0.8231]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 39
+num_correct_after: 39
+test_num:  57
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  9.2605,  -1.6188, -20.3354,   1.2692]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 39
+num_correct_after: 40
+test_num:  58
+-----------------------------------------------------
+This graph sparseMM time is: 2.7179718017578125e-05
+This graph sparseMM time is: 1.52587890625e-05
+pred:  tensor([[-15.8126,   6.0817,   5.7903, -13.1421]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 40
+num_correct_after: 40
+test_num:  59
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-3.5062,  2.4515, -8.0263, -5.4837]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 40
+num_correct_after: 41
+test_num:  60
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-19.3731,   6.6725,   9.7338, -15.2375]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 41
+num_correct_after: 42
+test_num:  61
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  4.9144,   3.5038, -10.9204, -10.7949]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 42
+num_correct_after: 43
+test_num:  62
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-10.4411,   3.1795,   0.5195,  -7.9702]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 43
+num_correct_after: 43
+test_num:  63
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[-2.0880,  8.8520, -6.8263, -9.8777]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 43
+num_correct_after: 44
+test_num:  64
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  4.5981,  -7.9952, -11.1833,   0.6756]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 44
+num_correct_after: 44
+test_num:  65
+-----------------------------------------------------
+This graph sparseMM time is: 1.5735626220703125e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  8.3674,   4.9850, -15.2293,  -8.1179]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 44
+num_correct_after: 45
+test_num:  66
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 1.7252, -6.0572, -8.9735, -2.7596]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 45
+num_correct_after: 45
+test_num:  67
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[  3.9447,   7.4964, -12.4188,  -9.4824]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 45
+num_correct_after: 46
+test_num:  68
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.6450881958007812e-05
+pred:  tensor([[ 0.5446, -3.1243, -5.0612, -6.3348]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 46
+num_correct_after: 46
+test_num:  69
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ 10.1943,   5.0714, -18.5357,  -3.9438]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 46
+num_correct_after: 47
+test_num:  70
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 7.677078247070312e-05
+pred:  tensor([[ -0.5722, -11.0428, -16.0025,   7.8505]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 47
+num_correct_after: 48
+test_num:  71
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.5020370483398438e-05
+pred:  tensor([[ -0.5764,   8.2762,  -3.9186, -16.0516]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 48
+num_correct_after: 49
+test_num:  72
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -9.6873,   4.0327,   2.7646, -12.2594]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 49
+num_correct_after: 49
+test_num:  73
+-----------------------------------------------------
+This graph sparseMM time is: 1.811981201171875e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -8.1309,  10.2089,  -4.4510, -12.5636]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 49
+num_correct_after: 50
+test_num:  74
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-2.6849, -0.6998, -6.2601, -8.4323]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 50
+num_correct_after: 50
+test_num:  75
+-----------------------------------------------------
+This graph sparseMM time is: 2.288818359375e-05
+This graph sparseMM time is: 1.811981201171875e-05
+pred:  tensor([[  6.2559,   2.3787, -17.0434,  -5.3981]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 50
+num_correct_after: 51
+test_num:  76
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  9.0570, -11.9909, -14.7796,   6.6277]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 51
+num_correct_after: 51
+test_num:  77
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  8.3149,  -4.8784, -12.8873,  -4.8007]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 51
+num_correct_after: 52
+test_num:  78
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-9.6210,  1.6159, -3.0840, -8.3125]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 52
+num_correct_after: 52
+test_num:  79
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  2.5031,  -1.1886, -11.5761,  -0.9912]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 52
+num_correct_after: 53
+test_num:  80
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-7.6825, -3.9875,  4.5165, -8.5326]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 53
+num_correct_after: 54
+test_num:  81
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-4.3950,  7.3157, -5.3484, -9.3287]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 54
+num_correct_after: 55
+test_num:  82
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-12.0393,   2.3037,   5.6508,  -8.9854]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 55
+num_correct_after: 56
+test_num:  83
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  6.7426,   7.0309, -11.7598, -10.5568]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 56
+num_correct_after: 56
+test_num:  84
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-8.3539, -2.4014, -1.0928, -9.5009]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 56
+num_correct_after: 57
+test_num:  85
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -0.9069,  11.7194,  -1.0894, -19.8946]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 57
+num_correct_after: 58
+test_num:  86
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[-0.5400, -8.2231, -7.2577, -1.2212]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 58
+num_correct_after: 58
+test_num:  87
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -3.5602,   9.0948,  -3.6385, -10.9285]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 58
+num_correct_after: 59
+test_num:  88
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-20.0980,   3.5901,  12.6105, -16.0180]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 59
+num_correct_after: 60
+test_num:  89
+-----------------------------------------------------
+This graph sparseMM time is: 1.621246337890625e-05
+This graph sparseMM time is: 1.6927719116210938e-05
+pred:  tensor([[ -7.8833,  12.0471,  -1.4044, -16.5265]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 60
+num_correct_after: 61
+test_num:  90
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  4.6489, -15.5462, -13.7648,   5.5410]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 61
+num_correct_after: 62
+test_num:  91
+-----------------------------------------------------
+This graph sparseMM time is: 2.2649765014648438e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[  8.5239,  -4.9329, -12.7048,  -2.0935]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 62
+num_correct_after: 63
+test_num:  92
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ -2.3978, -15.1205,  -7.9572,   2.8278]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 63
+num_correct_after: 64
+test_num:  93
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  8.0416,  -0.3301, -16.9328,  -5.5710]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 64
+num_correct_after: 65
+test_num:  94
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 3.075599670410156e-05
+pred:  tensor([[ -9.7336,   0.4339,   0.7654, -10.0050]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 65
+num_correct_after: 66
+test_num:  95
+-----------------------------------------------------
+This graph sparseMM time is: 2.5033950805664062e-05
+This graph sparseMM time is: 1.5497207641601562e-05
+pred:  tensor([[ -6.8376,   6.6509,  -5.0589, -10.1470]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 66
+num_correct_after: 67
+test_num:  96
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-8.8235, -3.3230, -1.1234, -3.1605]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 67
+num_correct_after: 68
+test_num:  97
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-8.9829,  4.5663, -3.6377, -7.6512]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 68
+num_correct_after: 69
+test_num:  98
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-14.3415,   1.3084,   7.0417, -10.5848]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 69
+num_correct_after: 70
+test_num:  99
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-16.3564,   9.6306,   5.2526, -14.1111]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 70
+num_correct_after: 71
+test_num:  100
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-6.8024,  2.3385, -3.0069, -4.7424]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 71
+num_correct_after: 71
+test_num:  101
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ 1.0498,  6.3899, -7.5533, -9.9214]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 71
+num_correct_after: 72
+test_num:  102
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-6.4871, -5.2676, -0.6124, -3.6210]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 72
+num_correct_after: 73
+test_num:  103
+-----------------------------------------------------
+This graph sparseMM time is: 1.2636184692382812e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  5.8845,   0.3805, -11.3968,  -4.6747]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 73
+num_correct_after: 74
+test_num:  104
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-14.8405,  -2.6511,   3.2942,  -9.6528]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 74
+num_correct_after: 75
+test_num:  105
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-12.3898,  12.3775,   2.8992, -16.9278]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 75
+num_correct_after: 76
+test_num:  106
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 0.0001354217529296875
+pred:  tensor([[-16.6018,   0.4938,   6.2215,  -8.9871]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 76
+num_correct_after: 77
+test_num:  107
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 5.793571472167969e-05
+pred:  tensor([[-1.9229, -1.1281, -8.7539, -6.8528]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 77
+num_correct_after: 78
+test_num:  108
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ 0.4731, -9.3402, -7.1340, -0.2399]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 78
+num_correct_after: 78
+test_num:  109
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -3.4954,   3.1546,  -3.6564, -12.2722]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 78
+num_correct_after: 79
+test_num:  110
+-----------------------------------------------------
+This graph sparseMM time is: 2.9325485229492188e-05
+This graph sparseMM time is: 1.6689300537109375e-05
+pred:  tensor([[  9.0353, -15.2964, -20.0082,   9.0920]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 79
+num_correct_after: 80
+test_num:  111
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  3.5039,   4.7007, -10.4974,  -9.5215]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 80
+num_correct_after: 81
+test_num:  112
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -5.7095,   7.6384,   0.2066, -18.4526]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 81
+num_correct_after: 81
+test_num:  113
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  7.0217,   1.1431, -16.5186,  -2.8937]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 81
+num_correct_after: 82
+test_num:  114
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  4.3490,  -1.3486, -13.5248,  -3.1348]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 82
+num_correct_after: 82
+test_num:  115
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ -5.0211,   4.5012,  -4.4853, -11.5820]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 82
+num_correct_after: 83
+test_num:  116
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  0.0212, -16.7789,  -4.1654,   3.0039]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 83
+num_correct_after: 84
+test_num:  117
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -5.1597,   7.3376,  -2.5778, -10.7327]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 84
+num_correct_after: 85
+test_num:  118
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -2.2854, -12.7803, -10.8205,   3.1967]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 85
+num_correct_after: 86
+test_num:  119
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ 0.9659, -0.8594, -9.7627, -3.3185]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 86
+num_correct_after: 87
+test_num:  120
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-4.6423,  0.2561, -3.5637, -8.6128]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 87
+num_correct_after: 87
+test_num:  121
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -5.8457,   4.9435,  -3.6132, -11.9378]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 87
+num_correct_after: 88
+test_num:  122
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -4.0334,   5.9597,  -4.7662, -13.1187]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 88
+num_correct_after: 88
+test_num:  123
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ -0.5589,   4.4364,  -5.0017, -11.5701]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 88
+num_correct_after: 89
+test_num:  124
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 4.100799560546875e-05
+pred:  tensor([[  2.3062,  -2.8402, -12.6046,  -1.9381]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 89
+num_correct_after: 89
+test_num:  125
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  9.3469,  -0.9606, -19.0840,  -0.9436]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 89
+num_correct_after: 90
+test_num:  126
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-1.4792, -5.1568, -6.7274, -2.8932]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 90
+num_correct_after: 90
+test_num:  127
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -4.3597,   9.9428,  -0.6482, -18.7614]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 90
+num_correct_after: 91
+test_num:  128
+-----------------------------------------------------
+This graph sparseMM time is: 2.4080276489257812e-05
+This graph sparseMM time is: 1.5020370483398438e-05
+pred:  tensor([[-5.3350, -5.7634, -8.1888,  0.6349]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 91
+num_correct_after: 92
+test_num:  129
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ -3.8678,   7.9425,  -2.6515, -12.4020]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 92
+num_correct_after: 93
+test_num:  130
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-15.3851,  -4.6193,  -0.8911,  -3.2889]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 93
+num_correct_after: 94
+test_num:  131
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -4.5236,   6.0651,  -4.5529, -10.2850]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 94
+num_correct_after: 95
+test_num:  132
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 0.008183956146240234
+pred:  tensor([[ 0.5555, -5.3471, -9.1889, -4.8714]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 95
+num_correct_after: 95
+test_num:  133
+-----------------------------------------------------
+This graph sparseMM time is: 1.7881393432617188e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[-14.3227,  10.8379,   3.3483, -14.4432]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 95
+num_correct_after: 96
+test_num:  134
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-12.8526,   3.8085,   0.1651, -10.5435]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 96
+num_correct_after: 96
+test_num:  135
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  7.1402,   0.5489, -16.1310,  -2.9050]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 96
+num_correct_after: 97
+test_num:  136
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  8.8873, -15.5713, -18.0587,   5.7546]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 97
+num_correct_after: 97
+test_num:  137
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -3.9317,   5.3553,  -1.3535, -15.4474]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 97
+num_correct_after: 98
+test_num:  138
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  1.8096,  -5.4294, -10.3570,  -1.5675]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 98
+num_correct_after: 98
+test_num:  139
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  5.9014,  -2.2433, -13.1690,  -4.6091]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 98
+num_correct_after: 99
+test_num:  140
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-26.2961,  11.5360,  16.6285, -21.3498]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 99
+num_correct_after: 100
+test_num:  141
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -7.9383,   9.0064,  -3.1129, -12.3313]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 100
+num_correct_after: 101
+test_num:  142
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[-1.4561, -1.1925, -5.3305, -5.6341]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 101
+num_correct_after: 101
+test_num:  143
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  0.6096,   6.1165,  -7.2372, -11.1986]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 101
+num_correct_after: 102
+test_num:  144
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -5.6079, -13.5843,  -5.6175,   0.3832]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 102
+num_correct_after: 103
+test_num:  145
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  6.9270,  -1.3005, -11.1359,  -6.0230]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 103
+num_correct_after: 104
+test_num:  146
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 0.0027282238006591797
+pred:  tensor([[-9.4393, -0.4860,  1.2271, -5.5247]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 104
+num_correct_after: 105
+test_num:  147
+-----------------------------------------------------
+This graph sparseMM time is: 0.0013794898986816406
+This graph sparseMM time is: 0.0003437995910644531
+pred:  tensor([[ -1.6247,   6.4453,  -6.8400, -15.2894]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 105
+num_correct_after: 106
+test_num:  148
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  1.8101,  -2.4703, -13.2640,  -1.5119]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 106
+num_correct_after: 106
+test_num:  149
+-----------------------------------------------------
+This graph sparseMM time is: 2.5033950805664062e-05
+This graph sparseMM time is: 1.5020370483398438e-05
+pred:  tensor([[ -9.6007,  11.8325,  -0.8566, -15.0983]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 106
+num_correct_after: 107
+test_num:  150
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 0.00010442733764648438
+pred:  tensor([[  4.1931, -13.7982, -16.3693,   5.2812]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 107
+num_correct_after: 108
+test_num:  151
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  3.3103,   8.6938,  -9.3408, -13.0204]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 108
+num_correct_after: 109
+test_num:  152
+-----------------------------------------------------
+This graph sparseMM time is: 1.9311904907226562e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[-8.0708, -0.3757, -1.1822, -7.3764]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 109
+num_correct_after: 109
+test_num:  153
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  8.1760,  -6.8640, -20.2614,   0.9231]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 109
+num_correct_after: 110
+test_num:  154
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[  2.0449,  -3.7467, -10.4546,  -4.7083]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 110
+num_correct_after: 110
+test_num:  155
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  1.1521,   3.3794,  -6.9358, -13.7274]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 110
+num_correct_after: 110
+test_num:  156
+-----------------------------------------------------
+This graph sparseMM time is: 3.0994415283203125e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -8.9511,  -0.1851,   0.1588, -12.4887]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 110
+num_correct_after: 111
+test_num:  157
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-4.8991,  4.2807, -8.3306, -7.8351]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 111
+num_correct_after: 112
+test_num:  158
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-14.0665,   0.1392,   2.4300, -11.9246]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 112
+num_correct_after: 113
+test_num:  159
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -3.4428,   6.6838,  -3.0991, -13.5271]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 113
+num_correct_after: 114
+test_num:  160
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-20.9868,   4.6158,   4.8429, -11.8279]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 114
+num_correct_after: 115
+test_num:  161
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -3.9252,   6.3398,  -8.4014, -11.9369]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 115
+num_correct_after: 116
+test_num:  162
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ -2.3450,   1.0192,  -3.1222, -12.2482]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 116
+num_correct_after: 116
+test_num:  163
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.4781951904296875e-05
+pred:  tensor([[  8.1444,  -4.6049, -15.3082,  -2.5727]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 116
+num_correct_after: 117
+test_num:  164
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ 3.0055, -6.2514, -9.3717, -1.7004]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 117
+num_correct_after: 117
+test_num:  165
+-----------------------------------------------------
+This graph sparseMM time is: 2.47955322265625e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  6.6068,  -0.0583, -11.4065,  -7.8544]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 117
+num_correct_after: 118
+test_num:  166
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-13.5286,   9.6992,   1.6781, -16.3904]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 118
+num_correct_after: 118
+test_num:  167
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  3.4542,   7.0073, -14.4840,  -8.1571]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 118
+num_correct_after: 119
+test_num:  168
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.4781951904296875e-05
+pred:  tensor([[  6.6428, -15.0266, -18.3529,   7.7775]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 119
+num_correct_after: 120
+test_num:  169
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 5.221366882324219e-05
+pred:  tensor([[ -1.7101,   9.9266,  -7.3095, -14.8025]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 120
+num_correct_after: 121
+test_num:  170
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  0.7434, -13.2484, -12.9684,   6.2134]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 121
+num_correct_after: 122
+test_num:  171
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  6.2439,  -3.2628, -16.4035,  -0.1918]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 122
+num_correct_after: 123
+test_num:  172
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-6.0281, -0.3737, -3.0175, -6.8013]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 123
+num_correct_after: 123
+test_num:  173
+-----------------------------------------------------
+This graph sparseMM time is: 2.47955322265625e-05
+This graph sparseMM time is: 1.52587890625e-05
+pred:  tensor([[  3.4433,   2.0606, -13.0374,  -5.6271]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 123
+num_correct_after: 123
+test_num:  174
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-6.8312, -6.6872, -0.6166, -6.3277]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 123
+num_correct_after: 124
+test_num:  175
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ 0.0562,  1.8057, -7.2231, -8.9223]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 124
+num_correct_after: 124
+test_num:  176
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-11.6931,   4.5564,   3.9335, -11.5187]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 124
+num_correct_after: 124
+test_num:  177
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ 0.8434,  0.7814, -9.9277, -7.3917]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 124
+num_correct_after: 125
+test_num:  178
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ 11.2312, -10.5859, -22.8474,   5.8512]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 125
+num_correct_after: 125
+test_num:  179
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  7.9716,  -2.2966, -18.9468,  -0.2864]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 125
+num_correct_after: 126
+test_num:  180
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-12.8251,  -2.3390,   1.3561,  -6.7137]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 126
+num_correct_after: 127
+test_num:  181
+-----------------------------------------------------
+This graph sparseMM time is: 8.392333984375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  4.2880,  -1.8974, -12.9713,  -5.0537]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 127
+num_correct_after: 128
+test_num:  182
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-3.7957, -5.4736, -4.5388, -1.5367]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 128
+num_correct_after: 129
+test_num:  183
+-----------------------------------------------------
+This graph sparseMM time is: 2.0503997802734375e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ 10.0814,  -2.8809, -13.7030,  -4.8939]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 129
+num_correct_after: 130
+test_num:  184
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ 11.9510, -15.3987, -22.6911,  10.5485]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 130
+num_correct_after: 130
+test_num:  185
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ 15.1786, -10.0846, -21.3161,   2.1126]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 130
+num_correct_after: 131
+test_num:  186
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-9.2745, -3.3008, -2.4549, -3.0630]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 131
+num_correct_after: 131
+test_num:  187
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-7.4221,  2.4008, -5.2951, -6.5729]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 131
+num_correct_after: 132
+test_num:  188
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  1.8809, -16.5305, -18.5766,  10.1859]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 132
+num_correct_after: 133
+test_num:  189
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -1.7562,   8.9146,  -7.1902, -12.2436]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 133
+num_correct_after: 134
+test_num:  190
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ 10.0421, -15.5316, -19.3969,  10.1871]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 134
+num_correct_after: 135
+test_num:  191
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  5.8966,   0.7494, -14.0825,  -7.4489]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 135
+num_correct_after: 136
+test_num:  192
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[  2.4132, -18.0967,  -9.2467,   7.2105]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 136
+num_correct_after: 137
+test_num:  193
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ -6.6720,   8.1152,   1.7288, -14.2256]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 137
+num_correct_after: 138
+test_num:  194
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[  7.2077,  -6.5252, -14.8637,   1.1567]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 138
+num_correct_after: 138
+test_num:  195
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ -0.9198,   6.9139,  -5.8735, -12.7081]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 138
+num_correct_after: 139
+test_num:  196
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  6.6135, -15.0047, -16.4139,   6.2988]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 139
+num_correct_after: 139
+test_num:  197
+-----------------------------------------------------
+This graph sparseMM time is: 2.288818359375e-05
+This graph sparseMM time is: 1.5735626220703125e-05
+pred:  tensor([[ -8.7597,   7.8447,  -0.2433, -16.2679]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 139
+num_correct_after: 140
+test_num:  198
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  0.5342, -12.1333, -15.7165,   6.3122]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 140
+num_correct_after: 141
+test_num:  199
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ 21.9658, -18.7238, -28.3618,   7.5848]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 141
+num_correct_after: 142
+test_num:  200
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-12.8159,   3.4349,  -0.3264,  -6.2886]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 142
+num_correct_after: 142
+test_num:  201
+-----------------------------------------------------
+This graph sparseMM time is: 1.71661376953125e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -2.4499,   6.8382,  -5.2720, -12.2757]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 142
+num_correct_after: 143
+test_num:  202
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  3.2135,  -7.4900, -10.7838,   1.8532]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 143
+num_correct_after: 143
+test_num:  203
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-10.1362,  16.7955,  -0.8564, -17.1630]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 143
+num_correct_after: 144
+test_num:  204
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -2.3645,   4.5005,  -4.1557, -15.2552]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 144
+num_correct_after: 144
+test_num:  205
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ 13.9373,  -2.2302, -19.6407,  -2.6829]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 144
+num_correct_after: 145
+test_num:  206
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-4.3281, -2.1662, -3.6784, -7.1791]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 145
+num_correct_after: 145
+test_num:  207
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -9.8947,  11.5423,  -0.8423, -20.5827]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 145
+num_correct_after: 146
+test_num:  208
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  0.9210,  -9.5428, -10.3389,   1.3255]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 146
+num_correct_after: 147
+test_num:  209
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  9.1630,   3.7184, -18.1118,  -3.3127]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 147
+num_correct_after: 148
+test_num:  210
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 0.00011014938354492188
+pred:  tensor([[-11.8074,  -3.0190,   1.0545,  -9.5076]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 148
+num_correct_after: 149
+test_num:  211
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  6.2356,   8.4706, -13.2011, -11.1800]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 149
+num_correct_after: 149
+test_num:  212
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-7.9615, -1.1577, -2.5319, -5.5084]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 149
+num_correct_after: 149
+test_num:  213
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-5.2900,  4.2019, -4.7649, -8.3852]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 149
+num_correct_after: 150
+test_num:  214
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  8.3260, -13.9852, -17.4517,   5.6318]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 150
+num_correct_after: 150
+test_num:  215
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  6.0095,  -7.7692, -11.3905,  -2.5377]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 150
+num_correct_after: 151
+test_num:  216
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-9.6154, -4.0921, -1.7920, -4.8544]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 151
+num_correct_after: 152
+test_num:  217
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  5.8294,   0.5818, -17.9970,  -3.3063]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 152
+num_correct_after: 153
+test_num:  218
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -0.4658,  -6.7652, -10.0882,  -2.0468]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 153
+num_correct_after: 153
+test_num:  219
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ 13.5861,  -4.8291, -18.9882,  -0.6011]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 153
+num_correct_after: 154
+test_num:  220
+-----------------------------------------------------
+This graph sparseMM time is: 2.86102294921875e-05
+This graph sparseMM time is: 1.5735626220703125e-05
+pred:  tensor([[  4.3463, -10.8613, -11.8109,   3.1899]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 154
+num_correct_after: 154
+test_num:  221
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[  5.9003,   6.8913,  -9.1780, -12.1657]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 154
+num_correct_after: 155
+test_num:  222
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-3.2237, -3.5648, -1.7199, -6.7290]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 155
+num_correct_after: 156
+test_num:  223
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  2.9290,  -0.8106, -10.9503,  -6.2951]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 156
+num_correct_after: 157
+test_num:  224
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  3.3759, -14.6460, -11.2870,   3.9204]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 157
+num_correct_after: 158
+test_num:  225
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  0.1274,   7.4486,  -5.6817, -15.9953]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 158
+num_correct_after: 159
+test_num:  226
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-11.5531,   2.0657,  -2.7775,  -6.0367]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 159
+num_correct_after: 159
+test_num:  227
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 11.9900,  -8.6009, -18.7004,   0.4141]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 159
+num_correct_after: 160
+test_num:  228
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-6.6605, -2.0639, -0.2569, -7.9474]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 160
+num_correct_after: 161
+test_num:  229
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 0.0006470680236816406
+pred:  tensor([[ -4.1458,   6.6034,  -5.6433, -11.3594]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 161
+num_correct_after: 162
+test_num:  230
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[  6.6701, -10.5960, -13.8436,   3.1617]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 162
+num_correct_after: 162
+test_num:  231
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 1.5863, -5.3818, -6.6139, -5.7187]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 162
+num_correct_after: 163
+test_num:  232
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ 2.9718, -7.6887, -6.6402, -0.4027]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 163
+num_correct_after: 163
+test_num:  233
+-----------------------------------------------------
+This graph sparseMM time is: 1.8358230590820312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-1.7092,  3.0986, -7.9168, -7.1262]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 163
+num_correct_after: 164
+test_num:  234
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[ -2.2234, -16.9381, -11.8025,   7.7798]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 164
+num_correct_after: 165
+test_num:  235
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-5.5836,  8.9967, -9.5134, -8.3727]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 165
+num_correct_after: 166
+test_num:  236
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 3.0517578125e-05
+pred:  tensor([[  4.0445, -16.1432, -10.1086,   4.5387]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 166
+num_correct_after: 167
+test_num:  237
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[  9.3630,  -5.3877, -16.6609,   0.0749]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 167
+num_correct_after: 168
+test_num:  238
+-----------------------------------------------------
+This graph sparseMM time is: 2.2649765014648438e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[-20.2264,   8.2399,   8.2434, -15.8021]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 168
+num_correct_after: 169
+test_num:  239
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-2.3862,  1.5624, -8.2838, -8.9681]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 169
+num_correct_after: 170
+test_num:  240
+-----------------------------------------------------
+This graph sparseMM time is: 2.5033950805664062e-05
+This graph sparseMM time is: 3.838539123535156e-05
+pred:  tensor([[-1.7202, -4.9445, -7.0205, -3.7936]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 170
+num_correct_after: 170
+test_num:  241
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  8.4370,  -1.5466, -14.6060,  -3.2341]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 170
+num_correct_after: 171
+test_num:  242
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  3.4852,  -2.9462, -12.7661,  -1.3590]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 171
+num_correct_after: 171
+test_num:  243
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[-2.6210,  1.6310, -1.0290, -7.7980]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 171
+num_correct_after: 171
+test_num:  244
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-13.3986,  -1.5458,   6.6527, -10.7234]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 171
+num_correct_after: 172
+test_num:  245
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -6.7010,   7.0509,  -0.8098, -12.2766]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 172
+num_correct_after: 173
+test_num:  246
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 0.00012636184692382812
+pred:  tensor([[-5.0074, -0.2201, -4.5538, -3.8243]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 173
+num_correct_after: 173
+test_num:  247
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -7.4631,   7.4679,  -0.8958, -15.3054]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 173
+num_correct_after: 174
+test_num:  248
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-16.4040,   3.2482,   7.7811, -15.4390]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 174
+num_correct_after: 175
+test_num:  249
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  6.2943,  -2.0710, -10.7955,  -6.4755]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 175
+num_correct_after: 176
+test_num:  250
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-13.9667,   4.0715,   4.4534, -15.9011]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 176
+num_correct_after: 177
+test_num:  251
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -4.2710,   5.6030,  -4.2950, -13.3825]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 177
+num_correct_after: 178
+test_num:  252
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-8.8541, -5.9149, -1.0941, -3.3351]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 178
+num_correct_after: 179
+test_num:  253
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -0.8130,  11.6834,  -9.1349, -12.1286]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 179
+num_correct_after: 179
+test_num:  254
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  3.3819,  -2.2380, -12.2429,  -3.4020]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 179
+num_correct_after: 179
+test_num:  255
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  7.3271,   4.0221, -12.8872,  -6.5765]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 179
+num_correct_after: 180
+test_num:  256
+-----------------------------------------------------
+This graph sparseMM time is: 2.5033950805664062e-05
+This graph sparseMM time is: 1.5735626220703125e-05
+pred:  tensor([[ 2.6382, -6.1821, -7.1057, -2.8866]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 180
+num_correct_after: 180
+test_num:  257
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -5.6334,   4.5108,  -5.2075, -14.7338]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 180
+num_correct_after: 181
+test_num:  258
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-3.8389, -0.2138, -5.2503, -4.5626]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 181
+num_correct_after: 181
+test_num:  259
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 0.0001385211944580078
+pred:  tensor([[ 2.0627, -5.8819, -7.9141, -3.8385]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 181
+num_correct_after: 182
+test_num:  260
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-0.2468, -8.7826, -6.5042,  0.0860]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 182
+num_correct_after: 183
+test_num:  261
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  7.1928,  -3.5756, -19.0486,   0.1307]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 183
+num_correct_after: 184
+test_num:  262
+-----------------------------------------------------
+This graph sparseMM time is: 2.6941299438476562e-05
+This graph sparseMM time is: 1.5974044799804688e-05
+pred:  tensor([[  5.9059,  -8.5911, -15.2898,   2.3052]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 184
+num_correct_after: 184
+test_num:  263
+-----------------------------------------------------
+This graph sparseMM time is: 1.5735626220703125e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-13.4831,   6.6399,   4.7917, -14.7741]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 184
+num_correct_after: 185
+test_num:  264
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-9.3110,  1.2664,  0.4173, -7.7924]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 185
+num_correct_after: 185
+test_num:  265
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 15.3272,  -9.0628, -23.9423,   7.1474]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 185
+num_correct_after: 186
+test_num:  266
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-4.9616,  0.1689, -7.2718, -2.0733]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 186
+num_correct_after: 186
+test_num:  267
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -9.5726,  11.4660,  -2.6264, -12.1866]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 186
+num_correct_after: 187
+test_num:  268
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  3.8855,  -4.5480, -12.2665,   1.6551]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 187
+num_correct_after: 187
+test_num:  269
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -7.5956,   7.5875,   1.1892, -13.5073]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 187
+num_correct_after: 188
+test_num:  270
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-26.8072,   0.4518,  15.3939, -12.5515]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 188
+num_correct_after: 189
+test_num:  271
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  1.0212,   2.7007, -13.0065,  -3.7532]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 189
+num_correct_after: 189
+test_num:  272
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ 0.7932, -8.8581, -9.2253,  1.6425]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 189
+num_correct_after: 190
+test_num:  273
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -5.0983,  10.4728,  -3.2472, -15.7750]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 190
+num_correct_after: 191
+test_num:  274
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-13.9707,   1.3550,   1.5305,  -7.5820]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 191
+num_correct_after: 192
+test_num:  275
+-----------------------------------------------------
+This graph sparseMM time is: 1.9550323486328125e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ 12.2582, -10.7360, -20.4512,   1.9936]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 192
+num_correct_after: 193
+test_num:  276
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-1.2469, -5.0984, -8.1219, -1.7134]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 193
+num_correct_after: 193
+test_num:  277
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  6.5483,  -2.2624, -11.3302,  -5.1031]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 193
+num_correct_after: 194
+test_num:  278
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  3.9448,  -1.9161, -14.2764,   1.6801]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 194
+num_correct_after: 194
+test_num:  279
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.52587890625e-05
+pred:  tensor([[  5.6267,  -8.4529, -15.1222,   1.6002]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 194
+num_correct_after: 195
+test_num:  280
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ 0.2340, -2.1815, -8.7938, -0.6073]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 195
+num_correct_after: 195
+test_num:  281
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-9.9545,  6.3399, -1.1778, -8.2632]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 195
+num_correct_after: 196
+test_num:  282
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-8.4468, -3.3117,  0.1872, -6.0423]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 196
+num_correct_after: 197
+test_num:  283
+-----------------------------------------------------
+This graph sparseMM time is: 2.47955322265625e-05
+This graph sparseMM time is: 1.52587890625e-05
+pred:  tensor([[  0.4566,  -3.2528, -11.3220,  -0.6984]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 197
+num_correct_after: 198
+test_num:  284
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -7.4395,   0.8045,  -1.7473, -10.7010]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 198
+num_correct_after: 198
+test_num:  285
+-----------------------------------------------------
+This graph sparseMM time is: 1.6927719116210938e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  4.8151,  -6.9210, -14.6550,   4.3180]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 198
+num_correct_after: 199
+test_num:  286
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-14.4397,   0.2103,   3.3625,  -9.1203]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 199
+num_correct_after: 200
+test_num:  287
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  6.0516,  -1.0627, -12.0601,  -7.2129]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 200
+num_correct_after: 201
+test_num:  288
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ 1.0553e-02, -7.0036e+00, -1.1273e+01,  3.0212e+00]],
+       grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 201
+num_correct_after: 202
+test_num:  289
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-1.8975,  6.6630, -5.5518, -8.2355]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 202
+num_correct_after: 203
+test_num:  290
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-4.5184,  1.3530, -5.1157, -9.4982]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 203
+num_correct_after: 203
+test_num:  291
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -7.0891,   8.8918,   0.8094, -17.6680]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 203
+num_correct_after: 204
+test_num:  292
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ 11.6962, -12.2045, -19.8118,   5.2304]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 204
+num_correct_after: 204
+test_num:  293
+-----------------------------------------------------
+This graph sparseMM time is: 2.7418136596679688e-05
+This graph sparseMM time is: 1.5020370483398438e-05
+pred:  tensor([[-0.9007,  3.6334, -7.5465, -9.3910]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 204
+num_correct_after: 205
+test_num:  294
+-----------------------------------------------------
+This graph sparseMM time is: 1.6450881958007812e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-6.4275, -8.5541, -3.6797,  3.0190]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 205
+num_correct_after: 206
+test_num:  295
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  0.0268,   5.3675,  -8.4615, -10.8838]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 206
+num_correct_after: 207
+test_num:  296
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 0.0001647472381591797
+pred:  tensor([[-12.3512,   2.8519,   6.0979, -10.6663]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 207
+num_correct_after: 208
+test_num:  297
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -9.2369,   6.8307,   1.0124, -14.8470]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 208
+num_correct_after: 209
+test_num:  298
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -7.3200,   6.2048,   0.8218, -16.8760]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 209
+num_correct_after: 209
+test_num:  299
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -5.0600,   7.0813,  -1.1985, -11.9421]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 209
+num_correct_after: 210
+test_num:  300
+-----------------------------------------------------
+This graph sparseMM time is: 2.765655517578125e-05
+This graph sparseMM time is: 1.621246337890625e-05
+pred:  tensor([[ -7.5465,  -1.1506,  -2.7164, -10.2633]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 210
+num_correct_after: 210
+test_num:  301
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  7.0786,   0.5118, -13.4618,  -6.4473]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 210
+num_correct_after: 211
+test_num:  302
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[  2.5879, -10.1050, -10.9085,  -3.0098]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 211
+num_correct_after: 211
+test_num:  303
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -5.7124,   3.5905,  -0.4132, -13.1981]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 211
+num_correct_after: 212
+test_num:  304
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[-5.1243, -1.5516, -5.3124, -4.5541]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 212
+num_correct_after: 212
+test_num:  305
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-15.9887,   6.9444,   5.4942, -13.6919]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 212
+num_correct_after: 213
+test_num:  306
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-10.3167,  -5.9444,  -1.9498,  -6.3857]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 213
+num_correct_after: 214
+test_num:  307
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -5.9191,   9.5778,  -0.2804, -11.8913]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 214
+num_correct_after: 215
+test_num:  308
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-9.4879, -5.8060, -5.0149,  1.2475]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 215
+num_correct_after: 216
+test_num:  309
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.1920928955078125e-05
+pred:  tensor([[  8.2926,  -6.0487, -15.2226,  -0.7369]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 216
+num_correct_after: 217
+test_num:  310
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 15.1758, -15.7235, -24.4842,   7.9640]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 217
+num_correct_after: 217
+test_num:  311
+-----------------------------------------------------
+This graph sparseMM time is: 2.5510787963867188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  8.6492, -15.4697, -15.3320,   3.8912]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 217
+num_correct_after: 218
+test_num:  312
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-10.7115,   5.6314,   1.3948, -10.4784]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 218
+num_correct_after: 218
+test_num:  313
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  7.7523, -16.3109, -20.3406,   7.7382]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 218
+num_correct_after: 219
+test_num:  314
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-3.7669, -9.2213, -5.2110, -3.3808]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 219
+num_correct_after: 219
+test_num:  315
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[ -0.5427,   3.5884, -10.6491,  -9.2395]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 219
+num_correct_after: 219
+test_num:  316
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -8.7473,   5.5515,   1.7058, -12.8271]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 219
+num_correct_after: 219
+test_num:  317
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  4.6788,  -6.5627, -11.5409,   0.3617]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 219
+num_correct_after: 220
+test_num:  318
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  0.1473,   1.6316,  -6.2350, -10.9260]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 220
+num_correct_after: 220
+test_num:  319
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[ 12.7780,  -5.3561, -20.6671,  -0.9917]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 220
+num_correct_after: 221
+test_num:  320
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-1.3415, -8.1005, -9.2637, -0.9609]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 221
+num_correct_after: 222
+test_num:  321
+-----------------------------------------------------
+This graph sparseMM time is: 2.4318695068359375e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ 10.5252,  -3.0740, -13.3580,  -5.8476]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 222
+num_correct_after: 223
+test_num:  322
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-18.0812,   5.7529,  12.2072, -14.5416]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 223
+num_correct_after: 224
+test_num:  323
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-3.8395, -2.9245, -5.5734, -3.2442]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 224
+num_correct_after: 224
+test_num:  324
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-20.0521,   8.0574,  12.1769, -20.8716]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 224
+num_correct_after: 225
+test_num:  325
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-6.9669,  8.4254, -3.2451, -9.0198]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 225
+num_correct_after: 226
+test_num:  326
+-----------------------------------------------------
+This graph sparseMM time is: 1.5497207641601562e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[  5.6515,  -4.6985, -16.6165,   2.1589]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 226
+num_correct_after: 226
+test_num:  327
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -1.7797,  11.6018,  -6.1068, -16.5452]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 226
+num_correct_after: 227
+test_num:  328
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-7.8452, -1.5360,  1.0979, -8.2621]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 227
+num_correct_after: 228
+test_num:  329
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  4.9849,   5.0419, -13.7412,  -5.8841]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 228
+num_correct_after: 229
+test_num:  330
+-----------------------------------------------------
+This graph sparseMM time is: 1.8835067749023438e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[-2.5611, -4.2078, -4.1010, -9.5067]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 229
+num_correct_after: 229
+test_num:  331
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -7.5865,  12.5424,  -1.4183, -18.5142]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 229
+num_correct_after: 230
+test_num:  332
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -0.3844, -16.1534, -11.6060,   3.2400]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 230
+num_correct_after: 231
+test_num:  333
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[-5.0667,  4.5708, -4.5516, -8.5837]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 231
+num_correct_after: 232
+test_num:  334
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-3.4700,  5.5572, -5.7135, -6.7478]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 232
+num_correct_after: 232
+test_num:  335
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-0.1839,  2.2128, -7.9858, -2.8366]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 232
+num_correct_after: 232
+test_num:  336
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-6.0446,  0.3720, -4.0365, -7.6884]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 232
+num_correct_after: 232
+test_num:  337
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -5.7469,   8.4930,  -3.7174, -13.0548]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 232
+num_correct_after: 233
+test_num:  338
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  4.9176,  -0.3026, -12.6222,  -5.1162]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 233
+num_correct_after: 233
+test_num:  339
+-----------------------------------------------------
+This graph sparseMM time is: 0.008234024047851562
+This graph sparseMM time is: 2.2411346435546875e-05
+pred:  tensor([[ 0.5298,  0.9617, -7.8211, -8.6457]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 233
+num_correct_after: 233
+test_num:  340
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  8.1348, -18.4686, -16.3480,   7.9648]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 233
+num_correct_after: 233
+test_num:  341
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -7.6775,   9.1967,  -4.5554, -12.5457]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 233
+num_correct_after: 234
+test_num:  342
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-15.4564,  -3.1256,   4.5348, -10.2292]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 234
+num_correct_after: 235
+test_num:  343
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[  9.3988,  -4.6213, -13.6800,  -2.4161]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 235
+num_correct_after: 236
+test_num:  344
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[-3.6556, -1.3707, -3.8046, -6.0532]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 236
+num_correct_after: 236
+test_num:  345
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[  8.5961,  -7.4498, -16.5304,   1.5121]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 236
+num_correct_after: 237
+test_num:  346
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[-22.1468,   1.6558,  13.3968, -11.5093]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 237
+num_correct_after: 238
+test_num:  347
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[  0.5857,  -0.3575, -10.3987,  -3.2383]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 238
+num_correct_after: 239
+test_num:  348
+-----------------------------------------------------
+This graph sparseMM time is: 2.193450927734375e-05
+This graph sparseMM time is: 1.430511474609375e-05
+pred:  tensor([[-12.7144,  -4.8286,   2.0757,  -4.0018]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 239
+num_correct_after: 240
+test_num:  349
+-----------------------------------------------------
+This graph sparseMM time is: 1.5974044799804688e-05
+This graph sparseMM time is: 1.5497207641601562e-05
+pred:  tensor([[ -0.4356,  -3.0443, -10.5958,  -0.9813]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 240
+num_correct_after: 241
+test_num:  350
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-3.0148, -0.5159, -7.4590, -7.0814]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 241
+num_correct_after: 241
+test_num:  351
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  0.4192,   8.6727,  -8.3587, -10.3971]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 241
+num_correct_after: 242
+test_num:  352
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -8.5258,   4.6808,  -1.5460, -10.4481]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 242
+num_correct_after: 242
+test_num:  353
+-----------------------------------------------------
+This graph sparseMM time is: 2.6702880859375e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[ -0.1569,   8.4233,  -7.5646, -11.5653]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 242
+num_correct_after: 243
+test_num:  354
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-6.3024, -4.1508, -1.3196, -8.6864]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 243
+num_correct_after: 244
+test_num:  355
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ 4.2396e-03,  4.9388e+00, -7.0594e+00, -9.5240e+00]],
+       grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 244
+num_correct_after: 245
+test_num:  356
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[ -8.9436,   7.1573,   3.4590, -17.3592]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 245
+num_correct_after: 245
+test_num:  357
+-----------------------------------------------------
+This graph sparseMM time is: 1.2874603271484375e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[ 10.4631,  -8.5021, -16.4133,  -5.0526]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 245
+num_correct_after: 245
+test_num:  358
+-----------------------------------------------------
+This graph sparseMM time is: 1.4781951904296875e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -3.1621, -13.1930,  -3.3123,   2.9130]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 245
+num_correct_after: 246
+test_num:  359
+-----------------------------------------------------
+This graph sparseMM time is: 2.384185791015625e-05
+This graph sparseMM time is: 1.4781951904296875e-05
+pred:  tensor([[  5.7540,   5.7572, -15.8329,  -8.6791]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 246
+num_correct_after: 246
+test_num:  360
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[ -5.7884,   0.1340,  -0.4249, -13.2310]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 246
+num_correct_after: 246
+test_num:  361
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ 15.8137,  -6.6409, -20.7698,  -0.9433]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 246
+num_correct_after: 247
+test_num:  362
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-14.3001,  -3.3201,   6.7053,  -9.3185]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 247
+num_correct_after: 248
+test_num:  363
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2159347534179688e-05
+pred:  tensor([[ 0.4984,  1.4373, -9.0669, -5.5565]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 248
+num_correct_after: 249
+test_num:  364
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-12.5833,   1.4318,   0.6027,  -8.5552]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 249
+num_correct_after: 249
+test_num:  365
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-6.6768,  5.3461, -4.8903, -8.9711]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 249
+num_correct_after: 250
+test_num:  366
+-----------------------------------------------------
+This graph sparseMM time is: 2.1219253540039062e-05
+This graph sparseMM time is: 1.4543533325195312e-05
+pred:  tensor([[-4.8828, -4.8899, -6.9274,  0.1462]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 250
+num_correct_after: 251
+test_num:  367
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 3.552436828613281e-05
+pred:  tensor([[-8.7001,  4.4371,  0.0390, -7.4949]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 251
+num_correct_after: 252
+test_num:  368
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-11.4753,   1.4284,   1.5426,  -8.9062]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 252
+num_correct_after: 253
+test_num:  369
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -7.3442,   5.1946,  -3.5408, -10.5894]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 253
+num_correct_after: 254
+test_num:  370
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[-13.5257,   4.7523,   3.2039,  -9.8701]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 254
+num_correct_after: 254
+test_num:  371
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[  6.5531,   3.8781, -13.0751,  -7.3612]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 254
+num_correct_after: 255
+test_num:  372
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-14.0127,   9.4166,  11.9425, -19.9033]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 255
+num_correct_after: 256
+test_num:  373
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -6.3674,  14.0965,  -3.1789, -17.7049]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 256
+num_correct_after: 257
+test_num:  374
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-14.3381,   5.7171,   2.9763, -11.2128]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 257
+num_correct_after: 257
+test_num:  375
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[  0.2789,   3.1179,  -8.5324, -10.5092]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 257
+num_correct_after: 258
+test_num:  376
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-4.2543,  2.1898, -5.0728, -8.9697]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 258
+num_correct_after: 258
+test_num:  377
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ 3.1770,  0.1857, -6.5246, -5.6839]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 258
+num_correct_after: 258
+test_num:  378
+-----------------------------------------------------
+This graph sparseMM time is: 1.3828277587890625e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-14.3998,   4.2921,   6.8204, -12.5768]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([2])
+pred.argmax(1).squeeze():  tensor(2)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 258
+num_correct_after: 259
+test_num:  379
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -8.8704,  11.6393,  -2.9270, -14.2621]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 259
+num_correct_after: 260
+test_num:  380
+-----------------------------------------------------
+This graph sparseMM time is: 2.6464462280273438e-05
+This graph sparseMM time is: 1.621246337890625e-05
+pred:  tensor([[-2.4109, -3.6221, -7.8327, -5.7844]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 260
+num_correct_after: 260
+test_num:  381
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.5735626220703125e-05
+pred:  tensor([[ 11.9308,  -7.2868, -20.0131,   2.6121]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 260
+num_correct_after: 261
+test_num:  382
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ -1.3994, -12.3008,  -7.2430,   0.8571]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 261
+num_correct_after: 262
+test_num:  383
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[  7.4740,  -6.3907, -12.5067,   0.9255]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 262
+num_correct_after: 263
+test_num:  384
+-----------------------------------------------------
+This graph sparseMM time is: 1.52587890625e-05
+This graph sparseMM time is: 2.193450927734375e-05
+pred:  tensor([[ -7.2178,   5.3402,   1.2692, -16.5517]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 263
+num_correct_after: 263
+test_num:  385
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[-0.1228, -2.6758, -6.4889, -6.5470]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 263
+num_correct_after: 264
+test_num:  386
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ -3.5368,   2.4208,  -1.5275, -11.3192]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 264
+num_correct_after: 264
+test_num:  387
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2636184692382812e-05
+pred:  tensor([[ -7.5830,   6.8567,  -3.2446, -10.9343]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 264
+num_correct_after: 265
+test_num:  388
+-----------------------------------------------------
+This graph sparseMM time is: 1.4066696166992188e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  5.9142, -15.2258, -14.2065,   7.1723]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([3])
+pred.argmax(1).squeeze():  tensor(3)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 265
+num_correct_after: 266
+test_num:  389
+-----------------------------------------------------
+This graph sparseMM time is: 1.33514404296875e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-5.6317,  5.8721, -4.1646, -8.1600]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 266
+num_correct_after: 267
+test_num:  390
+-----------------------------------------------------
+This graph sparseMM time is: 1.4543533325195312e-05
+This graph sparseMM time is: 1.3113021850585938e-05
+pred:  tensor([[ -5.7614,   5.7861,  -3.2417, -10.0780]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 267
+num_correct_after: 267
+test_num:  391
+-----------------------------------------------------
+This graph sparseMM time is: 1.3589859008789062e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[  2.2138,   9.8581, -11.8588, -10.1397]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 267
+num_correct_after: 268
+test_num:  392
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.33514404296875e-05
+pred:  tensor([[-8.8592,  3.7522,  0.7088, -9.5133]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 268
+num_correct_after: 268
+test_num:  393
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3828277587890625e-05
+pred:  tensor([[ 18.9526, -19.8059, -25.2740,   5.6944]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 268
+num_correct_after: 269
+test_num:  394
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-1.6068, -6.4082, -6.0000, -4.6121]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 269
+num_correct_after: 269
+test_num:  395
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.3589859008789062e-05
+pred:  tensor([[-2.6881,  3.2872, -5.4223, -8.9265]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 269
+num_correct_after: 270
+test_num:  396
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.2874603271484375e-05
+pred:  tensor([[-10.8438,   4.0450,   1.4462,  -9.9822]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 270
+num_correct_after: 270
+test_num:  397
+-----------------------------------------------------
+This graph sparseMM time is: 1.3113021850585938e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[ -6.3379,   8.2054,  -1.4335, -14.3303]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 270
+num_correct_after: 271
+test_num:  398
+-----------------------------------------------------
+This graph sparseMM time is: 1.5020370483398438e-05
+This graph sparseMM time is: 1.4066696166992188e-05
+pred:  tensor([[ -4.5067,   7.7800,  -2.9184, -11.4163]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([1])
+pred.argmax(1).squeeze():  tensor(1)
+(pred.argmax(1)==labels).sum:  tensor(0)
+(pred.argmax(1)==labels).sum.item():  0
+num_correct_before: 271
+num_correct_after: 271
+test_num:  399
+-----------------------------------------------------
+This graph sparseMM time is: 1.430511474609375e-05
+This graph sparseMM time is: 1.239776611328125e-05
+pred:  tensor([[  4.3172,  -4.9099, -12.6668,  -2.8947]], grad_fn=<DivBackward0>)
+pred.argmax(1):  tensor([0])
+pred.argmax(1).squeeze():  tensor(0)
+(pred.argmax(1)==labels).sum:  tensor(1)
+(pred.argmax(1)==labels).sum.item():  1
+num_correct_before: 271
+num_correct_after: 272
+DAD_time:  0.008328676223754883
+OtherNormalization_time:  0.27562618255615234
+MM_time:  0.09465408325195312
+KeyMM_time:  0.03671717643737793
+meanNode_time:  0.06206965446472168
+init_time:  0.00021886825561523438
+num_correct:  272
+num_tests:  400
+Test accuracy: 0.68
+Infer time: 0.4532606601715088
