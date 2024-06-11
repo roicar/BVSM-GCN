@@ -5,3 +5,6 @@ op-work ----------------------------------
 # second work on e2e level
 e2e-work ----------------------------------
 (DGL*-dense\TVM*-dense\TVM*-B\TVM*-M\TVM*-G)
+
+# TVM version
+TVM-0.12.0
